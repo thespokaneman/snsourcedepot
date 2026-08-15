@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spokane &amp; Spokane County — Public Record Index</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,400;1,6..72,500;1,6..72,600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --basalt:#1B2024;
+  --basalt-2:#262C31;
+  --basalt-3:#323A41;
+  --paper:#EEE8D9;
+  --card:#FBF8F0;
+  --ink:#262420;
+  --ink-soft:#5B564C;
+  --ink-faint:#8B8574;
+  --wheat:#AD8535;
+  --wheat-deep:#8C6A25;
+  --steel:#3F5A68;
+  --steel-deep:#2F4550;
+  --rust:#9C3F1E;
+  --rust-deep:#7E3117;
+  --line:#D9CFB4;
+  --line-dark:#3D454B;
+  --shadow: 0 1px 2px rgba(27,32,36,0.06), 0 4px 14px rgba(27,32,36,0.05);
+  --radius: 3px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto;}
+  *{animation-duration:0.001ms !important; transition-duration:0.001ms !important;}
+}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:'IBM Plex Sans',system-ui,sans-serif;
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--steel-deep);}
+.mono{font-family:'IBM Plex Mono',monospace;}
+
+/* ---------- MASTHEAD ---------- */
+.masthead{
+  background:
+    radial-gradient(ellipse 140% 100% at 15% -20%, rgba(173,133,53,0.16), transparent 55%),
+    linear-gradient(180deg, var(--basalt) 0%, var(--basalt-2) 100%);
+  color:var(--paper);
+  padding: 3.4rem 1.5rem 2.6rem;
+  border-bottom: 1px solid var(--line-dark);
+  position:relative;
+}
+.masthead-inner{max-width:960px; margin:0 auto;}
+.eyebrow{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:0.72rem;
+  letter-spacing:0.16em;
+  text-transform:uppercase;
+  color:var(--wheat);
+  display:flex;
+  align-items:center;
+  gap:0.6em;
+  margin-bottom:1.1rem;
+}
+.eyebrow::before{
+  content:"";
+  width:26px; height:1px;
+  background:var(--wheat);
+  display:inline-block;
+}
+h1.title{
+  font-family:'Newsreader',serif;
+  font-weight:600;
+  font-size:clamp(2.1rem, 5.5vw, 3.5rem);
+  line-height:1.05;
+  margin:0 0 0.3rem;
+  letter-spacing:-0.01em;
+}
+h1.title em{font-style:italic; font-weight:500; color:var(--wheat);}
+.subtitle{
+  font-family:'Newsreader',serif;
+  font-style:italic;
+  font-weight:400;
+  font-size:clamp(1.05rem, 2.2vw, 1.35rem);
+  color:#D9D2C0;
+  margin:0 0 1.6rem;
+  max-width:44em;
+}
+.masthead-desc{
+  max-width: 56em;
+  color:#C9C2AE;
+  font-size:0.96rem;
+  margin:0 0 1.8rem;
+}
+.stat-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0;
+  border-top:1px solid var(--line-dark);
+  margin-top:1.6rem;
+}
+.stat{
+  padding:0.9rem 1.6rem 0.2rem 0;
+  margin-right:1.6rem;
+  min-width:100px;
+}
+.stat .n{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:1.5rem;
+  font-weight:600;
+  color:var(--paper);
+  display:block;
+}
+.stat .l{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:0.68rem;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  color:var(--ink-faint);
+}
+.stat .n.accent{color:var(--wheat);}
+.stat .n.accent2{color:#C97A54;}
+
+/* ---------- WORD CLOUD PANEL ---------- */
+.cloud-panel{
+  background:
+    radial-gradient(ellipse 90% 70% at 80% 10%, rgba(156,63,30,0.14), transparent 60%),
+    var(--basalt);
+  border-bottom: 1px solid var(--line-dark);
+  padding: 2.4rem 1.5rem 2rem;
+}
+.cloud-inner{max-width:1080px; margin:0 auto;}
+.cloud-heading-row{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:0.5rem 1.5rem;
+  margin-bottom:1.1rem;
+  max-width:1080px;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0 0.2rem;
+}
+.cloud-heading{
+  font-family:'Newsreader',serif;
+  font-size:1.3rem;
+  font-weight:600;
+  color:var(--paper);
+  margin:0;
+}
+.cloud-heading .small{
+  display:block;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:0.68rem;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:var(--wheat);
+  margin-bottom:0.35rem;
+  font-weight:500;
+}
+.cloud-caption{
+  font-size:0.82rem;
+  color:#9DA3A6;
+  margin:0;
+}
+.wordcloud-frame{
+  border:1px solid var(--line-dark);
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0));
+  position:relative;
+  border-radius:2px;
+}
+.wordcloud-frame::before{
+  content:"";
+  position:absolute; inset:8px;
+  border:1px solid rgba(173,133,53,0.22);
+  pointer-events:none;
+}
+#wordcloud{
+  position:relative;
+  width:100%;
+  height:460px;
+  overflow:hidden;
+}
+@media (max-width:700px){
+  #wordcloud{height:360px;}
+}
+.cloud-word{
+  position:absolute;
+  background:none;
+  border:none;
+  padding:2px 5px;
+  cursor:pointer;
+  font-family:'Newsreader',serif;
+  white-space:nowrap;
+  line-height:1;
+  transition: filter 0.15s ease, opacity 0.15s ease;
+}
+.cloud-word:hover, .cloud-word:focus-visible{
+  filter:brightness(1.35);
+  outline:none;
+}
+.cloud-word:focus-visible{
+  outline:1px dashed var(--wheat);
+  outline-offset:2px;
+}
+.cloud-loading{
+  position:absolute; inset:0;
+  display:flex; align-items:center; justify-content:center;
+  color:var(--ink-faint);
+  font-family:'IBM Plex Mono',monospace;
+  font-size:0.8rem;
+  letter-spacing:0.05em;
+}
+
+/* ---------- MAIN / CONTROLS ---------- */
+main{max-width:1080px; margin:0 auto; padding: 0 1.5rem;}
+.controls{
+  padding: 2.2rem 0 1.2rem;
+  position:relative;
+}
+.search-row{
+  position:relative;
+  margin-bottom:1.1rem;
+}
+.search-row svg{
+  position:absolute; left:0.9rem; top:50%; transform:translateY(-50%);
+  width:17px; height:17px; color:var(--ink-faint);
+  pointer-events:none;
+}
+#search{
+  width:100%;
+  font-family:'IBM Plex Sans',sans-serif;
+  font-size:1rem;
+  padding:0.85rem 1rem 0.85rem 2.6rem;
+  border:1px solid var(--line);
+  background:var(--card);
+  color:var(--ink);
+  border-radius:var(--radius);
+  outline:none;
+}
+#search::placeholder{color:var(--ink-faint);}
+#search:focus{border-color:var(--steel); box-shadow:0 0 0 3px rgba(63,90,104,0.14);}
+
+.filter-label{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:0.68rem;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:var(--ink-faint);
+  margin: 0 0 0.55rem;
+  display:block;
+}
+.tag-row{
+  display:flex; flex-wrap:wrap; gap:0.45rem;
+  margin-bottom:1.3rem;
+}
+.tag-chip{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:0.74rem;
+  padding:0.32rem 0.6rem;
+  border:1px solid var(--line);
+  background:var(--card);
+  color:var(--ink-soft);
+  border-radius:20px;
+  cursor:pointer;
+  display:inline-flex;
+  align-items:center;
+  gap:0.4em;
+  transition: background 0.12s ease, color 0.12s ease, border-color 0.12s ease;
+}
+.tag-chip .cnt{color:var(--ink-faint); font-size:0.9em;}
+.tag-chip:hover{border-color:var(--steel);}
+.tag-chip.active{
+  background:var(--steel-deep);
+  border-color:var(--steel-deep);
+  color:#fff;
+}
+.tag-chip.active .cnt{color:#C9D6DC;}
+
+.secondary-controls{
+  display:flex; flex-wrap:wrap; align-items:center; gap:0.9rem 1.4rem;
+  padding-top:1rem;
+  border-top:1px solid var(--line);
+  margin-bottom:1rem;
+}
+.field-group{display:flex; flex-direction:column; gap:0.3rem;}
+.field-group label{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:0.65rem;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  color:var(--ink-faint);
+}
+select{
+  font-family:'IBM Plex Sans',sans-serif;
+  font-size:0.85rem;
+  padding:0.4rem 1.8rem 0.4rem 0.6rem;
+  border:1px solid var(--line);
+  background:var(--card) url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="6"><path d="M0 0l5 6 5-6z" fill="%235B564C"/></svg>') no-repeat right 0.65rem center;
+  color:var(--ink);
+  border-radius:var(--radius);
+  appearance:none;
+  cursor:pointer;
+}
+select:focus{outline:none; border-color:var(--steel);}
+.toggle-wrap{display:flex; align-items:center; gap:0.5rem; cursor:pointer; user-select:none;}
+.toggle-wrap label{
+  font-size:0.82rem; color:var(--ink-soft); cursor:pointer;
+}
+.switch{
+  position:relative; width:34px; height:19px; flex:none;
+}
+.switch input{position:absolute; opacity:0; width:100%; height:100%; margin:0; cursor:pointer;}
+.switch .track{
+  position:absolute; inset:0; background:var(--line); border-radius:20px; transition:background 0.15s ease;
+}
+.switch .knob{
+  position:absolute; top:2px; left:2px; width:15px; height:15px; border-radius:50%;
+  background:#fff; box-shadow:0 1px 2px rgba(0,0,0,0.25); transition:transform 0.15s ease;
+}
+.switch input:checked + .track{background:var(--rust);}
+.switch input:checked + .track .knob{transform:translateX(15px);}
+.switch input:focus-visible + .track{outline:2px solid var(--steel); outline-offset:2px;}
+
+#resetBtn{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:0.75rem;
+  color:var(--rust-deep);
+  background:none; border:none;
+  text-decoration:underline;
+  cursor:pointer;
+  padding:0;
+  margin-left:auto;
+}
+#resetBtn:hover{color:var(--rust);}
+
+.results-meta{
+  display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:0.5rem;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:0.78rem;
+  color:var(--ink-soft);
+  padding-bottom:0.4rem;
+}
+#resultCount strong{color:var(--ink); font-weight:600;}
+
+/* ---------- RESULT CARDS ---------- */
+.results{
+  display:flex; flex-direction:column; gap:0.85rem;
+  padding-bottom:3rem;
+}
+.card{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-left:3px solid var(--steel);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding:1.1rem 1.3rem;
+  box-shadow:var(--shadow);
+  position:relative;
+}
+.card.is-new{border-left-color:var(--rust);}
+.card-top{
+  display:flex; justify-content:space-between; align-items:flex-start; gap:1rem; margin-bottom:0.35rem;
+}
+.card-title-link{
+  text-decoration:none;
+  color:var(--ink);
+}
+.card-title-link:hover .card-title{color:var(--steel-deep);}
+.card-title{
+  font-family:'Newsreader',serif;
+  font-weight:600;
+  font-size:1.12rem;
+  line-height:1.32;
+  margin:0;
+  transition:color 0.12s ease;
+}
+.badge-row{display:flex; gap:0.4rem; flex:none; align-items:center;}
+.badge{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:0.62rem;
+  letter-spacing:0.06em;
+  text-transform:uppercase;
+  padding:0.2rem 0.45rem;
+  border-radius:3px;
+  white-space:nowrap;
+  font-weight:600;
+}
+.badge.new{background:var(--rust); color:#fff;}
+.badge.type-primary{background:#E4DFCB; color:var(--wheat-deep); border:1px solid #D6CDA8;}
+.badge.type-opinion{background:#E4DFCB; color:var(--steel-deep); border:1px solid #D6CDA8;}
+.badge.type-advocacy{background:#E4DFCB; color:var(--rust-deep); border:1px solid #D6CDA8;}
+.card-meta{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:0.76rem;
+  color:var(--ink-soft);
+  margin-bottom:0.55rem;
+}
+.card-meta .outlet{color:var(--ink); font-weight:600;}
+.card-meta .sep{color:var(--ink-faint); margin:0 0.45em;}
+.card-desc{
+  font-size:0.91rem;
+  color:var(--ink-soft);
+  margin:0 0 0.7rem;
+  max-width:70ch;
+}
+.card-bottom{
+  display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.6rem;
+}
+.card-tags{display:flex; flex-wrap:wrap; gap:0.35rem;}
+.card-tag{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:0.66rem;
+  padding:0.16rem 0.45rem;
+  background:#EFE9D9;
+  border:1px solid var(--line);
+  color:var(--ink-soft);
+  border-radius:3px;
+  cursor:pointer;
+}
+.card-tag:hover{border-color:var(--steel); color:var(--steel-deep);}
+.card-section{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:0.66rem;
+  color:var(--ink-faint);
+  text-transform:uppercase;
+  letter-spacing:0.04em;
+}
+.card-link-arrow{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:0.76rem;
+  color:var(--steel-deep);
+  text-decoration:none;
+  white-space:nowrap;
+}
+.card-link-arrow:hover{text-decoration:underline;}
+
+.empty-state{
+  text-align:center;
+  padding:3.5rem 1rem;
+  color:var(--ink-faint);
+}
+.empty-state .big{font-family:'Newsreader',serif; font-size:1.3rem; color:var(--ink-soft); margin-bottom:0.4rem;}
+.empty-state code{
+  background:#E4DFCB;
+  border:1px solid var(--line);
+  border-radius:3px;
+  padding:0.1rem 0.4rem;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:0.85em;
+  color:var(--rust-deep);
+}
+.empty-state button{
+  margin-top:1rem;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:0.8rem;
+  background:var(--steel-deep);
+  color:#fff;
+  border:none;
+  padding:0.55rem 1rem;
+  border-radius:3px;
+  cursor:pointer;
+}
+
+/* ---------- FOOTER / APPENDIX ---------- */
+footer.appendix{
+  background:var(--basalt);
+  color:#B7BEC2;
+  padding:3rem 1.5rem 3.5rem;
+  margin-top:1rem;
+  border-top:1px solid var(--line-dark);
+}
+.appendix-inner{max-width:960px; margin:0 auto;}
+.appendix-inner h3{
+  font-family:'Newsreader',serif;
+  color:var(--paper);
+  font-size:1.05rem;
+  font-weight:600;
+  margin:2rem 0 0.7rem;
+}
+.appendix-inner h3:first-child{margin-top:0;}
+.appendix-inner p{
+  font-size:0.86rem;
+  line-height:1.65;
+  max-width:68ch;
+  color:#ADB4B8;
+  margin:0 0 0.8rem;
+}
+.appendix-inner p strong{color:#D9D2C0;}
+.outlet-legend{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(230px,1fr));
+  gap:0.5rem 1.5rem;
+  font-size:0.78rem;
+  margin-top:0.8rem;
+}
+.outlet-legend div{
+  padding:0.4rem 0;
+  border-bottom:1px solid var(--line-dark);
+  color:#9DA3A6;
+}
+.outlet-legend b{color:#D9D2C0; font-weight:600; display:block; font-size:0.8rem;}
+.appendix-foot{
+  margin-top:2.4rem;
+  padding-top:1.2rem;
+  border-top:1px solid var(--line-dark);
+  font-family:'IBM Plex Mono',monospace;
+  font-size:0.72rem;
+  color:#767C7F;
+}
+
+/* focus visibility globally */
+button:focus-visible, a:focus-visible, input:focus-visible{
+  outline:2px solid var(--steel); outline-offset:2px;
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="eyebrow">Public Record Index &middot; Inland Northwest</div>
+    <h1 class="title">Spokane &amp; Spokane County</h1>
+    <p class="subtitle">An annotated source index on regional politics, extremism, and public safety</p>
+    <p class="masthead-desc">A searchable index of local, state, and national news coverage and primary-source material on Spokane and Spokane County, Washington, and neighboring Coeur d'Alene and Kootenai County, Idaho, 2007–2026. Right-wing and Christian-nationalist political organizing is the central thread, alongside police accountability, civic budgets, and public-safety coverage.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="n" id="statTotal">—</span><span class="l">Sources indexed</span></div>
+      <div class="stat"><span class="n accent2" id="statNew">—</span><span class="l">Newly added</span></div>
+      <div class="stat"><span class="n" id="statTags">—</span><span class="l">Keyword tags</span></div>
+      <div class="stat"><span class="n" id="statOutlets">—</span><span class="l">Distinct outlets</span></div>
+      <div class="stat"><span class="n accent">2007&ndash;2026</span><span class="l">Coverage span</span></div>
+    </div>
+  </div>
+</header>
+
+<section class="cloud-panel">
+  <div class="cloud-heading-row">
+    <h2 class="cloud-heading"><span class="small">Frequency Analysis</span>Common terms across the index</h2>
+    <p class="cloud-caption">Sized by how often each term appears across every title and summary &middot; click a term to search it</p>
+  </div>
+  <div class="cloud-inner">
+    <div class="wordcloud-frame">
+      <div id="wordcloud"><div class="cloud-loading">Rendering term frequency…</div></div>
+    </div>
+  </div>
+</section>
+
+<main>
+  <section class="controls" id="results-anchor">
+    <div class="search-row">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input id="search" type="text" placeholder="Search titles, outlets, descriptions…" autocomplete="off">
+    </div>
+
+    <span class="filter-label">Filter by tag</span>
+    <div class="tag-row" id="tagChips"></div>
+
+    <div class="secondary-controls">
+      <div class="field-group">
+        <label for="typeFilter">Source type</label>
+        <select id="typeFilter">
+          <option value="all">All types</option>
+          <option value="news">News reporting</option>
+          <option value="primary">Primary source</option>
+          <option value="opinion">Opinion / column</option>
+          <option value="advocacy">Advocacy / partisan</option>
+        </select>
+      </div>
+      <div class="field-group">
+        <label for="sortSelect">Sort by</label>
+        <select id="sortSelect">
+          <option value="date-desc">Newest first</option>
+          <option value="date-asc">Oldest first</option>
+          <option value="title">Title A&ndash;Z</option>
+          <option value="outlet">Outlet A&ndash;Z</option>
+        </select>
+      </div>
+      <div class="field-group">
+        <label>&nbsp;</label>
+        <div class="toggle-wrap" id="newOnlyWrap">
+          <span class="switch"><input type="checkbox" id="newOnly"><span class="track"><span class="knob"></span></span></span>
+          <label for="newOnly">New additions only</label>
+        </div>
+      </div>
+      <button id="resetBtn" type="button">Reset all filters</button>
+    </div>
+
+    <div class="results-meta">
+      <span id="resultCount">Showing <strong>0</strong> of <strong>0</strong> sources</span>
+      <span id="activeFiltersLabel"></span>
+    </div>
+  </section>
+
+  <section class="results" id="results"><div class="empty-state"><div class="big">Loading source index…</div>Fetching spokane_source_data.xml</div></section>
+</main>
+
+<footer class="appendix">
+  <div class="appendix-inner">
+    <h3>A note on sources &amp; methodology</h3>
+    <p>This index was originally compiled August 9&ndash;10, 2026, and reflects publicly available reporting as of that date. It has since been expanded across several later research sessions to <strong id="statNew2">—</strong> newly added entries (marked with a "New" badge), located via web research and organized into the same format &mdash; original one- or two-sentence summaries, never excerpted text, with primary, opinion, and advocacy sources labeled distinctly from independent journalism. As with any research aid, verify anything you plan to rely on against the linked source directly, particularly for entries involving ongoing litigation or unresolved investigations.</p>
+    <p>All source records, dates, tags, and summaries live in a companion file, <code style="background:#2A3138;border:1px solid var(--line-dark);border-radius:3px;padding:0.1rem 0.4rem;color:#D9D2C0;">spokane_source_data.xml</code>, which this page loads at runtime. That file is designed to be readable and editable on its own &mdash; open it in any text editor to browse, search, or revise the underlying data directly, independent of this page's presentation.</p>
+    <p>It is organized by topic rather than strictly by outlet, so coverage of a single event can be read across multiple local, state, and national sources in one place. A small number of entries are primary or advocacy sources rather than independent journalism &mdash; government press releases, a litigant's own case page, organizational About pages, and outlets sympathetic to the figures covered here &mdash; and are labeled accordingly rather than presented as neutral reporting.</p>
+    <h3>Outlets referenced</h3>
+    <div class="outlet-legend">
+      <div><b>The Spokesman-Review</b>Spokane's daily paper of record</div>
+      <div><b>The Pacific Northwest Inlander</b>Spokane's alternative weekly</div>
+      <div><b>RANGE Media</b>Independent, membership-funded Spokane outlet</div>
+      <div><b>KREM 2 / KXLY 4 / KHQ 6</b>Spokane's network-affiliate newsrooms</div>
+      <div><b>Spokane Public Radio (NWPB)</b>The region's NPR member station</div>
+      <div><b>Coeur d'Alene Press</b>Kootenai County's daily paper of record</div>
+      <div><b>FāVS News</b>Nonprofit Inland Northwest faith &amp; values newsroom</div>
+      <div><b>Washington State Standard</b>Nonprofit statehouse newsroom (States Newsroom)</div>
+      <div><b>The Center Square</b>Regional service, fiscally conservative lens</div>
+      <div><b>Cascade PBS</b>Seattle-based public-media newsroom</div>
+      <div><b>Southern Poverty Law Center</b>National civil-rights research organization</div>
+      <div><b>SPLC, Guardian, Rolling Stone, Religion News Service</b>National outlets covering the regional movement</div>
+      <div><b>Gonzaga / academic sources</b>Institutional &amp; peer research background</div>
+      <div><b>GLAAD Accountability Project</b>LGBTQ advocacy database, not journalism</div>
+      <div><b>Ballotpedia, GovTrack, Congress.gov</b>Nonpartisan reference sources</div>
+      <div><b>Wikipedia entries</b>Background reference, not primary reporting</div>
+    </div>
+    <div class="appendix-foot">Index compiled from an original document plus AI-assisted web research &middot; <span id="statTotal2">—</span> total entries &middot; last expanded August 15, 2026 &middot; data served from <code style="background:none;border:none;padding:0;color:inherit;">spokane_source_data.xml</code></div>
+  </div>
+</footer>
+
+<script>
+// DATA, WORDCLOUD_TERMS, and TAGS are populated asynchronously from the
+// companion spokane_source_data.xml file — see loadData() near the bottom.
+let DATA = [];
+let WORDCLOUD_TERMS = [];
+let TAGS = [];
+
+const state = {
+  query: '',
+  activeTags: new Set(),
+  activeType: 'all',
+  newOnly: false,
+  sort: 'date-desc',
+};
+
+// ---------- date parsing for sort ----------
+const MONTHS = {jan:1,feb:2,mar:3,apr:4,may:5,jun:6,jul:7,aug:8,sep:9,oct:10,nov:11,dec:12};
+function parseDateValue(s){
+  if(!s) return 0;
+  const yearMatch = s.match(/(19|20)\d{2}/);
+  if(!yearMatch) return 0;
+  const year = parseInt(yearMatch[0],10);
+  const mm = s.toLowerCase().match(/jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec/);
+  const month = mm ? MONTHS[mm[0]] : 1;
+  let day = 1;
+  const dm = s.match(/\b(\d{1,2})(?:st|nd|rd|th)?,/);
+  if(dm){ day = parseInt(dm[1],10); }
+  else {
+    const dm2 = s.match(/(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\.?\s+(\d{1,2})\b/i);
+    if(dm2) day = parseInt(dm2[1],10);
+  }
+  return year*10000 + month*100 + day;
+}
+
+// ---------- init stats + tag chips (runs once data has loaded) ----------
+function animateNumber(el, target){
+  let cur = 0;
+  const steps = 24;
+  const inc = target/steps;
+  const t = setInterval(()=>{
+    cur += inc;
+    if(cur >= target){ el.textContent = target.toLocaleString(); clearInterval(t); }
+    else el.textContent = Math.round(cur).toLocaleString();
+  }, 16);
+}
+
+function escapeHtml(str){
+  const d = document.createElement('div');
+  d.textContent = str;
+  return d.innerHTML;
+}
+
+function initFromData(){
+  DATA.forEach(e => { e._dateVal = parseDateValue(e.date); });
+
+  const totalCount = DATA.length;
+  const newCount = DATA.filter(e=>e.isNew).length;
+  const outletCount = new Set(DATA.map(e=>e.outlet)).size;
+  animateNumber(document.getElementById('statTotal'), totalCount);
+  animateNumber(document.getElementById('statNew'), newCount);
+  animateNumber(document.getElementById('statTags'), TAGS.length);
+  animateNumber(document.getElementById('statOutlets'), outletCount);
+  document.getElementById('statNew2').textContent = newCount.toLocaleString();
+  document.getElementById('statTotal2').textContent = totalCount.toLocaleString();
+
+  const tagCounts = {};
+  DATA.forEach(e => e.tags.forEach(t => tagCounts[t] = (tagCounts[t]||0)+1));
+  const tagChipsEl = document.getElementById('tagChips');
+  TAGS.forEach(tag => {
+    const chip = document.createElement('button');
+    chip.type = 'button';
+    chip.className = 'tag-chip';
+    chip.dataset.tag = tag;
+    chip.innerHTML = `${escapeHtml(tag)} <span class="cnt">${tagCounts[tag]||0}</span>`;
+    chip.addEventListener('click', () => {
+      if(state.activeTags.has(tag)) state.activeTags.delete(tag);
+      else state.activeTags.add(tag);
+      chip.classList.toggle('active');
+      render();
+    });
+    tagChipsEl.appendChild(chip);
+  });
+
+  render();
+  initWordCloud();
+}
+
+// ---------- search / filters ----------
+const searchInput = document.getElementById('search');
+let searchDebounce;
+searchInput.addEventListener('input', () => {
+  clearTimeout(searchDebounce);
+  searchDebounce = setTimeout(() => {
+    state.query = searchInput.value.trim().toLowerCase();
+    render();
+  }, 120);
+});
+
+document.getElementById('typeFilter').addEventListener('change', (e) => {
+  state.activeType = e.target.value;
+  render();
+});
+document.getElementById('sortSelect').addEventListener('change', (e) => {
+  state.sort = e.target.value;
+  render();
+});
+document.getElementById('newOnly').addEventListener('change', (e) => {
+  state.newOnly = e.target.checked;
+  render();
+});
+document.getElementById('resetBtn').addEventListener('click', () => {
+  state.query=''; state.activeTags.clear(); state.activeType='all'; state.newOnly=false; state.sort='date-desc';
+  searchInput.value='';
+  document.getElementById('typeFilter').value='all';
+  document.getElementById('sortSelect').value='date-desc';
+  document.getElementById('newOnly').checked=false;
+  document.querySelectorAll('.tag-chip.active').forEach(c=>c.classList.remove('active'));
+  render();
+});
+
+function setTagFilter(tag){
+  state.activeTags.clear();
+  state.activeTags.add(tag);
+  document.querySelectorAll('.tag-chip').forEach(c=>{
+    c.classList.toggle('active', c.dataset.tag === tag);
+  });
+  render();
+  scrollToResults();
+}
+function scrollToResults(){
+  const anchor = document.getElementById('results-anchor');
+  if(anchor && typeof anchor.scrollIntoView === 'function'){
+    anchor.scrollIntoView({behavior:'smooth', block:'start'});
+  }
+}
+
+function filteredData(){
+  let rows = DATA.filter(e => {
+    if(state.newOnly && !e.isNew) return false;
+    if(state.activeType !== 'all' && e.type !== state.activeType) return false;
+    if(state.activeTags.size > 0){
+      let hasTag = false;
+      for(const t of e.tags){ if(state.activeTags.has(t)){ hasTag = true; break; } }
+      if(!hasTag) return false;
+    }
+    if(state.query){
+      const hay = (e.title + ' ' + e.desc + ' ' + e.outlet + ' ' + e.section + ' ' + e.tags.join(' ')).toLowerCase();
+      if(!hay.includes(state.query)) return false;
+    }
+    return true;
+  });
+  rows.sort((a,b) => {
+    if(state.sort === 'date-desc'){
+      if(a._dateVal===0 && b._dateVal===0) return 0;
+      if(a._dateVal===0) return 1;
+      if(b._dateVal===0) return -1;
+      return b._dateVal - a._dateVal;
+    }
+    if(state.sort === 'date-asc'){
+      if(a._dateVal===0 && b._dateVal===0) return 0;
+      if(a._dateVal===0) return 1;
+      if(b._dateVal===0) return -1;
+      return a._dateVal - b._dateVal;
+    }
+    if(state.sort === 'title') return a.title.localeCompare(b.title);
+    if(state.sort === 'outlet') return a.outlet.localeCompare(b.outlet);
+    return 0;
+  });
+  return rows;
+}
+
+const TYPE_LABEL = {primary:'Primary source', opinion:'Opinion', advocacy:'Advocacy'};
+
+function cardHtml(e){
+  const badges = [];
+  if(e.isNew) badges.push('<span class="badge new">New</span>');
+  if(e.type !== 'news') badges.push(`<span class="badge type-${e.type}">${TYPE_LABEL[e.type]}</span>`);
+  const tagsHtml = e.tags.map(t => `<button class="card-tag" data-tag="${escapeHtml(t)}">${escapeHtml(t)}</button>`).join('');
+  return `
+  <article class="card ${e.isNew?'is-new':''}" data-id="${e.id}">
+    <div class="card-top">
+      <a class="card-title-link" href="${escapeHtml(e.url)}" target="_blank" rel="noopener noreferrer">
+        <h3 class="card-title">${escapeHtml(e.title)}</h3>
+      </a>
+      <div class="badge-row">${badges.join('')}</div>
+    </div>
+    <div class="card-meta"><span class="outlet">${escapeHtml(e.outlet)}</span><span class="sep">&middot;</span><span>${escapeHtml(e.date)}</span></div>
+    <p class="card-desc">${escapeHtml(e.desc)}</p>
+    <div class="card-bottom">
+      <div class="card-tags">${tagsHtml}</div>
+      <a class="card-link-arrow" href="${escapeHtml(e.url)}" target="_blank" rel="noopener noreferrer">View source →</a>
+    </div>
+    <div class="card-section">${escapeHtml(e.section)}</div>
+  </article>`;
+}
+
+const resultsEl = document.getElementById('results');
+function render(){
+  const rows = filteredData();
+  document.getElementById('resultCount').innerHTML = `Showing <strong>${rows.length.toLocaleString()}</strong> of <strong>${DATA.length.toLocaleString()}</strong> sources`;
+  const activeLabel = document.getElementById('activeFiltersLabel');
+  const parts = [];
+  if(state.activeTags.size) parts.push([...state.activeTags].join(', '));
+  if(state.newOnly) parts.push('new additions only');
+  activeLabel.textContent = parts.length ? 'Active: ' + parts.join(' + ') : '';
+
+  if(rows.length === 0){
+    resultsEl.innerHTML = `<div class="empty-state"><div class="big">No sources match those filters</div>No entries found for this combination of search, tags, and type.<br><button id="emptyReset" type="button">Reset filters</button></div>`;
+    document.getElementById('emptyReset').addEventListener('click', () => document.getElementById('resetBtn').click());
+    return;
+  }
+  resultsEl.innerHTML = rows.map(cardHtml).join('');
+  resultsEl.querySelectorAll('.card-tag').forEach(btn => {
+    btn.addEventListener('click', () => setTagFilter(btn.dataset.tag));
+  });
+}
+
+// ---------- word cloud ----------
+function collides(box, placed){
+  const pad = 4;
+  for(const p of placed){
+    if(box.x < p.x+p.w+pad && box.x+box.w+pad > p.x && box.y < p.y+p.h+pad && box.y+box.h+pad > p.y){
+      return true;
+    }
+  }
+  return false;
+}
+
+function renderWordCloud(){
+  const container = document.getElementById('wordcloud');
+  container.innerHTML = '';
+  const W = container.clientWidth;
+  const H = container.clientHeight;
+  if(W === 0 || H === 0){ setTimeout(renderWordCloud, 60); return; }
+
+  const canvas = document.createElement('canvas');
+  const ctx = canvas.getContext('2d');
+
+  const counts = WORDCLOUD_TERMS.map(w=>w.count);
+  const maxCount = Math.max(...counts);
+  const minCount = Math.min(...counts);
+  const isSmall = W < 640;
+  const maxFont = isSmall ? 30 : 50;
+  const minFont = isSmall ? 11 : 13;
+
+  function fontSizeFor(count){
+    if(maxCount === minCount) return (maxFont+minFont)/2;
+    const t = (count - minCount) / (maxCount - minCount);
+    const eased = Math.pow(t, 0.62);
+    return minFont + eased * (maxFont - minFont);
+  }
+
+  const palette = ['#EEE8D9','#C98A4B','#8FA6B0','#C97A54','#D9C48A','#9FB3AC'];
+  const placed = [];
+  const centerX = W/2, centerY = H/2;
+  const tiltSeq = [0,-3,2,-2,3,0,-4,4,-1,1];
+
+  const terms = WORDCLOUD_TERMS.slice(0, isSmall ? 36 : 60);
+
+  terms.forEach((word, i) => {
+    const fontSize = fontSizeFor(word.count);
+    const weight = fontSize > 34 ? 700 : (fontSize > 20 ? 600 : 500);
+    ctx.font = `${weight} ${fontSize}px Newsreader, serif`;
+    const metrics = ctx.measureText(word.text);
+    const w = metrics.width + 8;
+    const h = fontSize * 1.05;
+
+    let angle = Math.random()*Math.PI*2;
+    let radius = 0;
+    const angleStep = 0.42;
+    const radiusStep = 2.4;
+    let x=0, y=0, ok=false;
+    for(let attempt=0; attempt<2400; attempt++){
+      x = centerX + radius*Math.cos(angle) - w/2;
+      y = centerY + radius*Math.sin(angle)*0.58 - h/2;
+      const box = {x,y,w,h};
+      if(x >= 2 && y >= 2 && x+w <= W-2 && y+h <= H-2 && !collides(box, placed)){
+        ok = true; break;
+      }
+      angle += angleStep;
+      radius += radiusStep * (angleStep/(Math.PI*1.7));
+    }
+    if(!ok) return;
+    placed.push({x,y,w,h});
+
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'cloud-word';
+    btn.textContent = word.text;
+    btn.style.left = x+'px';
+    btn.style.top = y+'px';
+    btn.style.fontSize = fontSize+'px';
+    btn.style.fontWeight = weight;
+    btn.style.color = palette[i % palette.length];
+    const tilt = tiltSeq[i % tiltSeq.length] * 0.7;
+    btn.style.transform = `rotate(${tilt}deg)`;
+    btn.title = `${word.count} mentions — click to search`;
+    btn.addEventListener('click', () => {
+      searchInput.value = word.text;
+      state.query = word.text.toLowerCase();
+      state.activeTags.clear();
+      document.querySelectorAll('.tag-chip.active').forEach(c=>c.classList.remove('active'));
+      render();
+      scrollToResults();
+    });
+    container.appendChild(btn);
+  });
+}
+
+function initWordCloud(){
+  if(document.fonts && document.fonts.ready){
+    document.fonts.load('700 40px Newsreader').then(()=>{
+      document.fonts.ready.then(renderWordCloud);
+    }).catch(renderWordCloud);
+  } else {
+    renderWordCloud();
+  }
+}
+
+// ---------- data loading ----------
+const DATA_FILE = 'spokane_source_data.xml';
+
+async function loadData(){
+  try{
+    const res = await fetch(DATA_FILE, {cache: 'no-store'});
+    if(!res.ok) throw new Error(`Server responded ${res.status} for ${DATA_FILE}`);
+    const text = await res.text();
+    const xml = new DOMParser().parseFromString(text, 'application/xml');
+    if(xml.querySelector('parsererror')) throw new Error(`${DATA_FILE} is not valid XML`);
+
+    const sourceNodes = xml.querySelectorAll('sources > source');
+    if(sourceNodes.length === 0) throw new Error(`No <source> entries found in ${DATA_FILE}`);
+
+    const getText = (node, tag) => { const el = node.querySelector(tag); return el ? el.textContent : ''; };
+
+    DATA = Array.from(sourceNodes).map(node => ({
+      id: parseInt(node.getAttribute('id'), 10),
+      title: getText(node, 'title'),
+      outlet: getText(node, 'outlet'),
+      date: getText(node, 'date'),
+      url: getText(node, 'url'),
+      desc: getText(node, 'description'),
+      tags: Array.from(node.querySelectorAll('tags > tag')).map(t => t.textContent),
+      type: node.getAttribute('source_type') || 'news',
+      section: getText(node, 'section'),
+      isNew: node.getAttribute('is_new') === 'true',
+    }));
+
+    WORDCLOUD_TERMS = Array.from(xml.querySelectorAll('word_cloud > term')).map(t => ({
+      text: t.textContent,
+      count: parseInt(t.getAttribute('count'), 10) || 0,
+    }));
+
+    const tagCounts = {};
+    DATA.forEach(e => e.tags.forEach(t => tagCounts[t] = (tagCounts[t]||0)+1));
+    TAGS = Object.keys(tagCounts).sort((a,b) => tagCounts[b]-tagCounts[a]);
+
+    initFromData();
+  } catch(err){
+    showLoadError(err);
+  }
+}
+
+function showLoadError(err){
+  const resultsEl = document.getElementById('results');
+  resultsEl.innerHTML = `<div class="empty-state">
+    <div class="big">Couldn't load ${escapeHtml(DATA_FILE)}</div>
+    This page loads its source data from a companion XML file at runtime, which most browsers block
+    when a page is opened directly from disk. Make sure <code class="mono">${escapeHtml(DATA_FILE)}</code>
+    is in the same folder as this HTML file, then view both through a local web server instead of
+    double-clicking the HTML file &mdash; for example, open a terminal in that folder and run
+    <code class="mono">python3 -m http.server</code>, then visit
+    <code class="mono">http://localhost:8000</code> in your browser.
+    <br><br>
+    <span class="mono" style="font-size:0.72rem;color:var(--ink-faint);">Details: ${escapeHtml(err.message)}</span>
+  </div>`;
+  const cloudEl = document.getElementById('wordcloud');
+  if(cloudEl) cloudEl.innerHTML = '<div class="cloud-loading">Source data not loaded</div>';
+}
+
+// ---------- boot ----------
+loadData();
+let resizeTimer;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimer);
+  if(DATA.length) resizeTimer = setTimeout(renderWordCloud, 200);
+});
+</script>
+</body>
+</html>
