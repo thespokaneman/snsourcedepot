@@ -5,13 +5,12 @@
     <subtitle>An annotated source index on regional politics, extremism, and public safety</subtitle>
     <original_compiled>2026-08-09 to 2026-08-10</original_compiled>
     <last_expanded>2026-08-15</last_expanded>
-    <total_sources>450</total_sources>
-    <new_sources>212</new_sources>
-    <unique_outlets>146</unique_outlets>
-    <methodology>This index was originally compiled August 9-10, 2026 from publicly available reporting, then expanded across several later sessions with additional entries located via web research and organized into the same format: original one- or two-sentence summaries (never excerpted text), with primary, opinion, and advocacy sources labeled distinctly from independent journalism. As with any research aid, verify anything you plan to rely on against the linked source directly, particularly for entries involving ongoing litigation or unresolved investigations. A small number of entries could not be independently verified due to access restrictions and are noted as such in the webpage's delivery notes rather than included here.</methodology>
+    <total_sources>442</total_sources>
+    <unique_outlets>140</unique_outlets>
+    <methodology>This index was originally compiled August 9-10, 2026 from publicly available reporting, then expanded across several later sessions with additional entries located via web research and organized into the same format: original one- or two-sentence summaries (never excerpted text), with primary, opinion, and advocacy sources labeled distinctly from independent journalism. A link-quality pass was subsequently run over the whole index: syndication mirrors (AOL, Yahoo, PressReader, and similar reprint hosts) were replaced with the original publisher's URL wherever that original could be located, and entries resting on content farms, scraper sites, dead domains, defunct publications, or personal blogs were removed. Where an original could not be located, the entry was dropped rather than left pointing at a reprint. A small number of entries cite outlets that cannot be machine-verified from this environment (for example AP and NYT); those retain their canonical publisher URLs. As with any research aid, verify anything you plan to rely on against the linked source directly, particularly for entries involving ongoing litigation or unresolved investigations.</methodology>
   </metadata>
-  <sources count="450">
-    <source id="1" is_new="false" source_type="news">
+  <sources count="442">
+    <source id="1" source_type="news">
       <title>Washington Rep. Matt Shea engaged in domestic terrorism against U.S., says state House report</title>
       <outlet>The Seattle Times</outlet>
       <date>Dec. 20, 2019</date>
@@ -25,7 +24,7 @@
         <tag>Domestic Terrorism</tag>
       </tags>
     </source>
-    <source id="2" is_new="false" source_type="news">
+    <source id="2" source_type="news">
       <title>Rep. Matt Shea expelled from GOP caucus after investigation finds he engaged in domestic terrorism</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Dec. 19–20, 2019</date>
@@ -39,7 +38,7 @@
         <tag>Domestic Terrorism</tag>
       </tags>
     </source>
-    <source id="3" is_new="false" source_type="news">
+    <source id="3" source_type="news">
       <title>Internal Investigative Report Accuses Washington State Rep. Matt Shea Of ‘Domestic Terrorism’</title>
       <outlet>Northwest Public Broadcasting (NWPB)</outlet>
       <date>Dec. 19, 2019</date>
@@ -54,13 +53,13 @@
         <tag>Human Rights Organizations</tag>
       </tags>
     </source>
-    <source id="4" is_new="false" source_type="news">
-      <title>Republican Matt Shea ‘participated in act of domestic terrorism’, says report</title>
-      <outlet>The Guardian</outlet>
+    <source id="4" source_type="news">
+      <title>Matt Shea, Washington Republican, took part in 'domestic terrorism': Investigative report</title>
+      <outlet>The Associated Press (via The Washington Times)</outlet>
       <date>Dec. 2019</date>
-      <url>https://www.pressreader.com/usa/the-guardian-usa/20191221/281500753154434</url>
+      <url>https://www.washingtontimes.com/news/2019/dec/19/matt-shea-washington-republican-took-part-domestic/</url>
       <section>Matt Shea</section>
-      <description>The Guardian, whose own reporting helped trigger the House inquiry, covers the report's conclusion that Shea was likely to keep planning conflicts carrying a risk of bloodshed, and that he met four times with occupation leader Ammon Bundy before the 2016 Malheur refuge takeover.</description>
+      <description>AP wire coverage of the Rampart Group report, noting it found Shea traveled the West meeting far-right extremist groups, trained young people to fight a “holy war,” and promoted militia training for possible armed conflict with law enforcement; after the Malheur occupation ended he posted that “violence might be necessary to take our country back.”</description>
       <tags>
         <tag>Matt Shea</tag>
         <tag>Christian Nationalism</tag>
@@ -69,13 +68,13 @@
         <tag>Ammon Bundy</tag>
       </tags>
     </source>
-    <source id="5" is_new="false" source_type="news">
-      <title>Secret chats involving Republican lawmaker reveal fresh evidence of plots and paranoia</title>
+    <source id="5" source_type="news">
+      <title>Leaked chat records show Matt Shea discussing surveillance and violence against political opponents</title>
       <outlet>The Guardian</outlet>
-      <date>Nov. 2019</date>
-      <url>https://www.pressreader.com/usa/the-guardian-usa/20191109/281505048034989</url>
+      <date>April 20, 2019</date>
+      <url>https://www.theguardian.com/world/2019/apr/20/matt-shea-rightwing-messages-chat-records</url>
       <section>Matt Shea</section>
-      <description>Leaked Signal messages show Shea's network of Idaho and Washington right-wing figures discussing surveillance of opponents and preparing for societal collapse, alongside campaigning for eastern Washington's secession from the state.</description>
+      <description>The Guardian's original reporting on leaked group-chat records in which Shea and three other men discussed confronting “leftists” through surveillance, intimidation, and violence, and in which Shea offered to run background checks on political opponents; this reporting is what prompted the Washington House to commission the outside Rampart Group investigation.</description>
       <tags>
         <tag>Matt Shea</tag>
         <tag>Christian Nationalism</tag>
@@ -83,7 +82,7 @@
         <tag>Secession</tag>
       </tags>
     </source>
-    <source id="6" is_new="false" source_type="news">
+    <source id="6" source_type="news">
       <title>Matt Shea, Washington state lawmaker accused of “domestic terrorism,” refuses to resign</title>
       <outlet>CBS News</outlet>
       <date>Dec. 2019</date>
@@ -97,7 +96,7 @@
         <tag>Domestic Terrorism</tag>
       </tags>
     </source>
-    <source id="7" is_new="false" source_type="news">
+    <source id="7" source_type="news">
       <title>Matt Shea and the growing religious extremism in the Pacific Northwest</title>
       <outlet>Southern Poverty Law Center – Hatewatch</outlet>
       <date>2025</date>
@@ -111,7 +110,7 @@
         <tag>Human Rights Organizations</tag>
       </tags>
     </source>
-    <source id="8" is_new="false" source_type="news">
+    <source id="8" source_type="news">
       <title>How Seattle fits into the modern Christian Nationalist playbook</title>
       <outlet>Cascade PBS</outlet>
       <date>Aug.–Sept. 2025</date>
@@ -125,7 +124,7 @@
         <tag>Militia Movement</tag>
       </tags>
     </source>
-    <source id="9" is_new="false" source_type="news">
+    <source id="9" source_type="news">
       <title>What dominionism and the New Apostolic Reformation are and what they have to do with Spokane</title>
       <outlet>RANGE Media</outlet>
       <date>Sept. 2024</date>
@@ -138,7 +137,7 @@
         <tag>Militia Movement</tag>
       </tags>
     </source>
-    <source id="10" is_new="false" source_type="news">
+    <source id="10" source_type="news">
       <title>Matt Shea is training ballot box watchers in Spokane</title>
       <outlet>RANGE Media</outlet>
       <date>2024</date>
@@ -152,7 +151,7 @@
         <tag>Election Integrity</tag>
       </tags>
     </source>
-    <source id="11" is_new="false" source_type="news">
+    <source id="11" source_type="news">
       <title>Resurrecting the bogeymen</title>
       <outlet>RANGE Media, in partnership with FāVS News</outlet>
       <date>March 2026</date>
@@ -166,7 +165,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="12" is_new="false" source_type="news">
+    <source id="12" source_type="news">
       <title>Patriot Front, On Fire</title>
       <outlet>RANGE Media</outlet>
       <date>June 2022</date>
@@ -181,7 +180,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="13" is_new="false" source_type="advocacy">
+    <source id="13" source_type="advocacy">
       <title>Meet Matt Shea – Religious Extremist and Domestic Terrorist</title>
       <outlet>meetmattshea.com (independent tracking/advocacy site)</outlet>
       <date>ongoing</date>
@@ -195,7 +194,7 @@
         <tag>Domestic Terrorism</tag>
       </tags>
     </source>
-    <source id="14" is_new="false" source_type="advocacy">
+    <source id="14" source_type="advocacy">
       <title>[UPDATED] Vitriol Against Spokane Christians Continue</title>
       <outlet>Redoubt News</outlet>
       <date>Aug. 2019</date>
@@ -209,7 +208,7 @@
         <tag>Militia Movement</tag>
       </tags>
     </source>
-    <source id="15" is_new="false" source_type="news">
+    <source id="15" source_type="news">
       <title>Sean Feucht Calls For Jesus ‘Fire’ To ‘Consume Spokane’</title>
       <outlet>Rolling Stone</outlet>
       <date>Aug. 28, 2023</date>
@@ -222,7 +221,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="16" is_new="false" source_type="news">
+    <source id="16" source_type="news">
       <title>Woodward faces condemnation after appearing on stage with Matt Shea at Christian nationalist event</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 21, 2023</date>
@@ -237,7 +236,7 @@
         <tag>Turning Point USA</tag>
       </tags>
     </source>
-    <source id="17" is_new="false" source_type="news">
+    <source id="17" source_type="news">
       <title>Spokane Mayor addresses backlash over attendance at worship event with Christian Nationalism overtones</title>
       <outlet>KREM 2 News</outlet>
       <date>Aug. 21, 2023</date>
@@ -251,7 +250,7 @@
         <tag>Nadine Woodward</tag>
       </tags>
     </source>
-    <source id="18" is_new="false" source_type="news">
+    <source id="18" source_type="news">
       <title>Spokane City Council denounces mayor for appearance with Christian nationalists</title>
       <outlet>Religion News Service (reporting for FāVS News)</outlet>
       <date>Sept. 27, 2023</date>
@@ -265,7 +264,7 @@
         <tag>Spokane Pride / LGBTQ</tag>
       </tags>
     </source>
-    <source id="19" is_new="false" source_type="news">
+    <source id="19" source_type="news">
       <title>‘Condemnation only validates the power of the Gospel’</title>
       <outlet>RANGE Media</outlet>
       <date>2023</date>
@@ -277,7 +276,7 @@
         <tag>Sean Feucht</tag>
       </tags>
     </source>
-    <source id="20" is_new="false" source_type="news">
+    <source id="20" source_type="news">
       <title>Sean Feucht is back in Spokane</title>
       <outlet>RANGE Media</outlet>
       <date>2024</date>
@@ -290,7 +289,7 @@
         <tag>Sean Feucht</tag>
       </tags>
     </source>
-    <source id="21" is_new="false" source_type="news">
+    <source id="21" source_type="news">
       <title>Christian nationalist Sean Feucht sues city of Spokane, council members over vote to denounce former Mayor Nadine Woodward</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 7, 2024</date>
@@ -303,7 +302,7 @@
         <tag>Nadine Woodward</tag>
       </tags>
     </source>
-    <source id="22" is_new="false" source_type="news">
+    <source id="22" source_type="news">
       <title>Sean Feucht sues Spokane claiming ‘emotional distress’ over City Council resolution denouncing former mayor's appearance</title>
       <outlet>The Pacific Northwest Inlander</outlet>
       <date>2024</date>
@@ -316,7 +315,7 @@
         <tag>Sean Feucht</tag>
       </tags>
     </source>
-    <source id="23" is_new="false" source_type="news">
+    <source id="23" source_type="news">
       <title>Judge dismisses Christian nationalist Sean Feucht's lawsuit against Spokane City Council</title>
       <outlet>KHQ 6 News</outlet>
       <date>2024</date>
@@ -329,7 +328,7 @@
         <tag>Nadine Woodward</tag>
       </tags>
     </source>
-    <source id="24" is_new="false" source_type="primary">
+    <source id="24" source_type="primary">
       <title>Religious Freedom – Feucht v. Spokane case page</title>
       <outlet>Silent Majority Foundation (Feucht's legal representation)</outlet>
       <date>ongoing</date>
@@ -341,7 +340,7 @@
         <tag>Sean Feucht</tag>
       </tags>
     </source>
-    <source id="25" is_new="false" source_type="news">
+    <source id="25" source_type="news">
       <title>Former Mayor Nadine Woodward sues city of Spokane following $10 million claim in April</title>
       <outlet>The Spokesman-Review</outlet>
       <date>July 28, 2026</date>
@@ -352,7 +351,7 @@
         <tag>Nadine Woodward</tag>
       </tags>
     </source>
-    <source id="26" is_new="false" source_type="news">
+    <source id="26" source_type="news">
       <title>Former Spokane mayor demands $10 million from City of Spokane in 1st amendment lawsuit</title>
       <outlet>KHQ 6 News</outlet>
       <date>April 29, 2026</date>
@@ -363,7 +362,7 @@
         <tag>Nadine Woodward</tag>
       </tags>
     </source>
-    <source id="27" is_new="false" source_type="news">
+    <source id="27" source_type="news">
       <title>Former Spokane mayor Woodward seeks millions more from city for denouncing her 2023 prayer appearance with Matt Shea</title>
       <outlet>The Spokesman-Review</outlet>
       <date>April 28, 2026</date>
@@ -375,7 +374,7 @@
         <tag>Nadine Woodward</tag>
       </tags>
     </source>
-    <source id="28" is_new="false" source_type="news">
+    <source id="28" source_type="news">
       <title>Former Spokane mayor Woodward suing the city for $10 million</title>
       <outlet>KXLY 4 News</outlet>
       <date>July 2026</date>
@@ -389,7 +388,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="29" is_new="false" source_type="news">
+    <source id="29" source_type="news">
       <title>Former Spokane mayor seeks $10M from city, claiming harm from censure</title>
       <outlet>Washington State Standard</outlet>
       <date>May 1, 2026</date>
@@ -400,7 +399,7 @@
         <tag>Nadine Woodward</tag>
       </tags>
     </source>
-    <source id="30" is_new="false" source_type="news">
+    <source id="30" source_type="news">
       <title>Former Spokane mayor seeks $10M from city, claiming harm from censure (regional public radio)</title>
       <outlet>Spokane Public Radio / NWPB</outlet>
       <date>May 2, 2026</date>
@@ -411,20 +410,7 @@
         <tag>Nadine Woodward</tag>
       </tags>
     </source>
-    <source id="31" is_new="false" source_type="advocacy">
-      <title>Ex-Spokane Mayor Sues City For $10M Because City Leaders Denounced Her Attendance At Far-Right Rally</title>
-      <outlet>Joe.My.God (national political/LGBTQ-focused blog)</outlet>
-      <date>May 1, 2026</date>
-      <url>https://www.joemygod.com/2026/05/ex-spokane-mayor-sues-city-for-10m-because-city-leaders-denounced-her-attendance-at-far-right-rally/</url>
-      <section>Nadine Woodward</section>
-      <description>National blog commentary illustrating how the dispute has drawn outside attention beyond the Spokane market; recaps Shea's Planned Parenthood-related litigation history.</description>
-      <tags>
-        <tag>Matt Shea</tag>
-        <tag>Nadine Woodward</tag>
-        <tag>Spokane Pride / LGBTQ</tag>
-      </tags>
-    </source>
-    <source id="32" is_new="false" source_type="news">
+    <source id="31" source_type="news">
       <title>Ex-Spokane Mayor now seeking $10M over city council's alleged retaliation for prayer event</title>
       <outlet>KREM 2 News</outlet>
       <date>April 29, 2026</date>
@@ -435,7 +421,7 @@
         <tag>Nadine Woodward</tag>
       </tags>
     </source>
-    <source id="33" is_new="false" source_type="news">
+    <source id="32" source_type="news">
       <title>‘We don't need to be fighting each other, Amen?’</title>
       <outlet>RANGE Media</outlet>
       <date>Aug. 2023</date>
@@ -447,7 +433,7 @@
         <tag>Nadine Woodward</tag>
       </tags>
     </source>
-    <source id="34" is_new="false" source_type="news">
+    <source id="33" source_type="news">
       <title>Spokane mayor says she didn't know Matt Shea would be at Christian nationalist concert headlined by Matt Shea's Christian nationalist buddy</title>
       <outlet>The Pacific Northwest Inlander</outlet>
       <date>Aug. 23, 2023</date>
@@ -460,7 +446,7 @@
         <tag>Nadine Woodward</tag>
       </tags>
     </source>
-    <source id="35" is_new="false" source_type="news">
+    <source id="34" source_type="news">
       <title>2006–2012: Spokane Cops Lie About the Beating of Developmentally Disabled Janitor, Aided by City Attorney</title>
       <outlet>The Pacific Northwest Inlander</outlet>
       <date>retrospective</date>
@@ -471,7 +457,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="36" is_new="false" source_type="news">
+    <source id="35" source_type="news">
       <title>Spokane, Wash., Police Officer Convicted of Civil Rights and Obstruction Violations in Connection with Beating Otto Zehm</title>
       <outlet>U.S. Department of Justice / FBI</outlet>
       <date>Nov. 2011</date>
@@ -482,7 +468,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="37" is_new="false" source_type="advocacy">
+    <source id="36" source_type="advocacy">
       <title>Death of Otto Zehm</title>
       <outlet>Wikipedia (background/reference)</outlet>
       <date>reference</date>
@@ -493,7 +479,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="38" is_new="false" source_type="news">
+    <source id="37" source_type="news">
       <title>A complaint that Spokane Police were obstructing the ombudsman's work turns up nothing</title>
       <outlet>The Pacific Northwest Inlander</outlet>
       <date>April 13, 2023</date>
@@ -504,7 +490,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="39" is_new="false" source_type="news">
+    <source id="38" source_type="news">
       <title>Why a dispute between Spokane police and the civilian ombudsman is at a standstill</title>
       <outlet>The Pacific Northwest Inlander</outlet>
       <date>n.d.</date>
@@ -515,7 +501,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="40" is_new="false" source_type="news">
+    <source id="39" source_type="news">
       <title>As the Spokane Police Guild negotiates a new contract, the police ombudsman is feeling the union push back</title>
       <outlet>The Pacific Northwest Inlander (Bloglander)</outlet>
       <date>2018</date>
@@ -526,7 +512,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="41" is_new="false" source_type="news">
+    <source id="40" source_type="news">
       <title>Spokane Police Guild eyes long-overdue contract; City Council has questions</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 9, 2020</date>
@@ -538,7 +524,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="42" is_new="false" source_type="news">
+    <source id="41" source_type="news">
       <title>Contract raises questions for community nonprofit Spokane COPS</title>
       <outlet>RANGE Media</outlet>
       <date>Nov. 28, 2024</date>
@@ -549,7 +535,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="43" is_new="false" source_type="news">
+    <source id="42" source_type="news">
       <title>Spokane fails a basic public records test 24% of the time. An audit and new hire aims to improve</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Sept. 2, 2024</date>
@@ -560,7 +546,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="44" is_new="false" source_type="news">
+    <source id="43" source_type="news">
       <title>Ryan Holyk, teen bicyclist hit by officer, dies in hospital</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 5, 2014</date>
@@ -571,7 +557,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="45" is_new="false" source_type="news">
+    <source id="44" source_type="news">
       <title>[UPDATED] Sheriff's Office admits deputy's SUV hit Spokane Valley teen Ryan Holyk</title>
       <outlet>The Pacific Northwest Inlander (Bloglander)</outlet>
       <date>June 2016</date>
@@ -582,7 +568,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="46" is_new="false" source_type="news">
+    <source id="45" source_type="news">
       <title>Protesters demand Ryan Holyk investigation reopen</title>
       <outlet>KREM 2 News</outlet>
       <date>May 2015</date>
@@ -593,7 +579,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="47" is_new="false" source_type="news">
+    <source id="46" source_type="news">
       <title>Spokane County settles case with family of Ryan Holyk</title>
       <outlet>KXLY 4 News</outlet>
       <date>n.d.</date>
@@ -604,7 +590,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="48" is_new="false" source_type="news">
+    <source id="47" source_type="news">
       <title>Wrongful death suits against cities are evolving. After a landmark $4 million settlement, will Spokane Police Department policy change with them?</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Sept. 25, 2022</date>
@@ -615,7 +601,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="49" is_new="false" source_type="news">
+    <source id="48" source_type="news">
       <title>City of Spokane considering settlement to family of man shot by police</title>
       <outlet>KXLY 4 News</outlet>
       <date>2024</date>
@@ -626,11 +612,11 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="50" is_new="false" source_type="news">
+    <source id="49" source_type="news">
       <title>Spokane agrees to $3.7 million settlement with children of Robert Bradley, who police shot and killed in 2022</title>
-      <outlet>The Spokesman-Review (via Yahoo News)</outlet>
+      <outlet>The Spokesman-Review</outlet>
       <date>July 28, 2025</date>
-      <url>https://www.yahoo.com/news/articles/spokane-agrees-3-7-million-035900492.html</url>
+      <url>https://www.spokesman.com/stories/2025/jul/28/spokane-agrees-to-37-million-settlement-with-child/</url>
       <section>Spokane Police Department</section>
       <description>The city's second-largest police-shooting settlement ever; Bradley, who was hard of hearing, was shot within seconds as officers arrived to serve a protection order while he unloaded camping gear and guns from his van. A Human Rights Commission member asked whether the city would keep paying out for “the same flawed training.”</description>
       <tags>
@@ -638,7 +624,7 @@
         <tag>Human Rights Organizations</tag>
       </tags>
     </source>
-    <source id="51" is_new="false" source_type="news">
+    <source id="50" source_type="news">
       <title>City to pay $3.6M settlement to family of man shot and killed by Spokane police in 2022</title>
       <outlet>KREM 2 News</outlet>
       <date>July 2025</date>
@@ -649,7 +635,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="52" is_new="false" source_type="news">
+    <source id="51" source_type="news">
       <title>More to Every Story: The cost of deadly police shooting lawsuits in Spokane</title>
       <outlet>KREM 2 News</outlet>
       <date>n.d.</date>
@@ -660,7 +646,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="53" is_new="false" source_type="news">
+    <source id="52" source_type="news">
       <title>Spokane police went the entirety of 2025 without shooting and killing someone. The last time was 17 years ago</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Feb. 27, 2026</date>
@@ -671,7 +657,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="54" is_new="false" source_type="news">
+    <source id="53" source_type="news">
       <title>No charges for nine Spokane Police officers involved in 2024 shooting that left one man dead</title>
       <outlet>KXLY 4 News</outlet>
       <date>March 2025</date>
@@ -682,7 +668,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="55" is_new="false" source_type="news">
+    <source id="54" source_type="news">
       <title>Spokane Transit Authority considers changes to bus routes in 2026</title>
       <outlet>KXLY 4 News</outlet>
       <date>Dec. 8, 2025</date>
@@ -693,7 +679,7 @@
         <tag>Spokane Transit Authority</tag>
       </tags>
     </source>
-    <source id="56" is_new="false" source_type="primary">
+    <source id="55" source_type="primary">
       <title>2026 Service Revisions – Final Report</title>
       <outlet>Spokane Transit Authority (agency document)</outlet>
       <date>March 2026</date>
@@ -704,7 +690,7 @@
         <tag>Spokane Transit Authority</tag>
       </tags>
     </source>
-    <source id="57" is_new="false" source_type="news">
+    <source id="56" source_type="news">
       <title>Spokane business group denies public access as it lobbies transit agency</title>
       <outlet>The Spokesman-Review</outlet>
       <date>April 28, 2026</date>
@@ -716,7 +702,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="58" is_new="false" source_type="news">
+    <source id="57" source_type="news">
       <title>Spokane Transit Authority waffles on tax renewal vote amid whispers of opposition campaign</title>
       <outlet>The Spokesman-Review</outlet>
       <date>April 16, 2026</date>
@@ -727,7 +713,7 @@
         <tag>Spokane Transit Authority</tag>
       </tags>
     </source>
-    <source id="59" is_new="false" source_type="news">
+    <source id="58" source_type="news">
       <title>Voters narrowly approving Spokane Transit Authority's 20-year tax renewal on Tuesday</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 4, 2026</date>
@@ -738,7 +724,7 @@
         <tag>Spokane Transit Authority</tag>
       </tags>
     </source>
-    <source id="60" is_new="false" source_type="news">
+    <source id="59" source_type="news">
       <title>Truth tester: How do claims stack up on Spokane Transit Authority tax renewal advertisements?</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 2, 2026</date>
@@ -749,7 +735,7 @@
         <tag>Spokane Transit Authority</tag>
       </tags>
     </source>
-    <source id="61" is_new="false" source_type="news">
+    <source id="60" source_type="news">
       <title>Tax supporters file complaint alleging opposition group misleading voters on STA renewal</title>
       <outlet>KXLY 4 News</outlet>
       <date>2026</date>
@@ -761,7 +747,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="62" is_new="false" source_type="news">
+    <source id="61" source_type="news">
       <title>Spokane Transit seeks to renew sales tax; opponents say the timing is wrong</title>
       <outlet>Spokane Public Radio</outlet>
       <date>Aug. 2, 2026</date>
@@ -772,7 +758,7 @@
         <tag>Spokane Transit Authority</tag>
       </tags>
     </source>
-    <source id="63" is_new="false" source_type="news">
+    <source id="62" source_type="news">
       <title>Spokane Public Library seeks funding increase to avoid program and resource cuts</title>
       <outlet>KXLY 4 News</outlet>
       <date>Nov. 9, 2025</date>
@@ -783,7 +769,7 @@
         <tag>Library Budget</tag>
       </tags>
     </source>
-    <source id="64" is_new="false" source_type="opinion">
+    <source id="63" source_type="opinion">
       <title>Library Board of Trustees: The Spokane Public Library is essential to our community</title>
       <outlet>The Spokesman-Review (guest opinion, Library Board of Trustees)</outlet>
       <date>Nov. 16, 2025</date>
@@ -794,7 +780,7 @@
         <tag>Library Budget</tag>
       </tags>
     </source>
-    <source id="65" is_new="false" source_type="news">
+    <source id="64" source_type="news">
       <title>Spokane library director asks public to protest proposed budget cuts</title>
       <outlet>Spokane Public Radio</outlet>
       <date>Nov. 11, 2025</date>
@@ -805,7 +791,7 @@
         <tag>Library Budget</tag>
       </tags>
     </source>
-    <source id="66" is_new="false" source_type="news">
+    <source id="65" source_type="news">
       <title>As budget deadline looms, Spokane council weighs its own budget against the library's</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Nov. 24, 2025</date>
@@ -816,7 +802,7 @@
         <tag>Library Budget</tag>
       </tags>
     </source>
-    <source id="67" is_new="false" source_type="primary">
+    <source id="66" source_type="primary">
       <title>Spokane City Council Votes on Modification For 2026 City Budget</title>
       <outlet>City of Spokane (press release)</outlet>
       <date>Nov. 25, 2025</date>
@@ -827,7 +813,7 @@
         <tag>Library Budget</tag>
       </tags>
     </source>
-    <source id="68" is_new="false" source_type="news">
+    <source id="67" source_type="news">
       <title>Spokane library warns service cuts could start by September</title>
       <outlet>KHQ 6 News</outlet>
       <date>2026</date>
@@ -838,30 +824,19 @@
         <tag>Library Budget</tag>
       </tags>
     </source>
-    <source id="69" is_new="false" source_type="news">
+    <source id="68" source_type="news">
       <title>Spokane library deficit could force cuts to staff, services, branch availability</title>
-      <outlet>Everett Post (Washington State Standard wire)</outlet>
-      <date>2026</date>
-      <url>https://www.everettpost.com/state-news/spokane-library-deficit-could-force-cuts-to-staff-services-branch-availability/</url>
+      <outlet>The Center Square</outlet>
+      <date>July 10, 2026</date>
+      <url>https://www.thecentersquare.com/washington/article_ed663df0-6353-4dce-8db2-bd28f954c78e.html</url>
       <section>City of Spokane — Library &amp; Civic Budget Cuts</section>
-      <description>Outlines specific cut scenarios under consideration: closing every branch on Sundays and one on Mondays, laying off 3.5 full-time staff, and cutting senior- and daycare-center services by 10%.</description>
+      <description>Spokane Public Library says that without another $2.3 million from the city in 2027 it may close every branch two days a week and lay off roughly two dozen employees; the request lands as the council faces its own projected deficit and as Greater Spokane Incorporated polling finds most residents don't trust the city to spend tax dollars responsibly.</description>
       <tags>
         <tag>Library Budget</tag>
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="70" is_new="false" source_type="news">
-      <title>Spokane council backs budget priorities ahead of another potential shortfall</title>
-      <outlet>Everett Post (Washington State Standard wire)</outlet>
-      <date>2026</date>
-      <url>https://www.everettpost.com/state-news/spokane-council-backs-budget-priorities-ahead-of-another-potential-shortfall/</url>
-      <section>City of Spokane — Library &amp; Civic Budget Cuts</section>
-      <description>Notes the city and county both anticipate 2027 deficits, with transit, school, and public-safety tax measures all competing for the same voters in the same election cycle.</description>
-      <tags>
-        <tag>Library Budget</tag>
-      </tags>
-    </source>
-    <source id="71" is_new="false" source_type="news">
+    <source id="69" source_type="news">
       <title>Spokane Valley passes ‘not a sanctuary city’ resolution meant to show allegiance to Trump</title>
       <outlet>The Spokesman-Review</outlet>
       <date>April 2, 2025</date>
@@ -873,7 +848,7 @@
         <tag>Trump Endorsements</tag>
       </tags>
     </source>
-    <source id="72" is_new="false" source_type="news">
+    <source id="70" source_type="news">
       <title>Spokane Valley City Council votes to pass non-sanctuary resolution</title>
       <outlet>KREM 2 News</outlet>
       <date>April 1, 2025</date>
@@ -884,7 +859,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="73" is_new="false" source_type="news">
+    <source id="71" source_type="news">
       <title>NEWS BRIEFS: Spokane Valley affirms it's not a sanctuary city</title>
       <outlet>The Pacific Northwest Inlander</outlet>
       <date>April 10, 2025</date>
@@ -895,20 +870,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="74" is_new="false" source_type="news">
-      <title>‘Not a sanctuary city’: Spokane Valley resolution ignites immigration debate</title>
-      <outlet>The Center Square</outlet>
-      <date>April 2, 2025</date>
-      <url>https://blackchronicle.com/west-coast-pacific/washington/not-a-sanctuary-city-spokane-valley-resolution-ignites-immigration-debate/</url>
-      <section>Spokane Valley City Council</section>
-      <description>Ties the vote to U.S. Rep. Michael Baumgartner's parallel effort in Congress requesting information on the state's sanctuary law, and quotes the county sheriff's office saying its practices won't change either way.</description>
-      <tags>
-        <tag>Spokane Valley Council</tag>
-        <tag>ICE &amp; Immigration</tag>
-        <tag>Michael Baumgartner</tag>
-      </tags>
-    </source>
-    <source id="75" is_new="false" source_type="news">
+    <source id="72" source_type="news">
       <title>Spokane Valley City Council passes resolution declaring it is not a ‘Sanctuary City’</title>
       <outlet>KXLY 4 News</outlet>
       <date>2025</date>
@@ -919,7 +881,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="76" is_new="false" source_type="news">
+    <source id="73" source_type="news">
       <title>Spokane Valley City Council votes unanimously to further criminalize homelessness</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Nov. 21, 2024</date>
@@ -930,7 +892,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="77" is_new="false" source_type="news">
+    <source id="74" source_type="news">
       <title>Spokane County leaders enact new code on private camping to combat nuisance properties</title>
       <outlet>The Spokesman-Review</outlet>
       <date>May 12, 2026</date>
@@ -941,18 +903,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="78" is_new="false" source_type="news">
-      <title>Spokane Valley Debates Limiting Flags on Public Property</title>
-      <outlet>SeattleRed</outlet>
-      <date>Sept. 25, 2025</date>
-      <url>https://seattlered.com/culture/spokane-valley-lgbtq-flags/4114336</url>
-      <section>Spokane Valley City Council</section>
-      <description>Council debates a policy restricting which flags may fly on city property, citing the Supreme Court's Shurtleff v. City of Boston decision; two councilmembers argue the draft policy is too vague.</description>
-      <tags>
-        <tag>Spokane Valley Council</tag>
-      </tags>
-    </source>
-    <source id="79" is_new="false" source_type="primary">
+    <source id="75" source_type="primary">
       <title>Councilmembers Elect New Mayor and Deputy Mayor</title>
       <outlet>City of Spokane Valley (press release)</outlet>
       <date>Jan. 7, 2026</date>
@@ -963,18 +914,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="80" is_new="false" source_type="news">
-      <title>Democrat seeks second term on Spokane Valley City Council, faces off against conservative challenger Rob Chase</title>
-      <outlet>The Spokesman-Review (via AOL)</outlet>
-      <date>2023</date>
-      <url>https://www.aol.com/weather/democrat-seeks-second-term-spokane-020100246.html</url>
-      <section>Spokane Valley City Council</section>
-      <description>Profiles Hattenburg as the only elected Spokane Valley official without Republican Party ties, running against a former GOP state legislator who has advocated splitting eastern Washington into its own state.</description>
-      <tags>
-        <tag>Spokane Valley Council</tag>
-      </tags>
-    </source>
-    <source id="81" is_new="false" source_type="news">
+    <source id="76" source_type="news">
       <title>Spokane Valley councilman Al Merkel to lead county GOP resolutions committee following public records controversy</title>
       <outlet>The Spokesman-Review</outlet>
       <date>July 24, 2026</date>
@@ -985,7 +925,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="82" is_new="false" source_type="primary">
+    <source id="77" source_type="primary">
       <title>Judge Rules Against Councilmember Al Merkel</title>
       <outlet>City of Spokane Valley (press release)</outlet>
       <date>June 25, 2026</date>
@@ -996,7 +936,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="83" is_new="false" source_type="news">
+    <source id="78" source_type="news">
       <title>Spokane Valley City Council will sue Councilman Al Merkel over Public Records Act fight</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Feb. 5, 2025</date>
@@ -1007,7 +947,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="84" is_new="false" source_type="news">
+    <source id="79" source_type="news">
       <title>WATCH: Spokane Valley meeting ends abruptly after exchange over councilmember lawsuit</title>
       <outlet>The Center Square</outlet>
       <date>July 1, 2026</date>
@@ -1018,7 +958,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="85" is_new="false" source_type="news">
+    <source id="80" source_type="news">
       <title>Spokane Valley City Council pulls public safety funding to cover costs of struggles with Councilman Al Merkel</title>
       <outlet>The Spokesman-Review</outlet>
       <date>May 28, 2025</date>
@@ -1029,7 +969,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="86" is_new="false" source_type="news">
+    <source id="81" source_type="news">
       <title>Spokane Valley spat may erode public records rules</title>
       <outlet>RANGE Media</outlet>
       <date>March 26, 2025</date>
@@ -1040,7 +980,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="87" is_new="false" source_type="news">
+    <source id="82" source_type="news">
       <title>Sheriffs including Spokane County's John Nowels sues to block new standards for county sheriff</title>
       <outlet>The Spokesman-Review</outlet>
       <date>April 4, 2026</date>
@@ -1051,7 +991,7 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="88" is_new="false" source_type="news">
+    <source id="83" source_type="news">
       <title>Spokane County Commission to consider public safety sales tax that wouldn't need voter approval</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 8, 2026</date>
@@ -1062,7 +1002,7 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="89" is_new="false" source_type="news">
+    <source id="84" source_type="news">
       <title>Spokane County weighs sales tax process to avoid sheriff cuts</title>
       <outlet>KHQ 6 News</outlet>
       <date>June 10, 2026</date>
@@ -1073,7 +1013,7 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="90" is_new="false" source_type="news">
+    <source id="85" source_type="news">
       <title>Spokane Valley taxpayers face higher costs if city doesn't renew policing contract</title>
       <outlet>The Center Square</outlet>
       <date>March 18, 2026</date>
@@ -1084,7 +1024,7 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="91" is_new="false" source_type="news">
+    <source id="86" source_type="news">
       <title>With progressive council wins, Spokane swings left</title>
       <outlet>Washington State Standard</outlet>
       <date>Nov. 14, 2025</date>
@@ -1095,7 +1035,7 @@
         <tag>Spokane vs. Spokane Valley</tag>
       </tags>
     </source>
-    <source id="92" is_new="false" source_type="news">
+    <source id="87" source_type="news">
       <title>Spokane progressives could clinch complete seven-member council majority next fall</title>
       <outlet>The Center Square</outlet>
       <date>Jan. 12, 2026</date>
@@ -1106,51 +1046,7 @@
         <tag>Spokane vs. Spokane Valley</tag>
       </tags>
     </source>
-    <source id="93" is_new="false" source_type="news">
-      <title>‘God help us’: Conservatives feel iced out by new, more progressive Spokane City Council</title>
-      <outlet>The Spokesman-Review (via Yahoo News)</outlet>
-      <date>Jan. 29</date>
-      <url>https://news.yahoo.com/god-help-us-conservatives-feel-030200800.html?fr=sycsrp_catchall</url>
-      <section>Spokane vs. Spokane Valley Divide</section>
-      <description>The council's remaining conservative members describe losing influence over committee assignments and procedural leadership roles as the council's ideological composition shifted further left.</description>
-      <tags>
-        <tag>Spokane vs. Spokane Valley</tag>
-      </tags>
-    </source>
-    <source id="94" is_new="false" source_type="news">
-      <title>Spokane favor incumbents as conservatives fall short on bid to expand minority</title>
-      <outlet>The Center Square</outlet>
-      <date>Nov. 2025</date>
-      <url>https://www.aol.com/news/spokane-favor-incumbents-conservatives-fall-045500848.html</url>
-      <section>Spokane vs. Spokane Valley Divide</section>
-      <description>Recaps 2025 election results across the Spokane City Council, Spokane Municipal Court, and Spokane Valley races.</description>
-      <tags>
-        <tag>Spokane vs. Spokane Valley</tag>
-      </tags>
-    </source>
-    <source id="95" is_new="false" source_type="news">
-      <title>Seattle nonprofit will bus advocates to Spokane to campaign for local progressives</title>
-      <outlet>The Center Square</outlet>
-      <date>2025</date>
-      <url>https://www.aol.com/articles/seattle-nonprofit-bus-advocates-spokane-232200956.html</url>
-      <section>Spokane vs. Spokane Valley Divide</section>
-      <description>Describes a Seattle-based group canvassing for Spokane's progressive council candidates, and a local conservative PAC's counter-spending for their opponents.</description>
-      <tags>
-        <tag>Spokane vs. Spokane Valley</tag>
-      </tags>
-    </source>
-    <source id="96" is_new="false" source_type="news">
-      <title>Spokane council sets aside ideological divide to replace unenforceable camping ban</title>
-      <outlet>The Center Square</outlet>
-      <date>Oct. 2025</date>
-      <url>https://www.aol.com/articles/spokane-council-sets-aside-ideological-173900473.html</url>
-      <section>Spokane vs. Spokane Valley Divide</section>
-      <description>A unanimous, election-week reversal of the mayor's camping policy; a resident testifies it is “a shell game” timed to protect council seats before the election.</description>
-      <tags>
-        <tag>Spokane vs. Spokane Valley</tag>
-      </tags>
-    </source>
-    <source id="97" is_new="false" source_type="news">
+    <source id="88" source_type="news">
       <title>Spokane conservatives to reintroduce voters' camping ban</title>
       <outlet>The Center Square / Washington Examiner</outlet>
       <date>Oct. 4, 2025</date>
@@ -1161,18 +1057,7 @@
         <tag>Spokane vs. Spokane Valley</tag>
       </tags>
     </source>
-    <source id="98" is_new="false" source_type="news">
-      <title>Spokane progressives surrender on homeless camping ban, adopt conservative enforcement plan before election</title>
-      <outlet>SeattleRed</outlet>
-      <date>Oct. 29, 2025</date>
-      <url>https://seattlered.com/homelessness/spokane-ban-reversal/4114868</url>
-      <section>Spokane vs. Spokane Valley Divide</section>
-      <description>An outlet critical of the reversal frames the council's unanimous vote as capitulating to conservative pressure and business-community backlash ahead of the election.</description>
-      <tags>
-        <tag>Spokane vs. Spokane Valley</tag>
-      </tags>
-    </source>
-    <source id="99" is_new="false" source_type="news">
+    <source id="89" source_type="news">
       <title>WA Supreme Court strikes down camping ban backed by 75% of Spokane voters</title>
       <outlet>The Center Square</outlet>
       <date>April 17, 2025</date>
@@ -1183,19 +1068,7 @@
         <tag>Spokane vs. Spokane Valley</tag>
       </tags>
     </source>
-    <source id="100" is_new="false" source_type="news">
-      <title>Idaho at the epicenter of American Redoubt, white Christian nationalism movement</title>
-      <outlet>Idaho Statesman (via AOL)</outlet>
-      <date>n.d.</date>
-      <url>https://www.aol.com/idaho-epicenter-american-redoubt-white-100000627.html</url>
-      <section>American Redoubt and the Broader Christian-Nationalist Migration Movement</section>
-      <description>Regional feature on scholar Bradley Onishi's account of the American Redoubt movement, which he traces across Idaho, Montana, and “Spokane, Wash.,” naming the city explicitly as one of its anchors.</description>
-      <tags>
-        <tag>Christian Nationalism</tag>
-        <tag>American Redoubt</tag>
-      </tags>
-    </source>
-    <source id="101" is_new="false" source_type="advocacy">
+    <source id="90" source_type="advocacy">
       <title>Idaho is the Epicenter American Redoubt Movement</title>
       <outlet>Kootenai Democrats (Idaho county Democratic Party organization)</outlet>
       <date>April 18, 2023</date>
@@ -1206,7 +1079,7 @@
         <tag>American Redoubt</tag>
       </tags>
     </source>
-    <source id="102" is_new="false" source_type="news">
+    <source id="91" source_type="news">
       <title>The Hop! is closing but moving</title>
       <outlet>The Pacific Northwest Inlander (Bloglander)</outlet>
       <date>2015</date>
@@ -1217,7 +1090,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="103" is_new="false" source_type="primary">
+    <source id="92" source_type="primary">
       <title>Vinther and Nelson Hardware Building (706 N. Monroe St.) — Spokane Register of Historic Places Nomination</title>
       <outlet>Spokane City/County Historic Preservation Office</outlet>
       <date>reference</date>
@@ -1228,7 +1101,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="104" is_new="false" source_type="news">
+    <source id="93" source_type="news">
       <title>Spokane music venue the Pin announces closure</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 21, 2020</date>
@@ -1239,7 +1112,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="105" is_new="false" source_type="news">
+    <source id="94" source_type="news">
       <title>Spokane music venue 'The Pin' announces permanent closure</title>
       <outlet>KXLY 4 News</outlet>
       <date>Aug. 2020</date>
@@ -1250,7 +1123,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="106" is_new="false" source_type="advocacy">
+    <source id="95" source_type="advocacy">
       <title>‘It's time’: After 44 years, iconic Spokane event Pig Out in the Park comes to an end</title>
       <outlet>The Spokesman-Review</outlet>
       <date>March 17, 2026</date>
@@ -1262,7 +1135,7 @@
         <tag>Convention Cancellations</tag>
       </tags>
     </source>
-    <source id="107" is_new="false" source_type="news">
+    <source id="96" source_type="news">
       <title>Restaurant closures pile up in Spokane area</title>
       <outlet>Spokane Journal of Business</outlet>
       <date>Dec. 7, 2023</date>
@@ -1274,7 +1147,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="108" is_new="false" source_type="news">
+    <source id="97" source_type="news">
       <title>Red Lion Pub, Suki Yaki among restaurants closing in downtown Spokane</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Dec. 6, 2023</date>
@@ -1285,7 +1158,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="109" is_new="false" source_type="news">
+    <source id="98" source_type="news">
       <title>Experts weigh in on why several Spokane restaurants are closing their doors</title>
       <outlet>KHQ 6 News</outlet>
       <date>Dec. 13, 2023</date>
@@ -1296,7 +1169,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="110" is_new="false" source_type="news">
+    <source id="99" source_type="news">
       <title>Industry experts weigh in on Spokane's rash of restaurant closures</title>
       <outlet>KREM 2 News</outlet>
       <date>Dec. 6, 2023</date>
@@ -1307,7 +1180,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="111" is_new="false" source_type="news">
+    <source id="100" source_type="news">
       <title>Employees dazed and confused after Shenanigans' abrupt closure</title>
       <outlet>KXLY 4 News</outlet>
       <date>2023</date>
@@ -1318,7 +1191,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="112" is_new="false" source_type="news">
+    <source id="101" source_type="news">
       <title>North Spokane's B&amp;B Hobbies to close after 60 years in business</title>
       <outlet>KXLY 4 News</outlet>
       <date>June 19, 2026</date>
@@ -1329,7 +1202,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="113" is_new="false" source_type="news">
+    <source id="102" source_type="news">
       <title>Spokane-area bike shop peddles off into the sunset</title>
       <outlet>The Spokesman-Review</outlet>
       <date>April 3, 2026</date>
@@ -1340,7 +1213,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="114" is_new="false" source_type="news">
+    <source id="103" source_type="news">
       <title>Downtown Spokane salon closes doors, citing Catholic Charities housing and crime</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 2, 2026</date>
@@ -1352,7 +1225,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="115" is_new="false" source_type="advocacy">
+    <source id="104" source_type="advocacy">
       <title>Art studio moving out of downtown Spokane</title>
       <outlet>KXLY 4 News</outlet>
       <date>Dec. 2024</date>
@@ -1363,7 +1236,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="116" is_new="false" source_type="news">
+    <source id="105" source_type="news">
       <title>Spokane business leader says downtown's vacancy rate is up to 28%: 'That's a little scary'</title>
       <outlet>The Spokesman-Review</outlet>
       <date>March 7, 2025</date>
@@ -1374,7 +1247,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="117" is_new="false" source_type="news">
+    <source id="106" source_type="news">
       <title>High office vacancy challenges downtown core</title>
       <outlet>Spokane Journal of Business</outlet>
       <date>July 2026</date>
@@ -1385,7 +1258,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="118" is_new="false" source_type="advocacy">
+    <source id="107" source_type="advocacy">
       <title>Inland Northwest Business Watch: The Clock Is Ticking on Spokane's Commercial Core</title>
       <outlet>Inland Northwest Business Watch (independent local business blog)</outlet>
       <date>2026</date>
@@ -1396,7 +1269,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="119" is_new="false" source_type="news">
+    <source id="108" source_type="news">
       <title>Downtown Spokane block closed for 14 months for ambitious development causing consternation for businesses</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Feb. 10, 2025</date>
@@ -1407,7 +1280,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="120" is_new="false" source_type="news">
+    <source id="109" source_type="news">
       <title>The 12 big questions facing Spokane and Washington state leaders in 2026</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Jan. 3, 2026</date>
@@ -1418,7 +1291,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="121" is_new="false" source_type="advocacy">
+    <source id="110" source_type="advocacy">
       <title>Downtown Spokane sees new business growth amid ongoing vacancy challenges</title>
       <outlet>KXLY 4 News</outlet>
       <date>Oct. 2025</date>
@@ -1429,7 +1302,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="122" is_new="false" source_type="news">
+    <source id="111" source_type="news">
       <title>Spokane fires destroy hundreds of structures</title>
       <outlet>Washington State Standard</outlet>
       <date>Aug. 2, 2026</date>
@@ -1440,7 +1313,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="123" is_new="false" source_type="news">
+    <source id="112" source_type="news">
       <title>‘Overwhelming amount of damage’: Fight ongoing against Spokane fires</title>
       <outlet>Washington State Standard</outlet>
       <date>Aug. 3, 2026</date>
@@ -1451,7 +1324,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="124" is_new="false" source_type="news">
+    <source id="113" source_type="news">
       <title>Wildfires Near Spokane Destroy More Than 700 Buildings, Force 64,000 to Flee</title>
       <outlet>Reuters (via U.S. News &amp; World Report)</outlet>
       <date>Aug. 3, 2026</date>
@@ -1462,7 +1335,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="125" is_new="false" source_type="news">
+    <source id="114" source_type="news">
       <title>More than 700 structures lost as 65,000 evacuate in Washington state wildfires</title>
       <outlet>NBC News</outlet>
       <date>Aug. 2–3, 2026</date>
@@ -1473,7 +1346,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="126" is_new="false" source_type="news">
+    <source id="115" source_type="news">
       <title>‘A tremendous tragedy’: thousands evacuated, hundreds of structures destroyed in Spokane Area Fires</title>
       <outlet>KHQ 6 News</outlet>
       <date>updated Aug. 9, 2026</date>
@@ -1484,7 +1357,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="127" is_new="false" source_type="news">
+    <source id="116" source_type="news">
       <title>Urban firestorm devastates Spokane as dense smoke envelops the Northwest</title>
       <outlet>Yale Climate Connections</outlet>
       <date>Aug. 2026</date>
@@ -1495,7 +1368,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="128" is_new="false" source_type="news">
+    <source id="117" source_type="news">
       <title>‘It doesn't seem real’: Spokane is a community in mourning as the toll of destruction from weekend wildfires comes into focus</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 3–4, 2026</date>
@@ -1506,18 +1379,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="129" is_new="false" source_type="news">
-      <title>Man arrested on suspicion of arson for allegedly starting Spokane fire</title>
-      <outlet>ABC News</outlet>
-      <date>Aug. 2026</date>
-      <url>https://abcnews.com/US/man-arrested-suspicion-arson-allegedly-starting-spokane-fire/story?id=135343244</url>
-      <section>The August 2026 Wildfires and a Pattern of Arson</section>
-      <description>Aaron Farinacci, 37, was arrested and charged with first-degree arson for the Old Trails Fire; he was found about 1.5 miles from the fire's start with waterproof matches and a butane lighter.</description>
-      <tags>
-        <tag>Wildfires &amp; Arson</tag>
-      </tags>
-    </source>
-    <source id="130" is_new="false" source_type="news">
+    <source id="118" source_type="news">
       <title>Spokane wildfire arson suspect makes first court appearance</title>
       <outlet>NPR</outlet>
       <date>Aug. 4, 2026</date>
@@ -1528,7 +1390,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="131" is_new="false" source_type="news">
+    <source id="119" source_type="news">
       <title>Court docs: Spokane arson suspect told police he set 25 fires over the past year</title>
       <outlet>OPB</outlet>
       <date>Aug. 6, 2026</date>
@@ -1539,7 +1401,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="132" is_new="false" source_type="news">
+    <source id="120" source_type="news">
       <title>Man charged with setting devastating Spokane fire to be evaluated for competency to stand trial</title>
       <outlet>OPB</outlet>
       <date>Aug. 6–7, 2026</date>
@@ -1550,7 +1412,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="133" is_new="false" source_type="news">
+    <source id="121" source_type="news">
       <title>Spokane wildfire arson suspect had prior manslaughter conviction; blazes leave some residents with nothing</title>
       <outlet>CBS News</outlet>
       <date>Aug. 2026</date>
@@ -1561,7 +1423,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="134" is_new="false" source_type="news">
+    <source id="122" source_type="news">
       <title>Man accused of arson in the biggest of 3 major fires in Spokane, Washington</title>
       <outlet>NBC News</outlet>
       <date>Aug. 2026</date>
@@ -1572,7 +1434,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="135" is_new="false" source_type="news">
+    <source id="123" source_type="news">
       <title>Alleged arsonist admits to starting one Spokane wildfire and more than two dozen others since last year, prosecutors say</title>
       <outlet>CNN</outlet>
       <date>Aug. 6, 2026</date>
@@ -1583,7 +1445,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="136" is_new="false" source_type="news">
+    <source id="124" source_type="news">
       <title>Arson Suspect Timed Spokane Fire for High Wind Day</title>
       <outlet>Claims Journal / Bloomberg</outlet>
       <date>Aug. 7, 2026</date>
@@ -1594,7 +1456,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="137" is_new="false" source_type="news">
+    <source id="125" source_type="news">
       <title>Man charged with series of July fires sentenced to prison</title>
       <outlet>The Spokesman-Review</outlet>
       <date>May 27, 2026</date>
@@ -1606,7 +1468,7 @@
         <tag>Food Access</tag>
       </tags>
     </source>
-    <source id="138" is_new="false" source_type="news">
+    <source id="126" source_type="news">
       <title>Man pleads guilty to downtown Spokane arson, sentenced to over five years</title>
       <outlet>KHQ 6 News</outlet>
       <date>May 27, 2026</date>
@@ -1617,7 +1479,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="139" is_new="false" source_type="news">
+    <source id="127" source_type="news">
       <title>Man sentenced to over 5 years in prison for setting string of fires in Spokane last summer</title>
       <outlet>KXLY 920 News Now</outlet>
       <date>May 2026</date>
@@ -1628,7 +1490,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="140" is_new="false" source_type="news">
+    <source id="128" source_type="news">
       <title>Downtown Spokane arson suspect confesses to setting fires</title>
       <outlet>The Spokesman-Review</outlet>
       <date>July 10, 2025</date>
@@ -1639,7 +1501,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="141" is_new="false" source_type="news">
+    <source id="129" source_type="news">
       <title>Suspected arsonist identified after Spokane fire spree</title>
       <outlet>Moscow-Pullman Daily News (dnews.com)</outlet>
       <date>2024–2025</date>
@@ -1650,7 +1512,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="142" is_new="false" source_type="news">
+    <source id="130" source_type="news">
       <title>Spokane area businesses warned against price gouging after fires</title>
       <outlet>NBC Right Now</outlet>
       <date>Aug. 2026</date>
@@ -1661,7 +1523,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="143" is_new="false" source_type="news">
+    <source id="131" source_type="news">
       <title>How to help: City of Spokane creates portal to organize donations for wildfire recovery</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 2, 2026</date>
@@ -1673,7 +1535,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="144" is_new="false" source_type="news">
+    <source id="132" source_type="news">
       <title>Wildfires threaten to further strain Spokane area's housing market: ‘It's going to have a huge impact’</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 10, 2026</date>
@@ -1684,7 +1546,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="145" is_new="false" source_type="news">
+    <source id="133" source_type="news">
       <title>Spokane Agents Jump Into Action As Wildfires Devastate Housing</title>
       <outlet>Inman (real estate trade press)</outlet>
       <date>Aug. 7, 2026</date>
@@ -1695,7 +1557,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="146" is_new="false" source_type="news">
+    <source id="134" source_type="news">
       <title>Spokane devastation pressures Washington's burdened homeowners' insurance market</title>
       <outlet>Insurance Business</outlet>
       <date>Aug. 2026</date>
@@ -1706,7 +1568,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="147" is_new="false" source_type="news">
+    <source id="135" source_type="news">
       <title>Spokane wildfires highlight insurance crisis for homeowners across US</title>
       <outlet>Straight Arrow News</outlet>
       <date>Aug. 2026</date>
@@ -1717,7 +1579,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="148" is_new="false" source_type="news">
+    <source id="136" source_type="news">
       <title>Northern Idaho employers losing to Washington's minimum wage</title>
       <outlet>Idaho Business Review</outlet>
       <date>Feb. 2020</date>
@@ -1728,7 +1590,7 @@
         <tag>Economic Strain</tag>
       </tags>
     </source>
-    <source id="149" is_new="false" source_type="news">
+    <source id="137" source_type="news">
       <title>As Idaho's Neighboring States Increase Minimum Wage, More Workers Could Seek Jobs Out Of State</title>
       <outlet>StateImpact Idaho (NPR)</outlet>
       <date>n.d.</date>
@@ -1740,7 +1602,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="150" is_new="false" source_type="news">
+    <source id="138" source_type="news">
       <title>Bottom Rung: Why One Idaho Border Business Chose Washington</title>
       <outlet>StateImpact Idaho (NPR)</outlet>
       <date>n.d.</date>
@@ -1751,7 +1613,7 @@
         <tag>Cross-Border Economic Strain</tag>
       </tags>
     </source>
-    <source id="151" is_new="false" source_type="news">
+    <source id="139" source_type="news">
       <title>Border Cities Affected by Minimum Wage Differences</title>
       <outlet>Idaho@Work (Idaho Dept. of Labor)</outlet>
       <date>n.d.</date>
@@ -1763,19 +1625,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="152" is_new="false" source_type="news">
-      <title>Idaho Minimum Wage 2026: Rates &amp; Exemptions</title>
-      <outlet>Expert Zoom (legal/HR explainer)</outlet>
-      <date>June 2026</date>
-      <url>https://expert-zoom.com/us/magazine/lawyers/labor-law/idaho-labor-law/idaho-minimum-wage-2026</url>
-      <section>Cross-Border Economic Strain</section>
-      <description>Confirms Idaho's minimum wage remains pegged to the federal $7.25 floor and state law bars cities, including Coeur d'Alene, from setting a local minimum above it, while Washington's 2026 rate is described as more than double.</description>
-      <tags>
-        <tag>Economic Strain</tag>
-        <tag>Coeur d'Alene / Kootenai County</tag>
-      </tags>
-    </source>
-    <source id="153" is_new="false" source_type="news">
+    <source id="140" source_type="news">
       <title>Occupational Employment and Wages in Coeur d'Alene — May 2025</title>
       <outlet>U.S. Bureau of Labor Statistics</outlet>
       <date>June 2026 release</date>
@@ -1786,7 +1636,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="154" is_new="false" source_type="news">
+    <source id="141" source_type="news">
       <title>‘Deals and a race to the bottom’: A glance at the weed industry on 4/20</title>
       <outlet>The Spokesman-Review</outlet>
       <date>April 20, 2026</date>
@@ -1797,7 +1647,7 @@
         <tag>Cross-Border Economic Strain</tag>
       </tags>
     </source>
-    <source id="155" is_new="false" source_type="news">
+    <source id="142" source_type="news">
       <title>Washington cannabis sales slipped to $1.14 billion in 2025</title>
       <outlet>MJBizDaily</outlet>
       <date>July 8, 2026</date>
@@ -1808,7 +1658,7 @@
         <tag>Cross-Border Economic Strain</tag>
       </tags>
     </source>
-    <source id="156" is_new="false" source_type="news">
+    <source id="143" source_type="news">
       <title>After pandemic high, WA weed industry finds itself in a funk</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 17, 2025</date>
@@ -1819,7 +1669,7 @@
         <tag>Cross-Border Economic Strain</tag>
       </tags>
     </source>
-    <source id="157" is_new="false" source_type="news">
+    <source id="144" source_type="news">
       <title>‘The public would be shocked’: Nonprofits see teen victims, while authorities focus on sex trade</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 21, 2020</date>
@@ -1830,7 +1680,7 @@
         <tag>Trafficking &amp; Organized Crime</tag>
       </tags>
     </source>
-    <source id="158" is_new="false" source_type="primary">
+    <source id="145" source_type="primary">
       <title>Sex Trafficking Operation</title>
       <outlet>City of Spokane Police Department (press release)</outlet>
       <date>Dec. 2022</date>
@@ -1842,7 +1692,7 @@
         <tag>Trafficking &amp; Organized Crime</tag>
       </tags>
     </source>
-    <source id="159" is_new="false" source_type="primary">
+    <source id="146" source_type="primary">
       <title>Sex Trafficking Suspect in Custody</title>
       <outlet>City of Spokane Police Department (press release)</outlet>
       <date>July 31, 2025</date>
@@ -1854,7 +1704,7 @@
         <tag>Trafficking &amp; Organized Crime</tag>
       </tags>
     </source>
-    <source id="160" is_new="false" source_type="news">
+    <source id="147" source_type="news">
       <title>2 victims found in Spokane massage parlor linked to human trafficking</title>
       <outlet>KHQ 6 News</outlet>
       <date>May 2025</date>
@@ -1866,7 +1716,7 @@
         <tag>Trafficking &amp; Organized Crime</tag>
       </tags>
     </source>
-    <source id="161" is_new="false" source_type="news">
+    <source id="148" source_type="news">
       <title>Five Coeur d'Alene massage parlors lose licenses amid sex trafficking allegations</title>
       <outlet>FOX 28 Spokane / KHQ</outlet>
       <date>Feb. 2025</date>
@@ -1878,7 +1728,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="162" is_new="false" source_type="news">
+    <source id="149" source_type="news">
       <title>Coeur d'Alene police investigating allegations of criminal sexual activity at 5 massage parlors</title>
       <outlet>KREM 2 News</outlet>
       <date>Feb. 2025</date>
@@ -1890,7 +1740,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="163" is_new="false" source_type="news">
+    <source id="150" source_type="news">
       <title>Revocation of license for business linked to 'illegal sexual activity' upheld</title>
       <outlet>Coeur d'Alene Press</outlet>
       <date>April 23, 2025</date>
@@ -1902,7 +1752,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="164" is_new="false" source_type="news">
+    <source id="151" source_type="news">
       <title>CDA City Council strengthens regulations for massage businesses to curb illicit activity</title>
       <outlet>KXLY 920 News Now</outlet>
       <date>July 2025</date>
@@ -1914,7 +1764,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="165" is_new="false" source_type="primary">
+    <source id="152" source_type="primary">
       <title>Attorney General files criminal charges against Spokane-based health business for fraud, organized crime</title>
       <outlet>Washington State Attorney General's Office</outlet>
       <date>Dec. 2022</date>
@@ -1925,7 +1775,7 @@
         <tag>Trafficking &amp; Organized Crime</tag>
       </tags>
     </source>
-    <source id="166" is_new="false" source_type="news">
+    <source id="153" source_type="news">
       <title>Spokane cigarette wholesalers indicted</title>
       <outlet>The Spokesman-Review</outlet>
       <date>2007</date>
@@ -1937,7 +1787,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="167" is_new="false" source_type="primary">
+    <source id="154" source_type="primary">
       <title>Thirty-Four Individuals Indicted in Eastern Washington</title>
       <outlet>U.S. Drug Enforcement Administration</outlet>
       <date>April 2024</date>
@@ -1948,7 +1798,7 @@
         <tag>Trafficking &amp; Organized Crime</tag>
       </tags>
     </source>
-    <source id="168" is_new="false" source_type="news">
+    <source id="155" source_type="news">
       <title>I-90 drug interdiction nets 6 arrests</title>
       <outlet>Coeur d'Alene Press</outlet>
       <date>May 29, 2026</date>
@@ -1960,7 +1810,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="169" is_new="false" source_type="news">
+    <source id="156" source_type="news">
       <title>Main Market Co-Op could close doors in 2024</title>
       <outlet>KREM 2 News</outlet>
       <date>Nov. 2023</date>
@@ -1972,7 +1822,7 @@
         <tag>Food Access</tag>
       </tags>
     </source>
-    <source id="170" is_new="false" source_type="news">
+    <source id="157" source_type="news">
       <title>Downtown Spokane's Main Market is at risk of closing, increasing food insecurity in the city's lowest income ZIP code</title>
       <outlet>The Pacific Northwest Inlander</outlet>
       <date>May 9, 2024</date>
@@ -1984,7 +1834,7 @@
         <tag>Food Access</tag>
       </tags>
     </source>
-    <source id="171" is_new="false" source_type="primary">
+    <source id="158" source_type="primary">
       <title>KNCA Dissolution Announcement</title>
       <outlet>KuroNeko Cultural Association (primary source)</outlet>
       <date>Nov. 7, 2024</date>
@@ -1995,7 +1845,7 @@
         <tag>Convention Cancellations</tag>
       </tags>
     </source>
-    <source id="172" is_new="false" source_type="news">
+    <source id="159" source_type="news">
       <title>Police in Idaho arrested dozens of Patriot Front members near a Pride event</title>
       <outlet>NPR</outlet>
       <date>June 14, 2022</date>
@@ -2010,7 +1860,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="173" is_new="false" source_type="news">
+    <source id="160" source_type="news">
       <title>Police in Idaho are getting death threats after arresting Patriot Front members</title>
       <outlet>NPR</outlet>
       <date>June 13, 2022</date>
@@ -2025,7 +1875,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="174" is_new="false" source_type="news">
+    <source id="161" source_type="news">
       <title>Suspected members of the neo-Nazi Patriot Front arrested at Pride event</title>
       <outlet>PinkNews</outlet>
       <date>June 12, 2022</date>
@@ -2040,7 +1890,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="175" is_new="false" source_type="news">
+    <source id="162" source_type="news">
       <title>White nationalists convicted of planning to riot at Idaho pride event</title>
       <outlet>NBC News</outlet>
       <date>July 20, 2023</date>
@@ -2055,7 +1905,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="176" is_new="false" source_type="news">
+    <source id="163" source_type="news">
       <title>Patriot Front members to serve just three days in jail for plan to storm Pride event</title>
       <outlet>PinkNews</outlet>
       <date>July 23, 2023</date>
@@ -2069,7 +1919,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="177" is_new="false" source_type="news">
+    <source id="164" source_type="news">
       <title>Patriot Front Members Arrested on Way to Target Pride Event</title>
       <outlet>The Advocate</outlet>
       <date>June 2022</date>
@@ -2083,7 +1933,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="178" is_new="false" source_type="advocacy">
+    <source id="165" source_type="advocacy">
       <title>2017 Freeman High School shooting</title>
       <outlet>Wikipedia (background/reference)</outlet>
       <date>reference</date>
@@ -2094,7 +1944,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="179" is_new="false" source_type="news">
+    <source id="166" source_type="news">
       <title>Judge: Teen charged in Freeman High School shooting to be tried as adult</title>
       <outlet>FOX 13 Seattle</outlet>
       <date>July 23, 2019</date>
@@ -2105,7 +1955,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="180" is_new="false" source_type="news">
+    <source id="167" source_type="news">
       <title>‘I thought I was going to die’: Girl shot at Freeman High School gives impact statement</title>
       <outlet>KXLY 4 News</outlet>
       <date>2023</date>
@@ -2116,7 +1966,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="181" is_new="false" source_type="news">
+    <source id="168" source_type="news">
       <title>Washington school shooter sentenced to 40 years in prison for 2017 rampage at Freeman High School</title>
       <outlet>Fox News (via The Spokesman-Review)</outlet>
       <date>2022</date>
@@ -2127,7 +1977,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="182" is_new="false" source_type="news">
+    <source id="169" source_type="news">
       <title>Freeman High School shooter resentenced to 25 years to life behind bars</title>
       <outlet>KHQ 6 News</outlet>
       <date>2024</date>
@@ -2138,7 +1988,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="183" is_new="false" source_type="primary">
+    <source id="170" source_type="primary">
       <title>Suspect in Shooting that Took the Life of a 13-year-old Identified</title>
       <outlet>City of Spokane Police Department (press release)</outlet>
       <date>Jan. 28, 2025</date>
@@ -2150,7 +2000,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="184" is_new="false" source_type="news">
+    <source id="171" source_type="news">
       <title>Man suspected of killing 13-year-old in Hillyard waives extradition after arrest in Missoula</title>
       <outlet>KREM 2 News</outlet>
       <date>Jan. 29, 2025</date>
@@ -2161,7 +2011,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="185" is_new="false" source_type="news">
+    <source id="172" source_type="news">
       <title>Man suspected of killing 13-year-old to be extradited to Washington state</title>
       <outlet>KHQ 6 News</outlet>
       <date>Jan. 31, 2025</date>
@@ -2172,7 +2022,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="186" is_new="false" source_type="news">
+    <source id="173" source_type="news">
       <title>Mother of 13-year-old killed in North Spokane shooting speaks at suspect's bond hearing</title>
       <outlet>KREM 2 News</outlet>
       <date>March 5, 2025</date>
@@ -2183,18 +2033,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="187" is_new="false" source_type="news">
-      <title>Friend of accused killer of 13-year-old sentenced to prison for paying to hide him</title>
-      <outlet>The Spokesman-Review (via Yahoo News)</outlet>
-      <date>Aug. 21–22, 2025</date>
-      <url>https://www.yahoo.com/news/articles/friend-accused-killer-13-old-020300551.html</url>
-      <section>Major Violence</section>
-      <description>Mason Bolton is sentenced to nearly four years after pleading guilty to paying to help hide Burkey in Montana; Burkey's mother, Becky Gibbs, separately faces a charge of rendering criminal assistance for helping her son flee the state. Burkey himself remained awaiting trial as of this reporting.</description>
-      <tags>
-        <tag>Major Violence</tag>
-      </tags>
-    </source>
-    <source id="188" is_new="false" source_type="primary">
+    <source id="174" source_type="primary">
       <title>SPD continues search for drive-by shooter</title>
       <outlet>City of Spokane Police Department (press release)</outlet>
       <date>Aug. 9, 2024</date>
@@ -2206,7 +2045,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="189" is_new="false" source_type="primary">
+    <source id="175" source_type="primary">
       <title>Police Department News Releases for 2024 (July 22–25 cluster)</title>
       <outlet>City of Spokane Police Department (press release archive)</outlet>
       <date>July 2024</date>
@@ -2218,7 +2057,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="190" is_new="false" source_type="primary">
+    <source id="176" source_type="primary">
       <title>Male In Custody After North Spokane Drive By Shooting</title>
       <outlet>City of Spokane Police Department (press release)</outlet>
       <date>Feb. 19, 2026</date>
@@ -2230,7 +2069,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="191" is_new="false" source_type="news">
+    <source id="177" source_type="news">
       <title>Police investigate possible drive-by shooting in Spokane's West Central neighborhood</title>
       <outlet>KXLY 4 News</outlet>
       <date>Feb. 2026</date>
@@ -2241,7 +2080,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="192" is_new="false" source_type="news">
+    <source id="178" source_type="news">
       <title>Protesters rally at Spokane ICE after detainment of asylum seeker</title>
       <outlet>KREM 2 News</outlet>
       <date>June 11, 2025</date>
@@ -2252,7 +2091,7 @@
         <tag>ICE &amp; Immigration</tag>
       </tags>
     </source>
-    <source id="193" is_new="false" source_type="news">
+    <source id="179" source_type="news">
       <title>More than 30 arrested at immigration protest in Spokane sparked by arrest of 2 immigrants</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 11–12, 2025</date>
@@ -2263,7 +2102,7 @@
         <tag>ICE &amp; Immigration</tag>
       </tags>
     </source>
-    <source id="194" is_new="false" source_type="news">
+    <source id="180" source_type="news">
       <title>Everything we know about the Spokane ICE protests</title>
       <outlet>RANGE Media</outlet>
       <date>June 2025</date>
@@ -2274,7 +2113,7 @@
         <tag>ICE &amp; Immigration</tag>
       </tags>
     </source>
-    <source id="195" is_new="false" source_type="news">
+    <source id="181" source_type="news">
       <title>Stuckart released from jail as Spokane Police Department requests felony charges after arrest at immigration protest</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 12, 2025</date>
@@ -2286,7 +2125,7 @@
         <tag>ICE &amp; Immigration</tag>
       </tags>
     </source>
-    <source id="196" is_new="false" source_type="news">
+    <source id="182" source_type="news">
       <title>Former Spokane councilman arrested at ICE protest released from Spokane County jail</title>
       <outlet>KXLY 4 News</outlet>
       <date>June 12, 2025</date>
@@ -2297,7 +2136,7 @@
         <tag>ICE &amp; Immigration</tag>
       </tags>
     </source>
-    <source id="197" is_new="false" source_type="news">
+    <source id="183" source_type="news">
       <title>Pepper-balls vs. tear gas: How 2020's Black Lives Matter protest in Spokane compares to the immigration demonstration of 2025</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 12, 2025</date>
@@ -2309,7 +2148,7 @@
         <tag>BLM Protests 2020</tag>
       </tags>
     </source>
-    <source id="198" is_new="false" source_type="news">
+    <source id="184" source_type="news">
       <title>Federal government accuses nine Spokane protesters of violence against ICE</title>
       <outlet>The Spokesman-Review</outlet>
       <date>July 15–17, 2025</date>
@@ -2320,7 +2159,7 @@
         <tag>ICE &amp; Immigration</tag>
       </tags>
     </source>
-    <source id="199" is_new="false" source_type="news">
+    <source id="185" source_type="news">
       <title>KIRO hosts raise alarm over ICE tactics after 9 arrested in Spokane</title>
       <outlet>MyNorthwest.com (KIRO Newsradio)</outlet>
       <date>July 15, 2025</date>
@@ -2331,7 +2170,7 @@
         <tag>ICE &amp; Immigration</tag>
       </tags>
     </source>
-    <source id="200" is_new="false" source_type="news">
+    <source id="186" source_type="news">
       <title>Former Spokane City Council president pleads guilty to impeding ICE officers to prevent the deportation of two legal immigrants</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Dec. 8, 2025</date>
@@ -2342,18 +2181,7 @@
         <tag>ICE &amp; Immigration</tag>
       </tags>
     </source>
-    <source id="201" is_new="false" source_type="news">
-      <title>Former Spokane official pleads guilty after ICE blockade</title>
-      <outlet>SeattleRed</outlet>
-      <date>Dec. 9, 2025</date>
-      <url>https://seattlered.com/immigration/spokane-ice-block-felony/4115484</url>
-      <section>ICE, Immigration Enforcement, and the Ben Stuckart Case</section>
-      <description>Outside the courthouse, Stuckart said he “accepted full responsibility” and felt he “had to take a stand”; the felony carries a possible sentence of up to six years, though a later plea change was under consideration.</description>
-      <tags>
-        <tag>ICE &amp; Immigration</tag>
-      </tags>
-    </source>
-    <source id="202" is_new="false" source_type="news">
+    <source id="187" source_type="news">
       <title>Northwest lawmakers weigh in on ICE conduct as impasse leads to Homeland Security shutdown</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Feb. 13, 2026</date>
@@ -2365,19 +2193,20 @@
         <tag>Michael Baumgartner</tag>
       </tags>
     </source>
-    <source id="203" is_new="false" source_type="news">
+    <source id="188" source_type="news">
       <title>News Roundup: Immigration, TPS and ICE in Spokane</title>
       <outlet>FāVS News</outlet>
       <date>Feb. 6, 2026</date>
       <url>https://favs.news/news-roundup-spokane-immigration-tps-ice/</url>
       <section>ICE, Immigration Enforcement, and the Ben Stuckart Case</section>
-      <description>Reports Rep. Baumgartner expressed sympathy over deaths linked to federal immigration operations while defending ICE's role enforcing laws passed by Congress; Rep. Dan Newhouse, R-Sunnyside, said enforcement had “gotten out of hand.”</description>
+      <description>Baumgartner responds to constituent concerns about ICE by expressing sympathy for recent deaths linked to federal operations while defending the agency's role enforcing laws passed by Congress and calling for congressional oversight hearings.</description>
       <tags>
         <tag>ICE &amp; Immigration</tag>
         <tag>Michael Baumgartner</tag>
+        <tag>Voting Record</tag>
       </tags>
     </source>
-    <source id="204" is_new="false" source_type="news">
+    <source id="189" source_type="news">
       <title>Spokane County Republican Party endorses Donald Trump, Semi Bird</title>
       <outlet>KHQ 6 News</outlet>
       <date>June 22, 2024</date>
@@ -2388,18 +2217,7 @@
         <tag>Trump Endorsements</tag>
       </tags>
     </source>
-    <source id="205" is_new="false" source_type="news">
-      <title>The Washington GOP convention kicks off Thursday in Spokane. Here's what's at stake</title>
-      <outlet>The Spokesman-Review (via AOL)</outlet>
-      <date>April 18, 2024</date>
-      <url>https://www.aol.com/washington-gop-convention-kicks-off-020400144.html</url>
-      <section>Trump Allegiance</section>
-      <description>Trump's Truth Social endorsement of primary challenger Jerrod Sessler over incumbent Rep. Dan Newhouse (“Jerrod Sessler is MAGA all the way... He will never let you down!!!”) becomes a central issue as the state party gathers in Spokane to consider early endorsements.</description>
-      <tags>
-        <tag>Convention Cancellations</tag>
-      </tags>
-    </source>
-    <source id="206" is_new="false" source_type="news">
+    <source id="190" source_type="news">
       <title>Washington Republicans get ready to rumble in Spokane</title>
       <outlet>Washington State Standard</outlet>
       <date>April 17, 2024</date>
@@ -2412,7 +2230,7 @@
         <tag>Michael Baumgartner</tag>
       </tags>
     </source>
-    <source id="207" is_new="false" source_type="news">
+    <source id="191" source_type="news">
       <title>WA GOP wraps up turbulent state convention in Spokane</title>
       <outlet>Washington State Standard</outlet>
       <date>April 20, 2024</date>
@@ -2423,7 +2241,7 @@
         <tag>Convention Cancellations</tag>
       </tags>
     </source>
-    <source id="208" is_new="false" source_type="primary">
+    <source id="192" source_type="primary">
       <title>Baumgartner Issues Statement on Protests in Spokane Last Night</title>
       <outlet>Rep. Michael Baumgartner (press release)</outlet>
       <date>June 12, 2025</date>
@@ -2435,7 +2253,7 @@
         <tag>Michael Baumgartner</tag>
       </tags>
     </source>
-    <source id="209" is_new="false" source_type="advocacy">
+    <source id="193" source_type="advocacy">
       <title>Endorsements by Spokane County, Wash., Republican Party</title>
       <outlet>Ballotpedia (reference)</outlet>
       <date>reference</date>
@@ -2446,7 +2264,7 @@
         <tag>Trump Endorsements</tag>
       </tags>
     </source>
-    <source id="210" is_new="false" source_type="news">
+    <source id="194" source_type="news">
       <title>Thousands march in Spokane on Sunday to protest George Floyd's death, police brutality</title>
       <outlet>The Spokesman-Review</outlet>
       <date>May 31, 2020</date>
@@ -2457,7 +2275,7 @@
         <tag>BLM Protests 2020</tag>
       </tags>
     </source>
-    <source id="211" is_new="false" source_type="news">
+    <source id="195" source_type="news">
       <title>Spokane police use tear gas, rubber bullets to disperse crowds downtown</title>
       <outlet>The Spokesman-Review</outlet>
       <date>May 31–June 1, 2020</date>
@@ -2471,7 +2289,7 @@
         <tag>BLM Protests 2020</tag>
       </tags>
     </source>
-    <source id="212" is_new="false" source_type="news">
+    <source id="196" source_type="news">
       <title>Video captures looting of downtown Spokane's Nike store</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 1, 2020</date>
@@ -2482,7 +2300,7 @@
         <tag>BLM Protests 2020</tag>
       </tags>
     </source>
-    <source id="213" is_new="false" source_type="news">
+    <source id="197" source_type="news">
       <title>Spokane sheriff, police chief blame Sunday's violence on outside agitators</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 1–2, 2020</date>
@@ -2494,7 +2312,7 @@
         <tag>BLM Protests 2020</tag>
       </tags>
     </source>
-    <source id="214" is_new="false" source_type="news">
+    <source id="198" source_type="news">
       <title>Police took a behind-the-scenes approach on Sunday, and Spokane didn't experience another riot</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 8–9, 2020</date>
@@ -2505,7 +2323,7 @@
         <tag>BLM Protests 2020</tag>
       </tags>
     </source>
-    <source id="215" is_new="false" source_type="news">
+    <source id="199" source_type="news">
       <title>Thousands of protesters gather in downtown Spokane for Sunday demonstrations against police brutality</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 7, 2020</date>
@@ -2516,7 +2334,7 @@
         <tag>BLM Protests 2020</tag>
       </tags>
     </source>
-    <source id="216" is_new="false" source_type="news">
+    <source id="200" source_type="news">
       <title>BLM peaceful protest concludes early in downtown Spokane due to inclement weather; Separate demonstrations ensue</title>
       <outlet>KHQ 6 News</outlet>
       <date>June 8, 2020</date>
@@ -2527,7 +2345,7 @@
         <tag>BLM Protests 2020</tag>
       </tags>
     </source>
-    <source id="217" is_new="false" source_type="news">
+    <source id="201" source_type="news">
       <title>Black Lives Matter mural defaced with red, white and blue paint</title>
       <outlet>The Spokesman-Review</outlet>
       <date>July 29, 2020</date>
@@ -2538,7 +2356,7 @@
         <tag>BLM Protests 2020</tag>
       </tags>
     </source>
-    <source id="218" is_new="false" source_type="news">
+    <source id="202" source_type="news">
       <title>Black Lives Matter protests to continue Sunday in downtown Spokane</title>
       <outlet>KXLY 4 News</outlet>
       <date>Aug. 2020</date>
@@ -2551,7 +2369,7 @@
         <tag>BLM Protests 2020</tag>
       </tags>
     </source>
-    <source id="219" is_new="false" source_type="news">
+    <source id="203" source_type="news">
       <title>Protesters decrying police brutality meet downtown Spokane for third straight weekend</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 14, 2020</date>
@@ -2562,7 +2380,7 @@
         <tag>BLM Protests 2020</tag>
       </tags>
     </source>
-    <source id="220" is_new="false" source_type="opinion">
+    <source id="204" source_type="opinion">
       <title>In Washington politics, is it really Seattle's state now?</title>
       <outlet>Cascade PBS (opinion)</outlet>
       <date>2021</date>
@@ -2573,7 +2391,7 @@
         <tag>Anti-Seattle/Olympia Rhetoric</tag>
       </tags>
     </source>
-    <source id="221" is_new="false" source_type="opinion">
+    <source id="205" source_type="opinion">
       <title>Shawn Vestal: Greater Idaho is a wonderful name for a bad idea</title>
       <outlet>The Spokesman-Review (opinion)</outlet>
       <date>Feb. 19, 2020</date>
@@ -2586,7 +2404,7 @@
         <tag>Anti-Seattle/Olympia Rhetoric</tag>
       </tags>
     </source>
-    <source id="222" is_new="false" source_type="news">
+    <source id="206" source_type="news">
       <title>Greater Idaho and the ugly history of Northwest secession movements</title>
       <outlet>Cascade PBS</outlet>
       <date>April 2020</date>
@@ -2598,7 +2416,7 @@
         <tag>Anti-Seattle/Olympia Rhetoric</tag>
       </tags>
     </source>
-    <source id="223" is_new="false" source_type="news">
+    <source id="207" source_type="news">
       <title>Could Greater Idaho happen?</title>
       <outlet>KREM 2 News</outlet>
       <date>June 2021</date>
@@ -2612,7 +2430,7 @@
         <tag>Ammon Bundy</tag>
       </tags>
     </source>
-    <source id="224" is_new="false" source_type="news">
+    <source id="208" source_type="news">
       <title>Oregon's Greater Idaho movement echoes a long history of racism in the region</title>
       <outlet>High Country News</outlet>
       <date>May 2024</date>
@@ -2624,7 +2442,7 @@
         <tag>Anti-Seattle/Olympia Rhetoric</tag>
       </tags>
     </source>
-    <source id="225" is_new="false" source_type="advocacy">
+    <source id="209" source_type="advocacy">
       <title>Cathy McMorris Rodgers</title>
       <outlet>Wikipedia (background/reference)</outlet>
       <date>reference</date>
@@ -2636,7 +2454,7 @@
         <tag>Voting Record</tag>
       </tags>
     </source>
-    <source id="226" is_new="false" source_type="advocacy">
+    <source id="210" source_type="advocacy">
       <title>Cathy McMorris Rodgers</title>
       <outlet>GLAAD Accountability Project (reference)</outlet>
       <date>reference</date>
@@ -2649,7 +2467,7 @@
         <tag>Spokane Pride / LGBTQ</tag>
       </tags>
     </source>
-    <source id="227" is_new="false" source_type="advocacy">
+    <source id="211" source_type="advocacy">
       <title>Cathy McMorris Rodgers</title>
       <outlet>Ballotpedia (reference)</outlet>
       <date>reference</date>
@@ -2661,7 +2479,7 @@
         <tag>Voting Record</tag>
       </tags>
     </source>
-    <source id="228" is_new="false" source_type="primary">
+    <source id="212" source_type="primary">
       <title>Report on Representative Cathy McMorris Rodgers</title>
       <outlet>U.S. House Committee on Ethics</outlet>
       <date>Dec. 19, 2019</date>
@@ -2673,7 +2491,7 @@
         <tag>Voting Record</tag>
       </tags>
     </source>
-    <source id="229" is_new="false" source_type="opinion">
+    <source id="213" source_type="opinion">
       <title>Shawn Vestal: McMorris Rodgers' offensive campaign ads and flyers undermine her call for political civility</title>
       <outlet>The Spokesman-Review (opinion)</outlet>
       <date>July 24, 2018</date>
@@ -2685,7 +2503,7 @@
         <tag>Voting Record</tag>
       </tags>
     </source>
-    <source id="230" is_new="false" source_type="opinion">
+    <source id="214" source_type="opinion">
       <title>Shawn Vestal: At long last, a great race in the 5th District</title>
       <outlet>The Spokesman-Review (opinion)</outlet>
       <date>Nov. 6, 2018</date>
@@ -2697,7 +2515,7 @@
         <tag>Voting Record</tag>
       </tags>
     </source>
-    <source id="231" is_new="false" source_type="opinion">
+    <source id="215" source_type="opinion">
       <title>Shawn Vestal: With her vote today, McMorris Rodgers finalizes the sale of her soul</title>
       <outlet>The Spokesman-Review (opinion)</outlet>
       <date>Jan. 6, 2021</date>
@@ -2709,7 +2527,7 @@
         <tag>Voting Record</tag>
       </tags>
     </source>
-    <source id="232" is_new="false" source_type="advocacy">
+    <source id="216" source_type="advocacy">
       <title>Vestal's hateful attack</title>
       <outlet>The Spokesman-Review (letter to the editor)</outlet>
       <date>Jan. 12, 2021</date>
@@ -2721,7 +2539,7 @@
         <tag>Voting Record</tag>
       </tags>
     </source>
-    <source id="233" is_new="false" source_type="news">
+    <source id="217" source_type="news">
       <title>For weeks, Rep. McMorris Rodgers has refused to talk to reporters — yet invited the Spokesman-Review editor to Biden's inauguration</title>
       <outlet>The Pacific Northwest Inlander</outlet>
       <date>Jan. 2021</date>
@@ -2733,7 +2551,7 @@
         <tag>Voting Record</tag>
       </tags>
     </source>
-    <source id="234" is_new="false" source_type="news">
+    <source id="218" source_type="news">
       <title>Baumgartner faces angry, disruptive town hall following two months of Trump's presidency</title>
       <outlet>The Spokesman-Review</outlet>
       <date>March 17–18, 2025</date>
@@ -2745,7 +2563,7 @@
         <tag>Voting Record</tag>
       </tags>
     </source>
-    <source id="235" is_new="false" source_type="news">
+    <source id="219" source_type="news">
       <title>Rep. Baumgartner praises police for response to Spokane protest, urges cooperation with federal agents</title>
       <outlet>KXLY 4 News</outlet>
       <date>June 12, 2025</date>
@@ -2758,20 +2576,7 @@
         <tag>Voting Record</tag>
       </tags>
     </source>
-    <source id="236" is_new="false" source_type="news">
-      <title>News Roundup: Immigration, TPS and ICE in Spokane</title>
-      <outlet>FāVS News</outlet>
-      <date>Feb. 6, 2026</date>
-      <url>https://favs.news/news-roundup-spokane-immigration-tps-ice/</url>
-      <section>Michael Baumgartner</section>
-      <description>Baumgartner responds to constituent concerns about ICE by expressing sympathy for recent deaths linked to federal operations while defending the agency's role enforcing laws passed by Congress and calling for congressional oversight hearings.</description>
-      <tags>
-        <tag>ICE &amp; Immigration</tag>
-        <tag>Michael Baumgartner</tag>
-        <tag>Voting Record</tag>
-      </tags>
-    </source>
-    <source id="237" is_new="false" source_type="news">
+    <source id="220" source_type="news">
       <title>Michael Baumgartner seeks another two years in Congress</title>
       <outlet>The Spokesman-Review</outlet>
       <date>July 2, 2026</date>
@@ -2783,7 +2588,7 @@
         <tag>Voting Record</tag>
       </tags>
     </source>
-    <source id="238" is_new="false" source_type="advocacy">
+    <source id="221" source_type="advocacy">
       <title>Michael Baumgartner (Washington)</title>
       <outlet>Ballotpedia (reference)</outlet>
       <date>reference</date>
@@ -2796,7 +2601,7 @@
         <tag>Voting Record</tag>
       </tags>
     </source>
-    <source id="239" is_new="true" source_type="news">
+    <source id="222" source_type="news">
       <title>More from the Matt Shea files: GPS trackers, a ‘provisional government’ and a hunt for moles</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 18, 2019</date>
@@ -2809,7 +2614,7 @@
         <tag>Domestic Terrorism</tag>
       </tags>
     </source>
-    <source id="240" is_new="true" source_type="news">
+    <source id="223" source_type="news">
       <title>Spokane City Council members, other leaders reportedly targeted by Rep. Matt Shea call for his resignation</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 19, 2019</date>
@@ -2822,7 +2627,7 @@
         <tag>Domestic Terrorism</tag>
       </tags>
     </source>
-    <source id="241" is_new="true" source_type="news">
+    <source id="224" source_type="news">
       <title>Spokane Police Guild joins calls for Rep. Matt Shea’s resignation over gathering of ‘intelligence’ on City Council members</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 19, 2019</date>
@@ -2835,7 +2640,7 @@
         <tag>Domestic Terrorism</tag>
       </tags>
     </source>
-    <source id="242" is_new="true" source_type="news">
+    <source id="225" source_type="news">
       <title>Spokane Mayor David Condon, police Chief Craig Meidl say state Rep. Matt Shea is unfit for office</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 20, 2019</date>
@@ -2848,7 +2653,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="243" is_new="true" source_type="news">
+    <source id="226" source_type="news">
       <title>Spying claims spur calls for Washington lawmaker ouster</title>
       <outlet>The Associated Press (via KOMO News)</outlet>
       <date>Sept. 2019</date>
@@ -2861,7 +2666,7 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="244" is_new="true" source_type="news">
+    <source id="227" source_type="news">
       <title>Growing calls for Rep. Shea’s resignation, amid claims of surveillance, blacklist</title>
       <outlet>MyNorthwest.com (KIRO Newsradio)</outlet>
       <date>Aug. 21, 2019</date>
@@ -2873,7 +2678,7 @@
         <tag>Domestic Terrorism</tag>
       </tags>
     </source>
-    <source id="245" is_new="true" source_type="news">
+    <source id="228" source_type="news">
       <title>Spokane County Human Rights Task Force ‘expresses deep concern and strong denouncement of’ Matt Shea</title>
       <outlet>KHQ 6 News</outlet>
       <date>Jan. 2, 2020</date>
@@ -2887,7 +2692,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="246" is_new="true" source_type="news">
+    <source id="229" source_type="news">
       <title>Beyond DC – Mapping Stop the Steal Insurrection Rallies in the States</title>
       <outlet>Institute for Research and Education on Human Rights (IREHR)</outlet>
       <date>Jan. 8, 2021</date>
@@ -2900,7 +2705,7 @@
         <tag>Election Integrity</tag>
       </tags>
     </source>
-    <source id="247" is_new="true" source_type="advocacy">
+    <source id="230" source_type="advocacy">
       <title>Matt Shea</title>
       <outlet>Wikipedia (background/reference)</outlet>
       <date>reference</date>
@@ -2911,7 +2716,7 @@
         <tag>Matt Shea</tag>
       </tags>
     </source>
-    <source id="248" is_new="true" source_type="news">
+    <source id="231" source_type="news">
       <title>Redoubt movement helps push North Idaho politics to extreme right</title>
       <outlet>The Spokesman-Review</outlet>
       <date>May 15, 2016</date>
@@ -2923,7 +2728,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="249" is_new="true" source_type="news">
+    <source id="232" source_type="news">
       <title>How big Christian nationalism has come courting in North Idaho</title>
       <outlet>Religion News Service</outlet>
       <date>Feb. 22, 2023</date>
@@ -2937,7 +2742,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="250" is_new="true" source_type="news">
+    <source id="233" source_type="news">
       <title>Extremist groups ‘popping up left and right’ in Pacific Northwest, law enforcement officials say</title>
       <outlet>KUOW (NPR Seattle)</outlet>
       <date>Feb. 10, 2021</date>
@@ -2950,7 +2755,7 @@
         <tag>Proud Boys</tag>
       </tags>
     </source>
-    <source id="251" is_new="true" source_type="advocacy">
+    <source id="234" source_type="advocacy">
       <title>Ruby Ridge standoff</title>
       <outlet>Wikipedia (background/reference)</outlet>
       <date>reference</date>
@@ -2962,7 +2767,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="252" is_new="true" source_type="news">
+    <source id="235" source_type="news">
       <title>Ruby Ridge, looking back 30 years</title>
       <outlet>Coeur d'Alene Press</outlet>
       <date>Aug. 21, 2022</date>
@@ -2974,7 +2779,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="253" is_new="true" source_type="news">
+    <source id="236" source_type="news">
       <title>Ruby Ridge siege, 25 years later, a ‘rallying cry’ for today’s white nationalists</title>
       <outlet>ABC News</outlet>
       <date>Aug. 21, 2017</date>
@@ -2986,7 +2791,7 @@
         <tag>White Nationalism</tag>
       </tags>
     </source>
-    <source id="254" is_new="true" source_type="news">
+    <source id="237" source_type="news">
       <title>Randy Weaver, participant in Ruby Ridge standoff, dies at 74</title>
       <outlet>NPR Illinois / The Associated Press</outlet>
       <date>May 12, 2022</date>
@@ -2997,7 +2802,7 @@
         <tag>Aryan Nations</tag>
       </tags>
     </source>
-    <source id="255" is_new="true" source_type="advocacy">
+    <source id="238" source_type="advocacy">
       <title>The Standoff at Ruby Ridge</title>
       <outlet>Intermountain Histories (academic public-history project)</outlet>
       <date>reference</date>
@@ -3008,7 +2813,7 @@
         <tag>Aryan Nations</tag>
       </tags>
     </source>
-    <source id="256" is_new="true" source_type="news">
+    <source id="239" source_type="news">
       <title>Randy Weaver, key figure behind bloody Ruby Ridge standoff near Canada-U.S. border, dies</title>
       <outlet>CBC News</outlet>
       <date>May 2022</date>
@@ -3019,7 +2824,7 @@
         <tag>Aryan Nations</tag>
       </tags>
     </source>
-    <source id="257" is_new="true" source_type="primary">
+    <source id="240" source_type="primary">
       <title>The Gonzaga Center for the Study of Hate</title>
       <outlet>Gonzaga University (institutional page)</outlet>
       <date>ongoing</date>
@@ -3030,7 +2835,7 @@
         <tag>Human Rights Organizations</tag>
       </tags>
     </source>
-    <source id="258" is_new="true" source_type="primary">
+    <source id="241" source_type="primary">
       <title>As Hate Crimes Rise Gonzaga Convenes International Conference</title>
       <outlet>Gonzaga University (news release)</outlet>
       <date>April 2, 2019</date>
@@ -3041,7 +2846,7 @@
         <tag>Human Rights Organizations</tag>
       </tags>
     </source>
-    <source id="259" is_new="true" source_type="primary">
+    <source id="242" source_type="primary">
       <title>International Conference on Hate Studies 2023</title>
       <outlet>Gonzaga University (news release)</outlet>
       <date>April 5, 2023</date>
@@ -3052,7 +2857,7 @@
         <tag>Human Rights Organizations</tag>
       </tags>
     </source>
-    <source id="260" is_new="true" source_type="news">
+    <source id="243" source_type="news">
       <title>Experts: There have been warnings of far-right violence for decades, including in the Spokane area</title>
       <outlet>Walla Walla Union-Bulletin</outlet>
       <date>Jan. 15, 2021</date>
@@ -3064,7 +2869,7 @@
         <tag>Domestic Terrorism</tag>
       </tags>
     </source>
-    <source id="261" is_new="true" source_type="news">
+    <source id="244" source_type="news">
       <title>As hate crimes rise nationally, so do Spokane’s community efforts to identify and eradicate them</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Sept. 24, 2021</date>
@@ -3076,7 +2881,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="262" is_new="true" source_type="primary">
+    <source id="245" source_type="primary">
       <title>History</title>
       <outlet>Kootenai County Task Force on Human Relations (organizational page)</outlet>
       <date>ongoing</date>
@@ -3089,7 +2894,7 @@
         <tag>Patriot Front</tag>
       </tags>
     </source>
-    <source id="263" is_new="true" source_type="primary">
+    <source id="246" source_type="primary">
       <title>About</title>
       <outlet>Human Rights Education Institute (organizational page)</outlet>
       <date>ongoing</date>
@@ -3102,7 +2907,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="264" is_new="true" source_type="opinion">
+    <source id="247" source_type="opinion">
       <title>Gonzaga Studies Hate</title>
       <outlet>National Association of Scholars (opinion)</outlet>
       <date>2011</date>
@@ -3113,7 +2918,7 @@
         <tag>Human Rights Organizations</tag>
       </tags>
     </source>
-    <source id="265" is_new="true" source_type="primary">
+    <source id="248" source_type="primary">
       <title>Hate Map</title>
       <outlet>Southern Poverty Law Center</outlet>
       <date>2026</date>
@@ -3124,7 +2929,7 @@
         <tag>Human Rights Organizations</tag>
       </tags>
     </source>
-    <source id="266" is_new="true" source_type="news">
+    <source id="249" source_type="news">
       <title>SPLC report: Hate propaganda is outpacing hate groups</title>
       <outlet>Axios</outlet>
       <date>June 9, 2026</date>
@@ -3135,21 +2940,7 @@
         <tag>Human Rights Organizations</tag>
       </tags>
     </source>
-    <source id="267" is_new="true" source_type="news">
-      <title>An Idaho State Rep Promoted an Anti-Pride Event. Six Weeks Later, 31 Extremists Arrived</title>
-      <outlet>MEL Magazine</outlet>
-      <date>June 14, 2022</date>
-      <url>https://melmagazine.com/en-us/story/an-idaho-state-rep-promoted-an-anti-pride-event-six-weeks-later-31-extremists-arrived</url>
-      <section>Heather Scott and Idaho Panhandle Politics</section>
-      <description>Connects Idaho Rep. Heather Scott's book-banning event, at which she invited the far-right Panhandle Patriots motorcycle club to speak, to the Patriot Front arrests six weeks later; reports at least two of those arrested had ties to Matt Shea's church.</description>
-      <tags>
-        <tag>Heather Scott</tag>
-        <tag>Patriot Front</tag>
-        <tag>Book Bans</tag>
-        <tag>Matt Shea</tag>
-      </tags>
-    </source>
-    <source id="268" is_new="true" source_type="news">
+    <source id="250" source_type="news">
       <title>North Idaho Rep. Heather Scott reaps the glory — and the consequences — of being one of Matt Shea’s biggest allies</title>
       <outlet>The Pacific Northwest Inlander</outlet>
       <date>2018</date>
@@ -3162,7 +2953,7 @@
         <tag>American Redoubt</tag>
       </tags>
     </source>
-    <source id="269" is_new="true" source_type="news">
+    <source id="251" source_type="news">
       <title>North Idaho Rep. Heather Scott defends white nationalists in Facebook post</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 15, 2017</date>
@@ -3174,7 +2965,7 @@
         <tag>White Nationalism</tag>
       </tags>
     </source>
-    <source id="270" is_new="true" source_type="news">
+    <source id="252" source_type="news">
       <title>Heather Scott defends statements on white nationalism</title>
       <outlet>Coeur d'Alene Press</outlet>
       <date>Aug. 23, 2017</date>
@@ -3187,7 +2978,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="271" is_new="true" source_type="advocacy">
+    <source id="253" source_type="advocacy">
       <title>Heather Scott</title>
       <outlet>Wikipedia (background/reference)</outlet>
       <date>reference</date>
@@ -3198,7 +2989,7 @@
         <tag>Heather Scott</tag>
       </tags>
     </source>
-    <source id="272" is_new="true" source_type="advocacy">
+    <source id="254" source_type="advocacy">
       <title>Idaho Freedom Caucus</title>
       <outlet>Wikipedia (background/reference)</outlet>
       <date>reference</date>
@@ -3209,7 +3000,7 @@
         <tag>Heather Scott</tag>
       </tags>
     </source>
-    <source id="273" is_new="true" source_type="news">
+    <source id="255" source_type="news">
       <title>Ammon Bundy, People’s Rights Network Slapped with $50 Million Judgment in Defamation Suit</title>
       <outlet>Southern Poverty Law Center – Hatewatch</outlet>
       <date>2023</date>
@@ -3221,7 +3012,7 @@
         <tag>Militia Movement</tag>
       </tags>
     </source>
-    <source id="274" is_new="true" source_type="news">
+    <source id="256" source_type="news">
       <title>Ammon Bundy ordered to pay $26 million to Idaho hospital, its CEO and 2 staff members</title>
       <outlet>CNN</outlet>
       <date>July 2023</date>
@@ -3233,7 +3024,7 @@
         <tag>Militia Movement</tag>
       </tags>
     </source>
-    <source id="275" is_new="true" source_type="news">
+    <source id="257" source_type="news">
       <title>Bundy, Rodriguez ordered to pay $52.5M for Idaho hospital harassment, jury rules</title>
       <outlet>Idaho Capital Sun</outlet>
       <date>July 24, 2023</date>
@@ -3245,7 +3036,7 @@
         <tag>Militia Movement</tag>
       </tags>
     </source>
-    <source id="276" is_new="true" source_type="opinion">
+    <source id="258" source_type="opinion">
       <title>Shawn Vestal: Matt Shea out at church over schism with fellow ‘general’ Ken Peters, but abortion protests go on</title>
       <outlet>The Spokesman-Review (opinion/column)</outlet>
       <date>May 27, 2021</date>
@@ -3258,7 +3049,7 @@
         <tag>Ken Peters / Patriot Church</tag>
       </tags>
     </source>
-    <source id="277" is_new="true" source_type="advocacy">
+    <source id="259" source_type="advocacy">
       <title>Patriot Churches</title>
       <outlet>World Religions and Spirituality Project (academic reference)</outlet>
       <date>2022</date>
@@ -3270,7 +3061,7 @@
         <tag>Christian Nationalism</tag>
       </tags>
     </source>
-    <source id="278" is_new="true" source_type="news">
+    <source id="260" source_type="news">
       <title>Seeking power in Jesus’ name: Trump sparks a rise of ‘Patriot Churches’</title>
       <outlet>The Seattle Times</outlet>
       <date>Oct. 26, 2020</date>
@@ -3283,7 +3074,7 @@
         <tag>Matt Shea</tag>
       </tags>
     </source>
-    <source id="279" is_new="true" source_type="news">
+    <source id="261" source_type="news">
       <title>Former Spokane mayor Woodward suing the city for $10 million</title>
       <outlet>KXLY 920 News Now</outlet>
       <date>July 28, 2026</date>
@@ -3297,7 +3088,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="280" is_new="true" source_type="news">
+    <source id="262" source_type="news">
       <title>Spokane council approves another $650,000 to fight six lawsuits on Monday</title>
       <outlet>The Spokesman-Review</outlet>
       <date>May 18, 2026</date>
@@ -3311,7 +3102,7 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="281" is_new="true" source_type="primary">
+    <source id="263" source_type="primary">
       <title>Statement on Feucht Lawsuit Dismissal</title>
       <outlet>City of Spokane (press release)</outlet>
       <date>Sept. 18, 2025</date>
@@ -3323,7 +3114,7 @@
         <tag>Nadine Woodward</tag>
       </tags>
     </source>
-    <source id="282" is_new="true" source_type="primary">
+    <source id="264" source_type="primary">
       <title>Pacifica Helps Spokane Defeat First Amendment Lawsuit by Christian Nationalist Preacher Sean Feucht</title>
       <outlet>Pacifica Law Group (law-firm case summary)</outlet>
       <date>Sept. 18, 2025</date>
@@ -3335,7 +3126,7 @@
         <tag>Nadine Woodward</tag>
       </tags>
     </source>
-    <source id="283" is_new="true" source_type="news">
+    <source id="265" source_type="news">
       <title>City of Spokane facing new lawsuit from far-right pastor and musician</title>
       <outlet>KHQ 6 News</outlet>
       <date>June 2024</date>
@@ -3348,7 +3139,7 @@
         <tag>Matt Shea</tag>
       </tags>
     </source>
-    <source id="284" is_new="true" source_type="news">
+    <source id="266" source_type="news">
       <title>Elected officials condemn ‘armed vigilantes’ attending Spokane protests</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 11, 2020</date>
@@ -3361,7 +3152,7 @@
         <tag>Nadine Woodward</tag>
       </tags>
     </source>
-    <source id="285" is_new="true" source_type="news">
+    <source id="267" source_type="news">
       <title>Police should rein in assembly of armed militias, Spokane City Council proposal says</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Oct. 29, 2020</date>
@@ -3374,7 +3165,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="286" is_new="true" source_type="news">
+    <source id="268" source_type="news">
       <title>Not welcome here: City Council wants end to militia gatherings in Spokane</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Nov. 3, 2020</date>
@@ -3386,7 +3177,7 @@
         <tag>BLM Protests 2020</tag>
       </tags>
     </source>
-    <source id="287" is_new="true" source_type="news">
+    <source id="269" source_type="news">
       <title>After a legal disagreement, Spokane City Council may take another step against militias</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Dec. 18, 2020</date>
@@ -3398,7 +3189,7 @@
         <tag>BLM Protests 2020</tag>
       </tags>
     </source>
-    <source id="288" is_new="true" source_type="news">
+    <source id="270" source_type="news">
       <title>Group of 16 Spokane-area leaders condemn ‘armed vigilantes’ at protests</title>
       <outlet>KREM 2 News</outlet>
       <date>June 12, 2020</date>
@@ -3410,7 +3201,7 @@
         <tag>BLM Protests 2020</tag>
       </tags>
     </source>
-    <source id="289" is_new="true" source_type="news">
+    <source id="271" source_type="news">
       <title>Armed presence in North Idaho towns questioned by some politicians, business owners</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 4, 2020</date>
@@ -3422,7 +3213,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="290" is_new="true" source_type="news">
+    <source id="272" source_type="news">
       <title>Spokane business owners concerned about armed militia groups</title>
       <outlet>KREM 2 News</outlet>
       <date>June 10, 2020</date>
@@ -3434,7 +3225,7 @@
         <tag>BLM Protests 2020</tag>
       </tags>
     </source>
-    <source id="291" is_new="true" source_type="news">
+    <source id="273" source_type="news">
       <title>Downtown Spokane businesses speaking out against armed groups during protests</title>
       <outlet>KHQ 6 News</outlet>
       <date>June 2020</date>
@@ -3447,7 +3238,7 @@
         <tag>Spokane Pride / LGBTQ</tag>
       </tags>
     </source>
-    <source id="292" is_new="true" source_type="news">
+    <source id="274" source_type="news">
       <title>Armed people at Spokane protests criticized by politicians</title>
       <outlet>The Washington Times</outlet>
       <date>June 12, 2020</date>
@@ -3459,7 +3250,7 @@
         <tag>BLM Protests 2020</tag>
       </tags>
     </source>
-    <source id="293" is_new="true" source_type="news">
+    <source id="275" source_type="news">
       <title>Spokane Mayor sets curfew for part of downtown for second night</title>
       <outlet>KREM 2 News</outlet>
       <date>June 2020</date>
@@ -3473,7 +3264,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="294" is_new="true" source_type="news">
+    <source id="276" source_type="news">
       <title>Cathy McMorris Rodgers, Russ Fulcher say they will contest Electoral College results as ‘civil war’ divides GOP</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Jan. 5, 2021</date>
@@ -3486,7 +3277,7 @@
         <tag>Election Integrity</tag>
       </tags>
     </source>
-    <source id="295" is_new="true" source_type="news">
+    <source id="277" source_type="news">
       <title>Cathy McMorris Rodgers to object to Electoral College count</title>
       <outlet>KIRO 7 News (Seattle)</outlet>
       <date>Jan. 6, 2021</date>
@@ -3499,7 +3290,7 @@
         <tag>Election Integrity</tag>
       </tags>
     </source>
-    <source id="296" is_new="true" source_type="news">
+    <source id="278" source_type="news">
       <title>Cathy McMorris Rodgers flips, backs Biden certification after Trump supporters storm Capitol</title>
       <outlet>The Washington Times</outlet>
       <date>Jan. 6, 2021</date>
@@ -3511,7 +3302,7 @@
         <tag>Voting Record</tag>
       </tags>
     </source>
-    <source id="297" is_new="true" source_type="news">
+    <source id="279" source_type="news">
       <title>In reversal after pro-Trump mob storms Capitol, McMorris Rodgers votes to certify election results; Pence declares Biden winner</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Jan. 6–7, 2021</date>
@@ -3523,7 +3314,7 @@
         <tag>Voting Record</tag>
       </tags>
     </source>
-    <source id="298" is_new="true" source_type="news">
+    <source id="280" source_type="news">
       <title>Congress certifies Biden’s win with more GOP support after Capitol breach</title>
       <outlet>Roll Call</outlet>
       <date>Jan. 7, 2021</date>
@@ -3535,7 +3326,7 @@
         <tag>Voting Record</tag>
       </tags>
     </source>
-    <source id="299" is_new="true" source_type="news">
+    <source id="281" source_type="news">
       <title>Republican congresswoman will no longer support objections to electoral votes</title>
       <outlet>PBS NewsHour (live updates)</outlet>
       <date>Jan. 6, 2021</date>
@@ -3547,7 +3338,7 @@
         <tag>Voting Record</tag>
       </tags>
     </source>
-    <source id="300" is_new="true" source_type="advocacy">
+    <source id="282" source_type="advocacy">
       <title>Rep. Cathy Anne McMorris Rodgers [R-WA5, 2005-2024]</title>
       <outlet>GovTrack.us (reference)</outlet>
       <date>reference</date>
@@ -3558,7 +3349,7 @@
         <tag>Cathy McMorris Rodgers</tag>
       </tags>
     </source>
-    <source id="301" is_new="true" source_type="news">
+    <source id="283" source_type="news">
       <title>Rep. Michael Baumgartner already faces seven challengers as year begins</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Jan. 12, 2026</date>
@@ -3570,7 +3361,7 @@
         <tag>ICE &amp; Immigration</tag>
       </tags>
     </source>
-    <source id="302" is_new="true" source_type="news">
+    <source id="284" source_type="news">
       <title>Congressman Michael Baumgartner met with opposition at town hall in Spokane</title>
       <outlet>KREM 2 News</outlet>
       <date>March 17, 2025</date>
@@ -3581,7 +3372,7 @@
         <tag>Michael Baumgartner</tag>
       </tags>
     </source>
-    <source id="303" is_new="true" source_type="news">
+    <source id="285" source_type="news">
       <title>Big money, dark money, union money: The cash trying to win Washington’s 5th Congressional district seat</title>
       <outlet>The Spokesman-Review</outlet>
       <date>July 26, 2026</date>
@@ -3592,7 +3383,7 @@
         <tag>Michael Baumgartner</tag>
       </tags>
     </source>
-    <source id="304" is_new="true" source_type="news">
+    <source id="286" source_type="news">
       <title>Baumgartner meets with defense contractors, real estate agents in Spokane stop</title>
       <outlet>The Spokesman-Review</outlet>
       <date>May 10, 2026</date>
@@ -3603,7 +3394,7 @@
         <tag>Michael Baumgartner</tag>
       </tags>
     </source>
-    <source id="305" is_new="true" source_type="advocacy">
+    <source id="287" source_type="advocacy">
       <title>Michael Baumgartner</title>
       <outlet>Wikipedia (background/reference)</outlet>
       <date>reference</date>
@@ -3614,7 +3405,7 @@
         <tag>Michael Baumgartner</tag>
       </tags>
     </source>
-    <source id="306" is_new="true" source_type="news">
+    <source id="288" source_type="news">
       <title>Greater Idaho movement wants a seat at the table</title>
       <outlet>Oregon Capital Chronicle</outlet>
       <date>Feb. 18, 2025</date>
@@ -3625,7 +3416,7 @@
         <tag>Secession</tag>
       </tags>
     </source>
-    <source id="307" is_new="true" source_type="news">
+    <source id="289" source_type="news">
       <title>Map shows Oregon counties voting to join ‘Greater Idaho’</title>
       <outlet>Newsweek</outlet>
       <date>May 2024</date>
@@ -3636,7 +3427,7 @@
         <tag>Secession</tag>
       </tags>
     </source>
-    <source id="308" is_new="true" source_type="news">
+    <source id="290" source_type="news">
       <title>Conservative portion of blue state looking to break off and join neighboring red state</title>
       <outlet>Fox News</outlet>
       <date>Feb. 17, 2025</date>
@@ -3647,7 +3438,7 @@
         <tag>Secession</tag>
       </tags>
     </source>
-    <source id="309" is_new="true" source_type="news">
+    <source id="291" source_type="news">
       <title>The campaign to split Oregon in two: ‘We want to be governed by Idaho’</title>
       <outlet>Newsweek</outlet>
       <date>Oct. 12, 2025</date>
@@ -3658,7 +3449,7 @@
         <tag>Secession</tag>
       </tags>
     </source>
-    <source id="310" is_new="true" source_type="news">
+    <source id="292" source_type="news">
       <title>Eastern Oregon residents pass ‘Greater Idaho’ measure</title>
       <outlet>NewsNation</outlet>
       <date>May 2024</date>
@@ -3669,7 +3460,7 @@
         <tag>Secession</tag>
       </tags>
     </source>
-    <source id="311" is_new="true" source_type="advocacy">
+    <source id="293" source_type="advocacy">
       <title>Greater Idaho movement</title>
       <outlet>EBSCO Research Starters (reference)</outlet>
       <date>reference</date>
@@ -3680,7 +3471,7 @@
         <tag>Secession</tag>
       </tags>
     </source>
-    <source id="312" is_new="true" source_type="news">
+    <source id="294" source_type="news">
       <title>Turning Point USA founder visited Inland Northwest months before shooting death in Utah</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Sept. 10, 2025</date>
@@ -3691,7 +3482,7 @@
         <tag>Turning Point USA</tag>
       </tags>
     </source>
-    <source id="313" is_new="true" source_type="news">
+    <source id="295" source_type="news">
       <title>Turning Point USA Whitworth and Gonzaga chapters host Spokane vigil for Charlie Kirk</title>
       <outlet>Spokane Public Radio (NWPB)</outlet>
       <date>Sept. 15, 2025</date>
@@ -3702,7 +3493,7 @@
         <tag>Turning Point USA</tag>
       </tags>
     </source>
-    <source id="314" is_new="true" source_type="news">
+    <source id="296" source_type="news">
       <title>Turning Point USA chapters grapple with founder Charlie Kirk’s sudden death</title>
       <outlet>KXLY 4 News</outlet>
       <date>Sept. 11, 2025</date>
@@ -3713,7 +3504,7 @@
         <tag>Turning Point USA</tag>
       </tags>
     </source>
-    <source id="315" is_new="true" source_type="news">
+    <source id="297" source_type="news">
       <title>GU administration approves Turning Point USA chapter on campus</title>
       <outlet>Gonzaga Bulletin (student newspaper)</outlet>
       <date>2024</date>
@@ -3724,7 +3515,7 @@
         <tag>Turning Point USA</tag>
       </tags>
     </source>
-    <source id="316" is_new="true" source_type="news">
+    <source id="298" source_type="news">
       <title>Turning Point USA chapters at Whitworth, building conservative community</title>
       <outlet>The Whitworthian (student newspaper)</outlet>
       <date>2022</date>
@@ -3735,7 +3526,7 @@
         <tag>Turning Point USA</tag>
       </tags>
     </source>
-    <source id="317" is_new="true" source_type="news">
+    <source id="299" source_type="news">
       <title>Libraries amplify ‘freedom to read in Spokane’ and feature challenged titles for ‘banned books week’</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Sept. 28, 2024</date>
@@ -3747,7 +3538,7 @@
         <tag>Library Budget</tag>
       </tags>
     </source>
-    <source id="318" is_new="true" source_type="news">
+    <source id="300" source_type="news">
       <title>‘A tool to control the thoughts and actions of people’: New Washington law seeks to stop book bans</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Sept. 27, 2024</date>
@@ -3758,7 +3549,7 @@
         <tag>Book Bans</tag>
       </tags>
     </source>
-    <source id="319" is_new="true" source_type="news">
+    <source id="301" source_type="news">
       <title>Spokane and Gonzaga libraries reflect on national Banned Books Week</title>
       <outlet>Gonzaga Bulletin (student newspaper)</outlet>
       <date>Oct. 27, 2024</date>
@@ -3770,7 +3561,7 @@
         <tag>Spokane Pride / LGBTQ</tag>
       </tags>
     </source>
-    <source id="320" is_new="true" source_type="news">
+    <source id="302" source_type="news">
       <title>As elections near, Spokane sees growing interest in ballot systems</title>
       <outlet>KUOW (NPR Seattle)</outlet>
       <date>Oct. 27, 2022</date>
@@ -3782,7 +3573,7 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="321" is_new="true" source_type="news">
+    <source id="303" source_type="news">
       <title>GOP groups organize Washington ballot box surveillance efforts</title>
       <outlet>KXLY 4 News</outlet>
       <date>Aug. 15, 2023</date>
@@ -3793,7 +3584,7 @@
         <tag>Election Integrity</tag>
       </tags>
     </source>
-    <source id="322" is_new="true" source_type="primary">
+    <source id="304" source_type="primary">
       <title>Spokane County touts election transparency methods in place for midterms</title>
       <outlet>Spokane Public Radio (NWPB)</outlet>
       <date>Nov. 1, 2022</date>
@@ -3805,7 +3596,7 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="323" is_new="true" source_type="news">
+    <source id="305" source_type="news">
       <title>Spokane Pride Parade and Festival, and accompanying protests, will proceed unfazed by Wednesday’s tensions</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 12, 2025</date>
@@ -3818,7 +3609,7 @@
         <tag>ICE &amp; Immigration</tag>
       </tags>
     </source>
-    <source id="324" is_new="true" source_type="news">
+    <source id="306" source_type="news">
       <title>‘A deeper sense of love’: Thousands celebrate pride in Spokane days after mass protests erupted</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 14, 2025</date>
@@ -3829,7 +3620,7 @@
         <tag>Spokane Pride / LGBTQ</tag>
       </tags>
     </source>
-    <source id="325" is_new="true" source_type="news">
+    <source id="307" source_type="news">
       <title>Things to know going into Spokane’s weekend of planned protests and events</title>
       <outlet>The Pacific Northwest Inlander</outlet>
       <date>June 13, 2025</date>
@@ -3841,7 +3632,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="326" is_new="true" source_type="news">
+    <source id="308" source_type="news">
       <title>Spokane council to consider mirroring LGBT+ protections; one member proposes protest amendments</title>
       <outlet>The Spokesman-Review</outlet>
       <date>April 13, 2025</date>
@@ -3853,7 +3644,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="327" is_new="true" source_type="news">
+    <source id="309" source_type="news">
       <title>More than 10,000 pack downtown for ‘No Kings’ protest</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 14, 2025</date>
@@ -3865,7 +3656,7 @@
         <tag>Trump Endorsements</tag>
       </tags>
     </source>
-    <source id="328" is_new="true" source_type="news">
+    <source id="310" source_type="news">
       <title>Spokane Pride organizers prepare for protesters at annual Pride Parade</title>
       <outlet>KHQ 6 News</outlet>
       <date>June 2024</date>
@@ -3876,7 +3667,7 @@
         <tag>Spokane Pride / LGBTQ</tag>
       </tags>
     </source>
-    <source id="329" is_new="true" source_type="news">
+    <source id="311" source_type="news">
       <title>Three Spokane defendants arrested after last June’s ICE protest hope a federal jury sees no conspiracy</title>
       <outlet>The Pacific Northwest Inlander</outlet>
       <date>May 20, 2026</date>
@@ -3887,7 +3678,7 @@
         <tag>ICE &amp; Immigration</tag>
       </tags>
     </source>
-    <source id="330" is_new="true" source_type="news">
+    <source id="312" source_type="news">
       <title>Spokane police waited hours to respond to the ICE protest, upsetting federal agents. Here’s why</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 2–3, 2026</date>
@@ -3899,7 +3690,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="331" is_new="true" source_type="news">
+    <source id="313" source_type="news">
       <title>Spokane protest against ICE leads to 30 arrests, reports reveal</title>
       <outlet>KREM 2 News</outlet>
       <date>Aug. 5, 2025</date>
@@ -3911,7 +3702,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="332" is_new="true" source_type="news">
+    <source id="314" source_type="news">
       <title>3 Spokane ICE protesters found guilty in conspiracy case</title>
       <outlet>The Spokesman-Review</outlet>
       <date>May 28–29, 2026</date>
@@ -3922,7 +3713,7 @@
         <tag>ICE &amp; Immigration</tag>
       </tags>
     </source>
-    <source id="333" is_new="true" source_type="opinion">
+    <source id="315" source_type="opinion">
       <title>Spokane Anti-ICE Activists Convicted of Federal Charges</title>
       <outlet>HotAir</outlet>
       <date>June 1, 2026</date>
@@ -3933,7 +3724,7 @@
         <tag>ICE &amp; Immigration</tag>
       </tags>
     </source>
-    <source id="334" is_new="true" source_type="news">
+    <source id="316" source_type="news">
       <title>Meet Bajun Mavalwalla, Veteran Convicted for ICE Protest in Unprecedented Use of Conspiracy Charges</title>
       <outlet>Democracy Now!</outlet>
       <date>June 2026</date>
@@ -3944,7 +3735,7 @@
         <tag>ICE &amp; Immigration</tag>
       </tags>
     </source>
-    <source id="335" is_new="true" source_type="news">
+    <source id="317" source_type="news">
       <title>Former state Rep. Matt Shea takes part in rescue of 62 orphans from Ukrainian city now ravaged by bombs, but some are questioning Shea's actions and children's future</title>
       <outlet>The Spokesman-Review</outlet>
       <date>March 16, 2022</date>
@@ -3957,7 +3748,7 @@
         <tag>Domestic Terrorism</tag>
       </tags>
     </source>
-    <source id="336" is_new="true" source_type="news">
+    <source id="318" source_type="news">
       <title>Former WA Rep. Matt Shea, accused of domestic terrorism, working to secure adoptions for Ukrainian children in Poland</title>
       <outlet>The Seattle Times</outlet>
       <date>March 16, 2022</date>
@@ -3969,7 +3760,7 @@
         <tag>Ukrainian Orphans</tag>
       </tags>
     </source>
-    <source id="337" is_new="true" source_type="news">
+    <source id="319" source_type="news">
       <title>Former Washington state Rep. Matt Shea turns up in Poland, says he is helping orphans</title>
       <outlet>Spokane Public Radio (NWPB)</outlet>
       <date>March 17, 2022</date>
@@ -3981,7 +3772,7 @@
         <tag>Ukrainian Orphans</tag>
       </tags>
     </source>
-    <source id="338" is_new="true" source_type="news">
+    <source id="320" source_type="news">
       <title>Concerns raised as former Wash. state Rep. Matt Shea tries to arrange Ukrainian adoptions</title>
       <outlet>KNKX Public Radio</outlet>
       <date>March 16, 2022</date>
@@ -3993,7 +3784,7 @@
         <tag>Ukrainian Orphans</tag>
       </tags>
     </source>
-    <source id="339" is_new="true" source_type="news">
+    <source id="321" source_type="news">
       <title>What The Heck Is U.S. Extremist Matt Shea Doing In Poland With 60 Ukrainian Kids?</title>
       <outlet>Talking Points Memo</outlet>
       <date>March 18, 2022</date>
@@ -4006,7 +3797,7 @@
         <tag>Domestic Terrorism</tag>
       </tags>
     </source>
-    <source id="340" is_new="true" source_type="news">
+    <source id="322" source_type="news">
       <title>An Ex-Lawmaker Accused of Terrorism Says He Rescued Ukrainian Kids</title>
       <outlet>VICE News</outlet>
       <date>March 2022</date>
@@ -4019,7 +3810,7 @@
         <tag>Domestic Terrorism</tag>
       </tags>
     </source>
-    <source id="341" is_new="true" source_type="news">
+    <source id="323" source_type="news">
       <title>Matt Shea in Poland</title>
       <outlet>RANGE Media</outlet>
       <date>March 2022</date>
@@ -4031,7 +3822,7 @@
         <tag>Ukrainian Orphans</tag>
       </tags>
     </source>
-    <source id="342" is_new="true" source_type="news">
+    <source id="324" source_type="news">
       <title>Ukrainian orphans with Matt Shea in Poland get a Polish legal guardian; children can't leave town for now, officials say</title>
       <outlet>The Spokesman-Review</outlet>
       <date>March 29, 2022</date>
@@ -4043,7 +3834,7 @@
         <tag>Ukrainian Orphans</tag>
       </tags>
     </source>
-    <source id="343" is_new="true" source_type="news">
+    <source id="325" source_type="news">
       <title>Ukrainian orphans with former WA state Rep. Matt Shea in Poland get legal guardians</title>
       <outlet>The Seattle Times</outlet>
       <date>March 30, 2022</date>
@@ -4055,7 +3846,7 @@
         <tag>Ukrainian Orphans</tag>
       </tags>
     </source>
-    <source id="344" is_new="true" source_type="news">
+    <source id="326" source_type="news">
       <title>Polish authorities won't investigate Matt Shea following allegations of human trafficking</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 30, 2022</date>
@@ -4067,7 +3858,7 @@
         <tag>Ukrainian Orphans</tag>
       </tags>
     </source>
-    <source id="345" is_new="true" source_type="news">
+    <source id="327" source_type="news">
       <title>'This was a positive way for Evangelicals to rebrand themselves' — the troubles of Matt Shea, Ukraine and international adoptions</title>
       <outlet>KUOW (NPR Seattle)</outlet>
       <date>April 13, 2022</date>
@@ -4080,7 +3871,7 @@
         <tag>Christian Nationalism</tag>
       </tags>
     </source>
-    <source id="346" is_new="true" source_type="news">
+    <source id="328" source_type="news">
       <title>A Ukrainian Boy Spent a Month on a New York Family's Farm; They're Putting Their Trust in Matt Shea to Get Him Back</title>
       <outlet>The Daily Chronicle (Centralia-Chehalis, Wash.)</outlet>
       <date>March 23, 2022</date>
@@ -4092,7 +3883,7 @@
         <tag>Ukrainian Orphans</tag>
       </tags>
     </source>
-    <source id="347" is_new="true" source_type="opinion">
+    <source id="329" source_type="opinion">
       <title>American Pastor Is Pissed That His Ukrainian Adoption Program Is Going Badly</title>
       <outlet>Jezebel</outlet>
       <date>March 2022</date>
@@ -4104,7 +3895,7 @@
         <tag>Ukrainian Orphans</tag>
       </tags>
     </source>
-    <source id="348" is_new="true" source_type="news">
+    <source id="330" source_type="news">
       <title>Local developer releases video suggesting cure for downtown Spokane crime</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 29, 2019</date>
@@ -4117,7 +3908,7 @@
         <tag>Spokane Transit Authority</tag>
       </tags>
     </source>
-    <source id="349" is_new="true" source_type="news">
+    <source id="331" source_type="news">
       <title>Developers offer mixed views on video's proposed 'cure' for Spokane</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 31, 2019</date>
@@ -4128,7 +3919,7 @@
         <tag>Homelessness &amp; Downtown Business</tag>
       </tags>
     </source>
-    <source id="350" is_new="true" source_type="news">
+    <source id="332" source_type="news">
       <title>Local advocates raise concerns with 'Curing Spokane' documentary</title>
       <outlet>KREM 2 News</outlet>
       <date>Sept. 2, 2019</date>
@@ -4139,7 +3930,7 @@
         <tag>Homelessness &amp; Downtown Business</tag>
       </tags>
     </source>
-    <source id="351" is_new="true" source_type="opinion">
+    <source id="333" source_type="opinion">
       <title>Spokane needs compassion and social justice, not a 'cure'</title>
       <outlet>Spokane Rising (independent blog)</outlet>
       <date>Sept. 2019</date>
@@ -4150,7 +3941,7 @@
         <tag>Homelessness &amp; Downtown Business</tag>
       </tags>
     </source>
-    <source id="352" is_new="true" source_type="news">
+    <source id="334" source_type="news">
       <title>Spokane City Council approves zoning change to allow shelters, 'community services' in heavy industrial zones</title>
       <outlet>The Spokesman-Review</outlet>
       <date>May 16, 2022</date>
@@ -4163,7 +3954,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="353" is_new="true" source_type="news">
+    <source id="335" source_type="news">
       <title>'I don't think it's ready': Proposed Spokane homeless shelter hits snag after zoning change fails to move forward</title>
       <outlet>The Spokesman-Review</outlet>
       <date>April 19, 2022</date>
@@ -4175,7 +3966,7 @@
         <tag>Nadine Woodward</tag>
       </tags>
     </source>
-    <source id="354" is_new="true" source_type="news">
+    <source id="336" source_type="news">
       <title>Spokane Council signals intent to purchase East Trent Avenue homeless shelter</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Jan. 24, 2023</date>
@@ -4187,7 +3978,7 @@
         <tag>Nadine Woodward</tag>
       </tags>
     </source>
-    <source id="355" is_new="true" source_type="news">
+    <source id="337" source_type="news">
       <title>Business owners blast Spokane City Council plan to relocate House of Charity</title>
       <outlet>The Center Square</outlet>
       <date>May 10, 2024</date>
@@ -4199,7 +3990,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="356" is_new="true" source_type="news">
+    <source id="338" source_type="news">
       <title>Controversy brews over Brown administration's transitional housing proposal</title>
       <outlet>KHQ 6 News</outlet>
       <date>May 10, 2024</date>
@@ -4210,7 +4001,7 @@
         <tag>Homelessness &amp; Downtown Business</tag>
       </tags>
     </source>
-    <source id="357" is_new="true" source_type="news">
+    <source id="339" source_type="news">
       <title>Blowback to half-formed homeless project in Spokane portends murky path to a plan</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 2, 2024</date>
@@ -4221,7 +4012,7 @@
         <tag>Homelessness &amp; Downtown Business</tag>
       </tags>
     </source>
-    <source id="358" is_new="true" source_type="news">
+    <source id="340" source_type="news">
       <title>'It's not getting any better': Spokane businesses near homeless shelters want change</title>
       <outlet>KXLY 4 News</outlet>
       <date>March 22, 2022</date>
@@ -4233,7 +4024,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="359" is_new="true" source_type="news">
+    <source id="341" source_type="news">
       <title>Spokane opens new addiction recovery homeless shelter, partially replaces beds for families</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Jan. 29, 2025</date>
@@ -4245,7 +4036,7 @@
         <tag>Trafficking &amp; Organized Crime</tag>
       </tags>
     </source>
-    <source id="360" is_new="true" source_type="news">
+    <source id="342" source_type="news">
       <title>Spokane unveils plan to tackle crime downtown after months of pleas from community</title>
       <outlet>The Center Square</outlet>
       <date>Oct. 10, 2024</date>
@@ -4257,7 +4048,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="361" is_new="true" source_type="news">
+    <source id="343" source_type="news">
       <title>Despite criticism of the city's handling of homelessness, data shows citations are up</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Dec. 15, 2024</date>
@@ -4269,7 +4060,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="362" is_new="true" source_type="news">
+    <source id="344" source_type="news">
       <title>Spokane re-criminalizing homelessness has had quick impact on the street</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Nov. 9, 2025</date>
@@ -4280,7 +4071,7 @@
         <tag>Homelessness &amp; Downtown Business</tag>
       </tags>
     </source>
-    <source id="363" is_new="true" source_type="news">
+    <source id="345" source_type="news">
       <title>Leaders tout progress in Spokane's new approach to homelessness</title>
       <outlet>The Spokesman-Review</outlet>
       <date>March 20, 2026</date>
@@ -4291,7 +4082,7 @@
         <tag>Homelessness &amp; Downtown Business</tag>
       </tags>
     </source>
-    <source id="364" is_new="true" source_type="news">
+    <source id="346" source_type="news">
       <title>Saving Spokane: The Homeless Crisis Now</title>
       <outlet>KHQ 6 News</outlet>
       <date>Feb. 26, 2026</date>
@@ -4302,7 +4093,7 @@
         <tag>Homelessness &amp; Downtown Business</tag>
       </tags>
     </source>
-    <source id="365" is_new="true" source_type="news">
+    <source id="347" source_type="news">
       <title>Locals only rated quality of life in Spokane area as 3.3 out of 10. Here's what else they said in new poll</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Oct. 23, 2025</date>
@@ -4314,7 +4105,7 @@
         <tag>Business Closures</tag>
       </tags>
     </source>
-    <source id="366" is_new="true" source_type="advocacy">
+    <source id="348" source_type="advocacy">
       <title>2025 Policy Platform</title>
       <outlet>Downtown Spokane Partnership (advocacy organization)</outlet>
       <date>2025</date>
@@ -4325,7 +4116,7 @@
         <tag>Homelessness &amp; Downtown Business</tag>
       </tags>
     </source>
-    <source id="367" is_new="true" source_type="primary">
+    <source id="349" source_type="primary">
       <title>New Data Dashboard to Increase Understanding of Homelessness System</title>
       <outlet>City of Spokane (press release)</outlet>
       <date>Dec. 5, 2024</date>
@@ -4336,7 +4127,7 @@
         <tag>Homelessness &amp; Downtown Business</tag>
       </tags>
     </source>
-    <source id="368" is_new="true" source_type="news">
+    <source id="350" source_type="news">
       <title>Human trafficking industry growing in Spokane</title>
       <outlet>KXLY 4 News</outlet>
       <date>2023</date>
@@ -4348,7 +4139,7 @@
         <tag>Trafficking &amp; Organized Crime</tag>
       </tags>
     </source>
-    <source id="369" is_new="true" source_type="advocacy">
+    <source id="351" source_type="advocacy">
       <title>A Survey of Human Trafficking in the Spokane Region</title>
       <outlet>Intercommunity Peace &amp; Justice Center (regional nonprofit report)</outlet>
       <date>undated</date>
@@ -4359,7 +4150,7 @@
         <tag>Trafficking &amp; Organized Crime</tag>
       </tags>
     </source>
-    <source id="370" is_new="true" source_type="news">
+    <source id="352" source_type="news">
       <title>Once again the Spokane River has run dry — this time two weeks earlier than before</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 13, 2026</date>
@@ -4371,7 +4162,7 @@
         <tag>Spokane River</tag>
       </tags>
     </source>
-    <source id="371" is_new="true" source_type="news">
+    <source id="353" source_type="news">
       <title>Experts raise concerns after parts of Spokane River lose all surface water for second year</title>
       <outlet>KHQ 6 News</outlet>
       <date>Aug. 2026</date>
@@ -4383,7 +4174,7 @@
         <tag>Spokane River</tag>
       </tags>
     </source>
-    <source id="372" is_new="true" source_type="news">
+    <source id="354" source_type="news">
       <title>Spokane River reaches potential water record lows after 'perfect storm' of conditions</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 26, 2025</date>
@@ -4395,7 +4186,7 @@
         <tag>Spokane River</tag>
       </tags>
     </source>
-    <source id="373" is_new="true" source_type="news">
+    <source id="355" source_type="news">
       <title>Sections of Spokane River are running dry</title>
       <outlet>KXLY 4 News</outlet>
       <date>Aug. 25, 2025</date>
@@ -4407,7 +4198,7 @@
         <tag>Spokane River</tag>
       </tags>
     </source>
-    <source id="374" is_new="true" source_type="news">
+    <source id="356" source_type="news">
       <title>'How people use water matters': Spokane Riverkeeper urges conservation as parts of Spokane River run dry</title>
       <outlet>KREM 2 News</outlet>
       <date>Aug. 25, 2025</date>
@@ -4419,7 +4210,7 @@
         <tag>Spokane River</tag>
       </tags>
     </source>
-    <source id="375" is_new="true" source_type="news">
+    <source id="357" source_type="news">
       <title>A portion of the Spokane River ran dry last week. Can we do more to conserve water?</title>
       <outlet>The Pacific Northwest Inlander</outlet>
       <date>Sept. 4, 2025</date>
@@ -4431,7 +4222,7 @@
         <tag>Spokane River</tag>
       </tags>
     </source>
-    <source id="376" is_new="true" source_type="advocacy">
+    <source id="358" source_type="advocacy">
       <title>The Summer The River Disappeared: Documenting the Spokane River's Dry Stretch</title>
       <outlet>Spokane Riverkeeper (advocacy organization)</outlet>
       <date>Nov. 13, 2025</date>
@@ -4443,7 +4234,7 @@
         <tag>Spokane River</tag>
       </tags>
     </source>
-    <source id="377" is_new="true" source_type="advocacy">
+    <source id="359" source_type="advocacy">
       <title>Spokane River Is Running Dry — Sign the Petitions to Protect Its Flows</title>
       <outlet>Spokane Riverkeeper (advocacy organization)</outlet>
       <date>2025-2026</date>
@@ -4455,7 +4246,7 @@
         <tag>Spokane River</tag>
       </tags>
     </source>
-    <source id="378" is_new="true" source_type="news">
+    <source id="360" source_type="news">
       <title>A toxic past and present on the Spokane River</title>
       <outlet>High Country News</outlet>
       <date>Jan. 24, 2024</date>
@@ -4467,7 +4258,7 @@
         <tag>Spokane River</tag>
       </tags>
     </source>
-    <source id="379" is_new="true" source_type="primary">
+    <source id="361" source_type="primary">
       <title>EPA proposes PCBs cleanup plan for Spokane River</title>
       <outlet>U.S. Environmental Protection Agency (press release)</outlet>
       <date>May 15, 2024</date>
@@ -4479,7 +4270,7 @@
         <tag>Spokane River</tag>
       </tags>
     </source>
-    <source id="380" is_new="true" source_type="primary">
+    <source id="362" source_type="primary">
       <title>Collaborating for cleaner water: The next step for the Spokane River</title>
       <outlet>Washington State Department of Ecology (blog)</outlet>
       <date>May 23, 2024</date>
@@ -4491,7 +4282,7 @@
         <tag>Spokane River</tag>
       </tags>
     </source>
-    <source id="381" is_new="true" source_type="primary">
+    <source id="363" source_type="primary">
       <title>Wastewater PCBs</title>
       <outlet>City of Spokane (public works program page)</outlet>
       <date>ongoing</date>
@@ -4503,7 +4294,7 @@
         <tag>Spokane River</tag>
       </tags>
     </source>
-    <source id="382" is_new="true" source_type="news">
+    <source id="364" source_type="news">
       <title>Bunker Hill mine restarts, raising pollution concerns for Lake Coeur d'Alene</title>
       <outlet>Prism News</outlet>
       <date>July 2, 2026</date>
@@ -4516,7 +4307,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="383" is_new="true" source_type="primary">
+    <source id="365" source_type="primary">
       <title>Bunker Hill Mining &amp; Metallurgical Complex — Superfund Site Profile</title>
       <outlet>U.S. Environmental Protection Agency</outlet>
       <date>ongoing</date>
@@ -4529,7 +4320,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="384" is_new="true" source_type="primary">
+    <source id="366" source_type="primary">
       <title>Challenges — Lake Management</title>
       <outlet>Coeur d'Alene Tribe (tribal government)</outlet>
       <date>ongoing</date>
@@ -4542,7 +4333,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="385" is_new="true" source_type="news">
+    <source id="367" source_type="news">
       <title>The EPA Can't Wait to Reopen the Mine That Poisoned North Idaho</title>
       <outlet>Bloomberg Businessweek</outlet>
       <date>2018</date>
@@ -4555,7 +4346,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="386" is_new="true" source_type="advocacy">
+    <source id="368" source_type="advocacy">
       <title>Lead Heads and a Toxic Timebomb: The Bunker Hill Superfund Site</title>
       <outlet>Intermountain Histories (academic public-history project)</outlet>
       <date>reference</date>
@@ -4568,7 +4359,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="387" is_new="true" source_type="primary">
+    <source id="369" source_type="primary">
       <title>Smoke Streams Across Eastern Washington</title>
       <outlet>NASA Earth Observatory</outlet>
       <date>Aug. 2026</date>
@@ -4581,7 +4372,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="388" is_new="true" source_type="news">
+    <source id="370" source_type="news">
       <title>Nearby wildfires contributing to Spokane-area unsafe air conditions, local events postponed</title>
       <outlet>The Spokesman-Review</outlet>
       <date>July 17, 2026</date>
@@ -4594,7 +4385,7 @@
         <tag>Homelessness &amp; Downtown Business</tag>
       </tags>
     </source>
-    <source id="389" is_new="true" source_type="news">
+    <source id="371" source_type="news">
       <title>Thick wildfire smoke causes dangerous air quality in the Northwest</title>
       <outlet>AccuWeather</outlet>
       <date>Aug. 2026</date>
@@ -4606,7 +4397,7 @@
         <tag>Wildfire Smoke &amp; Air Quality</tag>
       </tags>
     </source>
-    <source id="390" is_new="true" source_type="news">
+    <source id="372" source_type="news">
       <title>Preparing Washington's second largest city for wildfire season</title>
       <outlet>University of Washington Dept. of Environmental &amp; Occupational Health Sciences</outlet>
       <date>2024</date>
@@ -4619,7 +4410,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="391" is_new="true" source_type="primary">
+    <source id="373" source_type="primary">
       <title>Explosive wildfire activity spreads smoke across Washington</title>
       <outlet>Washington State Department of Ecology (blog)</outlet>
       <date>Aug. 2026</date>
@@ -4632,7 +4423,7 @@
         <tag>Wildfires &amp; Arson</tag>
       </tags>
     </source>
-    <source id="392" is_new="true" source_type="news">
+    <source id="374" source_type="news">
       <title>New more powerful license plate cameras may soon be scanning Inland Northwest vehicles</title>
       <outlet>Spokane Public Radio (NWPB)</outlet>
       <date>Aug. 19, 2022</date>
@@ -4644,7 +4435,7 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="393" is_new="true" source_type="news">
+    <source id="375" source_type="news">
       <title>Flock investigation</title>
       <outlet>RANGE Media</outlet>
       <date>Feb. 20, 2026</date>
@@ -4656,7 +4447,7 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="394" is_new="true" source_type="news">
+    <source id="376" source_type="news">
       <title>The State of Surveillance in Spokane</title>
       <outlet>RANGE Media</outlet>
       <date>April 3, 2026</date>
@@ -4669,7 +4460,7 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="395" is_new="true" source_type="news">
+    <source id="377" source_type="news">
       <title>Stanwood reactivates Flock cameras as Spokane County joins Pierce County in shutting them down</title>
       <outlet>MyNorthwest.com (KIRO Newsradio)</outlet>
       <date>April 2, 2026</date>
@@ -4681,7 +4472,7 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="396" is_new="true" source_type="opinion">
+    <source id="378" source_type="opinion">
       <title>Spokane sheriff shuts down Flock cameras, cites SB 6002 risk</title>
       <outlet>Seattle Red</outlet>
       <date>April 8, 2026</date>
@@ -4693,7 +4484,7 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="397" is_new="true" source_type="advocacy">
+    <source id="379" source_type="advocacy">
       <title>Spokane County Sheriff's Office Experiences Rapid Case Resolution with Real-time Intelligence &amp; LPR for Every Roadway</title>
       <outlet>Flock Safety (company case study)</outlet>
       <date>undated</date>
@@ -4705,7 +4496,7 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="398" is_new="true" source_type="news">
+    <source id="380" source_type="news">
       <title>Spokane Police: Man involved in shooting, standoff in downtown Spokane is dead</title>
       <outlet>KXLY 4 News</outlet>
       <date>Aug. 3, 2022</date>
@@ -4717,7 +4508,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="399" is_new="true" source_type="news">
+    <source id="381" source_type="news">
       <title>Prosecutor finds Spokane Police officers, deputy justified in Aug. 2022 shooting that ended standoff with robber who shot at police</title>
       <outlet>The Spokesman-Review</outlet>
       <date>June 14, 2024</date>
@@ -4729,7 +4520,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="400" is_new="true" source_type="news">
+    <source id="382" source_type="news">
       <title>2 Fairchild sergeants accused of stealing ammo from base after anti-government rhetoric posted online</title>
       <outlet>The Spokesman-Review</outlet>
       <date>April 27, 2022</date>
@@ -4742,7 +4533,7 @@
         <tag>Militia Movement</tag>
       </tags>
     </source>
-    <source id="401" is_new="true" source_type="news">
+    <source id="383" source_type="news">
       <title>Deputies searching for Spokane Valley drive-by shooting suspects</title>
       <outlet>KXLY 4 News</outlet>
       <date>circa 2023</date>
@@ -4753,7 +4544,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="402" is_new="true" source_type="news">
+    <source id="384" source_type="news">
       <title>Spokane Valley man arrested after threatening neighbors with gun prompts SWAT response</title>
       <outlet>KHQ 6 News</outlet>
       <date>March 26, 2026</date>
@@ -4764,7 +4555,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="403" is_new="true" source_type="news">
+    <source id="385" source_type="news">
       <title>Man shot twice at Spokane Valley house party</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Oct. 1, 2025</date>
@@ -4775,7 +4566,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="404" is_new="true" source_type="news">
+    <source id="386" source_type="news">
       <title>Two shot in Spokane Valley driveway shooting</title>
       <outlet>KREM 2 News</outlet>
       <date>undated</date>
@@ -4786,7 +4577,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="405" is_new="true" source_type="news">
+    <source id="387" source_type="news">
       <title>Spokane Valley home hit by gunfire for third time in under two years</title>
       <outlet>KREM 2 News</outlet>
       <date>Jan. 2024</date>
@@ -4797,7 +4588,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="406" is_new="true" source_type="news">
+    <source id="388" source_type="news">
       <title>Spokane police shoot, kill domestic violence suspect in Logan neighborhood</title>
       <outlet>KXLY 4 News</outlet>
       <date>2026</date>
@@ -4809,7 +4600,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="407" is_new="true" source_type="news">
+    <source id="389" source_type="news">
       <title>Investigation finds Spokane man killed in 2022 police shooting pointed gun at officers</title>
       <outlet>KXLY 4 News</outlet>
       <date>April 18, 2024</date>
@@ -4821,7 +4612,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="408" is_new="true" source_type="news">
+    <source id="390" source_type="news">
       <title>Spokane homeowner seeks compensation after police shooting leaves damage, blood in backyard</title>
       <outlet>KXLY 4 News</outlet>
       <date>Feb. 27, 2026</date>
@@ -4833,7 +4624,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="409" is_new="true" source_type="news">
+    <source id="391" source_type="news">
       <title>'Something irreplaceable': Family mourns teen shot while at a friend's house</title>
       <outlet>KXLY 4 News</outlet>
       <date>Jan. 2025</date>
@@ -4844,7 +4635,7 @@
         <tag>Major Violence</tag>
       </tags>
     </source>
-    <source id="410" is_new="true" source_type="primary">
+    <source id="392" source_type="primary">
       <title>The United States Attorney's Office and City of Spokane Announce Appointment of a Special Assistant United States Attorney to Prosecute Drug Trafficking in the City of Spokane</title>
       <outlet>U.S. Attorney's Office, Eastern District of Washington (press release)</outlet>
       <date>May 23, 2025</date>
@@ -4856,7 +4647,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="411" is_new="true" source_type="news">
+    <source id="393" source_type="news">
       <title>Spokane replaces downtown garbage cans it rented for $106,000 per year</title>
       <outlet>The Spokesman-Review</outlet>
       <date>March 10, 2025</date>
@@ -4867,7 +4658,7 @@
         <tag>Public Spending &amp; Waste</tag>
       </tags>
     </source>
-    <source id="412" is_new="true" source_type="news">
+    <source id="394" source_type="news">
       <title>'Piece of sh-art': 4 News Now investigates problems with the 'eyesore' you paid for in Riverfront Park</title>
       <outlet>KXLY 4 News</outlet>
       <date>Nov. 7, 2025</date>
@@ -4878,7 +4669,7 @@
         <tag>Public Spending &amp; Waste</tag>
       </tags>
     </source>
-    <source id="413" is_new="true" source_type="news">
+    <source id="395" source_type="news">
       <title>Getting There: North Spokane Corridor project beginning summer 2026 to be most expensive in Eastern Washington history</title>
       <outlet>The Spokesman-Review</outlet>
       <date>April 27, 2026</date>
@@ -4890,7 +4681,7 @@
         <tag>North Spokane Corridor</tag>
       </tags>
     </source>
-    <source id="414" is_new="true" source_type="news">
+    <source id="396" source_type="news">
       <title>North Spokane Corridor to steadily progress through 2026</title>
       <outlet>Spokane Journal of Business</outlet>
       <date>March 26, 2026</date>
@@ -4902,7 +4693,7 @@
         <tag>North Spokane Corridor</tag>
       </tags>
     </source>
-    <source id="415" is_new="true" source_type="news">
+    <source id="397" source_type="news">
       <title>Getting There: Work on North Spokane Corridor in 2026 lays groundwork for completion</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Feb. 16, 2026</date>
@@ -4914,7 +4705,7 @@
         <tag>North Spokane Corridor</tag>
       </tags>
     </source>
-    <source id="416" is_new="true" source_type="advocacy">
+    <source id="398" source_type="advocacy">
       <title>WSDOT Case Study: US 395 North Spokane Corridor Murals</title>
       <outlet>Spec Formliners, Inc. (vendor case study)</outlet>
       <date>2026</date>
@@ -4926,7 +4717,7 @@
         <tag>North Spokane Corridor</tag>
       </tags>
     </source>
-    <source id="417" is_new="true" source_type="advocacy">
+    <source id="399" source_type="advocacy">
       <title>North Spokane Corridor</title>
       <outlet>Wikipedia (background/reference)</outlet>
       <date>reference</date>
@@ -4938,7 +4729,7 @@
         <tag>North Spokane Corridor</tag>
       </tags>
     </source>
-    <source id="418" is_new="true" source_type="news">
+    <source id="400" source_type="news">
       <title>State audit of Spokane's Community, Housing and Human Services finds conflicts of interest, mishandling of money</title>
       <outlet>KXLY 4 News</outlet>
       <date>2023</date>
@@ -4950,7 +4741,7 @@
         <tag>Homelessness &amp; Downtown Business</tag>
       </tags>
     </source>
-    <source id="419" is_new="true" source_type="news">
+    <source id="401" source_type="news">
       <title>State audit flags $170M in misstatements in Spokane under Brown's oversight</title>
       <outlet>The Center Square</outlet>
       <date>Sept. 26, 2025</date>
@@ -4961,7 +4752,7 @@
         <tag>Public Spending &amp; Waste</tag>
       </tags>
     </source>
-    <source id="420" is_new="true" source_type="news">
+    <source id="402" source_type="news">
       <title>Rep. Matt Shea won't resign, draws Trump impeachment comparison</title>
       <outlet>KOMO News (via Seattle P-I's Joel Connelly)</outlet>
       <date>Dec. 22, 2019</date>
@@ -4973,7 +4764,7 @@
         <tag>Domestic Terrorism</tag>
       </tags>
     </source>
-    <source id="421" is_new="true" source_type="news">
+    <source id="403" source_type="news">
       <title>Washington Legislator Matt Shea Accused Of 'Domestic Terrorism,' Report Finds</title>
       <outlet>NPR</outlet>
       <date>Dec. 20, 2019</date>
@@ -4986,7 +4777,7 @@
         <tag>Militia Movement</tag>
       </tags>
     </source>
-    <source id="422" is_new="true" source_type="news">
+    <source id="404" source_type="news">
       <title>Kicking Matt Shea out of Washington's Legislature: Can it be done?</title>
       <outlet>Cascade PBS (formerly Crosscut)</outlet>
       <date>Aug. 29, 2019</date>
@@ -4999,7 +4790,7 @@
         <tag>White Nationalism</tag>
       </tags>
     </source>
-    <source id="423" is_new="true" source_type="primary">
+    <source id="405" source_type="primary">
       <title>House investigation report</title>
       <outlet>Washington State Legislature (official primary source)</outlet>
       <date>Dec. 2019</date>
@@ -5011,7 +4802,7 @@
         <tag>Domestic Terrorism</tag>
       </tags>
     </source>
-    <source id="424" is_new="true" source_type="news">
+    <source id="406" source_type="news">
       <title>Rep. Matt Shea endorsed training children to fight in holy war</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 14, 2019</date>
@@ -5024,7 +4815,7 @@
         <tag>White Nationalism</tag>
       </tags>
     </source>
-    <source id="425" is_new="true" source_type="news">
+    <source id="407" source_type="news">
       <title>GOP legislator Matt Shea coordinated anti-government land occupation in Oregon, investigators find</title>
       <outlet>The Washington Post</outlet>
       <date>Dec. 20, 2019</date>
@@ -5037,7 +4828,7 @@
         <tag>Militia Movement</tag>
       </tags>
     </source>
-    <source id="426" is_new="true" source_type="news">
+    <source id="408" source_type="news">
       <title>Matt Shea and the 'Biblical Basis for War': Team Rugged training report</title>
       <outlet>The Guardian</outlet>
       <date>Aug. 13, 2019</date>
@@ -5049,7 +4840,7 @@
         <tag>Christian Nationalism</tag>
       </tags>
     </source>
-    <source id="427" is_new="true" source_type="news">
+    <source id="409" source_type="news">
       <title>Washington state Republican distributes 'Biblical Basis for War' document</title>
       <outlet>The Guardian</outlet>
       <date>Nov. 3, 2018</date>
@@ -5062,7 +4853,7 @@
         <tag>White Nationalism</tag>
       </tags>
     </source>
-    <source id="428" is_new="true" source_type="news">
+    <source id="410" source_type="news">
       <title>Legislator pulled gun during road incident</title>
       <outlet>The Spokesman-Review</outlet>
       <date>July 22, 2012</date>
@@ -5073,7 +4864,7 @@
         <tag>Matt Shea</tag>
       </tags>
     </source>
-    <source id="429" is_new="true" source_type="news">
+    <source id="411" source_type="news">
       <title>Knezovich requests Republicans denounce Shea</title>
       <outlet>KXLY 4 News</outlet>
       <date>Sept. 21, 2016</date>
@@ -5085,11 +4876,11 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="430" is_new="true" source_type="news">
+    <source id="412" source_type="news">
       <title>Woman dragged out of Kootenai County Republican town hall event in Coeur d'Alene: 'Please don't touch me'</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Feb. 23, 2025</date>
-      <url>https://www.yahoo.com/news/woman-dragged-kootenai-county-republican-045900681.html</url>
+      <url>https://www.spokesman.com/stories/2025/feb/23/woman-dragged-out-of-republican-town-hall-event-in/</url>
       <section>Coeur d'Alene Town Hall Dragging Incident</section>
       <description>Kootenai County Sheriff Bob Norris personally confronts Teresa Borrenpohl, a repeat Democratic legislative candidate, after she jeers speakers at a GOP town hall, then summons private security guards from Lear Asset Management who drag her from the auditorium as she screams; Coeur d'Alene's police chief and the sheriff publicly disagree over the incident's First Amendment implications.</description>
       <tags>
@@ -5097,7 +4888,7 @@
         <tag>Mass Surveillance &amp; Policing Technology</tag>
       </tags>
     </source>
-    <source id="431" is_new="true" source_type="news">
+    <source id="413" source_type="news">
       <title>Coeur d'Alene police recommend criminal charges for town hall security team</title>
       <outlet>Coeur d'Alene Press</outlet>
       <date>April 11, 2025</date>
@@ -5108,7 +4899,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="432" is_new="true" source_type="news">
+    <source id="414" source_type="news">
       <title>Private security guards charged in Coeur d'Alene town hall dragging</title>
       <outlet>Coeur d'Alene Press</outlet>
       <date>April 19, 2025</date>
@@ -5119,29 +4910,29 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="433" is_new="true" source_type="news">
+    <source id="415" source_type="news">
       <title>Private Security Guards Charged After Woman Was Dragged Out of Chaotic Idaho Town Hall Meeting</title>
-      <outlet>The Associated Press (via U.S. News &amp; World Report)</outlet>
+      <outlet>The Associated Press</outlet>
       <date>April 21, 2025</date>
-      <url>https://www.usnews.com/news/us/articles/2025-04-21/private-security-guards-charged-after-woman-was-dragged-out-of-chaotic-idaho-town-hall-meeting</url>
+      <url>https://apnews.com/article/idaho-town-hall-woman-dragged-out-security-17e1b8bc5a4ec9ad341126c03f5130d3</url>
       <section>Coeur d'Alene Town Hall Dragging Incident</section>
       <description>National wire coverage of the charges notes Borrenpohl filed a tort claim signaling her intent to sue Kootenai County, and that roughly 450 people attended the town hall hosted by the Kootenai County Republican Central Committee.</description>
       <tags>
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="434" is_new="true" source_type="news">
-      <title>Witnesses react to lawsuit over Coeur d'Alene town hall where woman was dragged out</title>
-      <outlet>KTVB (Boise)</outlet>
-      <date>2026</date>
-      <url>https://www.ktvb.com/article/news/regional/witnesses-react-to-lawsuit-over-coeur-dalene-town-hall-where-woman-was-dragged-out/293-e42cd336-87a5-4313-a937-360b1c922748</url>
+    <source id="416" source_type="news">
+      <title>Woman sues Kootenai County sheriff for forcible town hall removal</title>
+      <outlet>The Spokesman-Review</outlet>
+      <date>May 15, 2026</date>
+      <url>https://www.spokesman.com/stories/2026/may/15/woman-sues-kootenai-county-sheriff-for-forcible-to/</url>
       <section>Coeur d'Alene Town Hall Dragging Incident</section>
-      <description>More than a year after her tort claim, Borrenpohl formally sues Sheriff Norris, Kootenai County GOP chair Brent Regan, and the security firm, alleging violations of her First, Fourth, and Fourteenth Amendment rights; witnesses say the case matters regardless of political viewpoint because it tests the public's right to attend and speak at government-adjacent forums.</description>
+      <description>More than a year after filing a tort claim, Borrenpohl sues Sheriff Robert Norris and the security workers who pulled her from her seat, pinned her to the ground, and removed her from the town hall; she seeks compensatory and punitive damages plus a jury trial.</description>
       <tags>
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="435" is_new="true" source_type="news">
+    <source id="417" source_type="news">
       <title>Private security guards who dragged Idaho woman from town hall meeting hit with charges</title>
       <outlet>Fox News</outlet>
       <date>April 2025</date>
@@ -5152,7 +4943,7 @@
         <tag>Coeur d'Alene / Kootenai County</tag>
       </tags>
     </source>
-    <source id="436" is_new="true" source_type="news">
+    <source id="418" source_type="news">
       <title>Spokane plans to create its own 911 system, separate from SREC</title>
       <outlet>KXLY 4 News</outlet>
       <date>May 15, 2025</date>
@@ -5164,7 +4955,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="437" is_new="true" source_type="news">
+    <source id="419" source_type="news">
       <title>Spokane regional 911 service taps AI system to route non-emergency dispatch calls</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Nov. 18, 2025</date>
@@ -5176,7 +4967,7 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="438" is_new="true" source_type="news">
+    <source id="420" source_type="news">
       <title>Agreement gives Spokane two years to fully transition away from regional 911, avoids 'potential crisis'</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Dec. 18, 2025</date>
@@ -5188,7 +4979,7 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="439" is_new="true" source_type="news">
+    <source id="421" source_type="news">
       <title>'Disagreeable and unwilling'; City, SREC end negotiations for regionalization</title>
       <outlet>KXLY 4 News</outlet>
       <date>Jan. 2025</date>
@@ -5200,7 +4991,7 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="440" is_new="true" source_type="news">
+    <source id="422" source_type="news">
       <title>SREC terminates contract with Spokane Fire, city now has six months for new 911 service</title>
       <outlet>KXLY 4 News</outlet>
       <date>2024</date>
@@ -5212,7 +5003,7 @@
         <tag>Spokane County Government</tag>
       </tags>
     </source>
-    <source id="441" is_new="true" source_type="news">
+    <source id="423" source_type="news">
       <title>Baumgartner calls on Zelenskyy to resign hours after diplomatic meltdown in Oval Office</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Feb. 28, 2025</date>
@@ -5223,7 +5014,7 @@
         <tag>Michael Baumgartner</tag>
       </tags>
     </source>
-    <source id="442" is_new="true" source_type="news">
+    <source id="424" source_type="news">
       <title>Federal workers across the Northwest are being fired by the Trump administration. They warn of impacts to wildfires, science and historic landmarks</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Feb. 15, 2025</date>
@@ -5234,7 +5025,7 @@
         <tag>Wildfire Smoke &amp; Air Quality</tag>
       </tags>
     </source>
-    <source id="443" is_new="true" source_type="news">
+    <source id="425" source_type="news">
       <title>Former Spokane police officer awaiting trial for rape charges arrested again for allegedly raping another woman</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Aug. 4, 2021</date>
@@ -5245,7 +5036,7 @@
         <tag>Spokane Police Department</tag>
       </tags>
     </source>
-    <source id="444" is_new="true" source_type="news">
+    <source id="426" source_type="news">
       <title>Spokane City Council condemns attacks in Israel</title>
       <outlet>The Spokesman-Review</outlet>
       <date>Oct. 9, 2023</date>
@@ -5256,7 +5047,7 @@
         <tag>Spokane Valley Council</tag>
       </tags>
     </source>
-    <source id="445" is_new="true" source_type="news">
+    <source id="427" source_type="news">
       <title>Watching the watchmen</title>
       <outlet>RANGE Media</outlet>
       <date>Nov. 29, 2025</date>
@@ -5267,7 +5058,7 @@
         <tag>Mass Surveillance &amp; Policing Technology</tag>
       </tags>
     </source>
-    <source id="446" is_new="true" source_type="news">
+    <source id="428" source_type="news">
       <title>Texas deputy searched Spokane County Flock cameras for a woman who had an abortion</title>
       <outlet>RANGE Media</outlet>
       <date>Feb. 25, 2026</date>
@@ -5278,7 +5069,7 @@
         <tag>Mass Surveillance &amp; Policing Technology</tag>
       </tags>
     </source>
-    <source id="447" is_new="true" source_type="news">
+    <source id="429" source_type="news">
       <title>Protested this year? Cops might've looked for you on Flock cams</title>
       <outlet>RANGE Media</outlet>
       <date>Dec. 5, 2025</date>
@@ -5289,7 +5080,7 @@
         <tag>Mass Surveillance &amp; Policing Technology</tag>
       </tags>
     </source>
-    <source id="448" is_new="true" source_type="opinion">
+    <source id="430" source_type="opinion">
       <title>'Operation Pimp Juice,' 'Serial Beer Thief,' and Grand Theft Excavator</title>
       <outlet>RANGE Media</outlet>
       <date>Dec. 17, 2025</date>
@@ -5300,7 +5091,7 @@
         <tag>Mass Surveillance &amp; Policing Technology</tag>
       </tags>
     </source>
-    <source id="449" is_new="true" source_type="primary">
+    <source id="431" source_type="primary">
       <title>Happy holidays! Here's all our Flock data</title>
       <outlet>RANGE Media</outlet>
       <date>Dec. 24, 2025</date>
@@ -5311,7 +5102,7 @@
         <tag>Mass Surveillance &amp; Policing Technology</tag>
       </tags>
     </source>
-    <source id="450" is_new="true" source_type="opinion">
+    <source id="432" source_type="opinion">
       <title>Flock-enheit 451</title>
       <outlet>RANGE Media (column)</outlet>
       <date>2026</date>
@@ -5322,53 +5113,164 @@
         <tag>Mass Surveillance &amp; Policing Technology</tag>
       </tags>
     </source>
+    <source id="433" source_type="news">
+      <title>Charges filed against private security guards who dragged woman from Idaho town hall</title>
+      <outlet>The New York Times</outlet>
+      <date>April 21, 2025</date>
+      <url>https://www.nytimes.com/2025/04/21/us/idaho-coeur-dalene-town-hall-charges.html</url>
+      <section>Coeur d'Alene Town Hall Dragging Incident</section>
+      <description>National coverage of the misdemeanor battery and false-imprisonment charges filed against the Lear Asset Management guards who removed Teresa Borrenpohl from the Kootenai County GOP town hall, and of the free-speech questions the episode raised about a political event held in a public school building.</description>
+      <tags>
+        <tag>Coeur d'Alene / Kootenai County</tag>
+      </tags>
+    </source>
+    <source id="434" source_type="news">
+      <title>Idaho woman forcibly dragged from local Republican town hall by private security</title>
+      <outlet>NBC News</outlet>
+      <date>Feb. 24, 2025</date>
+      <url>https://www.nbcnews.com/news/us-news/idaho-woman-forcibly-dragged-local-republican-town-hall-private-securi-rcna193477</url>
+      <section>Coeur d'Alene Town Hall Dragging Incident</section>
+      <description>National coverage quoting Borrenpohl saying her right to free speech was violently stripped away, and the county GOP's response that she had shouted down legislators with insults and was warned repeatedly; attendees interviewed said no one knew who the men in black were and that only those disagreeing with the panel were reprimanded.</description>
+      <tags>
+        <tag>Coeur d'Alene / Kootenai County</tag>
+      </tags>
+    </source>
+    <source id="435" source_type="news">
+      <title>North Idaho woman forcibly removed from Kootenai County Republican town hall</title>
+      <outlet>Idaho Capital Sun</outlet>
+      <date>Feb. 24, 2025</date>
+      <url>https://idahocapitalsun.com/2025/02/24/north-idaho-woman-forcibly-removed-from-kootenai-county-republican-town-hall/</url>
+      <section>Coeur d'Alene Town Hall Dragging Incident</section>
+      <description>Nonprofit statehouse newsroom's account, compiled from Coeur d'Alene Press reporting, including a nurse who attended and said she stood nearby during the removal because she feared for Borrenpohl's safety.</description>
+      <tags>
+        <tag>Coeur d'Alene / Kootenai County</tag>
+      </tags>
+    </source>
+    <source id="436" source_type="news">
+      <title>Two days after a woman was dragged from a Coeur d'Alene town hall, Sheriff Bob Norris and other parties will face investigation into conduct</title>
+      <outlet>The Spokesman-Review</outlet>
+      <date>Feb. 24, 2025</date>
+      <url>https://www.spokesman.com/stories/2025/feb/24/two-days-after-a-woman-was-dragged-from-a-coeur-da/</url>
+      <section>Coeur d'Alene Town Hall Dragging Incident</section>
+      <description>Reports that Norris and others face conduct investigations, and lays out the contested legal question at the center of the dispute: GOP chair Brent Regan argued the town hall was a private event at a public venue, while legal scholars note courts have treated after-hours public school facilities as limited public forums.</description>
+      <tags>
+        <tag>Coeur d'Alene / Kootenai County</tag>
+      </tags>
+    </source>
+    <source id="437" source_type="news">
+      <title>Who's who in the Coeur d'Alene GOP town hall fracas that sparked free speech debate</title>
+      <outlet>The Spokesman-Review</outlet>
+      <date>March 2, 2025</date>
+      <url>https://www.spokesman.com/stories/2025/mar/02/whos-who-in-the-coeur-dalene-gop-town-hall-fracas-/</url>
+      <section>Coeur d'Alene Town Hall Dragging Incident</section>
+      <description>A reference guide to the figures involved — Borrenpohl, Sheriff Norris, KCRCC chair Brent Regan, the Lear Asset Management guards, and Coeur d'Alene's police chief — useful for tracing how the same names recur across North Idaho political disputes.</description>
+      <tags>
+        <tag>Coeur d'Alene / Kootenai County</tag>
+      </tags>
+    </source>
+    <source id="438" source_type="news">
+      <title>Woman forcibly removed from Idaho Republican town hall has battery charge dismissed</title>
+      <outlet>KTVB (Boise)</outlet>
+      <date>Feb. 2025</date>
+      <url>https://www.ktvb.com/article/news/local/woman-forcibly-removed-from-kootenai-county-republican-town-hall-idaho-politics/277-904f755d-05f6-4822-9592-ec41dc030df3</url>
+      <section>Coeur d'Alene Town Hall Dragging Incident</section>
+      <description>Prosecutors drop the battery citation initially issued against Borrenpohl — for biting a guard during her removal — after reviewing additional video; the ACLU of Idaho publicly states it is monitoring the incident.</description>
+      <tags>
+        <tag>Coeur d'Alene / Kootenai County</tag>
+      </tags>
+    </source>
+    <source id="439" source_type="news">
+      <title>Teresa Borrenpohl files complaint against sheriff, security team that dragged her out of Coeur d'Alene town hall</title>
+      <outlet>The Spokesman-Review</outlet>
+      <date>April 21, 2025</date>
+      <url>https://www.spokesman.com/stories/2025/apr/21/teresa-borrenpohl-files-complaint-against-sheriff-/</url>
+      <section>Coeur d'Alene Town Hall Dragging Incident</section>
+      <description>Borrenpohl files a tort claim in Kootenai County court alleging her constitutional rights were violated by Sheriff Norris and the private security team, the formal step that preceded her federal lawsuit a year later.</description>
+      <tags>
+        <tag>Coeur d'Alene / Kootenai County</tag>
+      </tags>
+    </source>
+    <source id="440" source_type="news">
+      <title>City of Spokane poised to agree to $3.7 million settlement with estate of man killed by police</title>
+      <outlet>The Spokesman-Review</outlet>
+      <date>July 21, 2025</date>
+      <url>https://www.spokesman.com/stories/2025/jul/21/city-of-spokane-poised-to-agree-to-37-million-sett/</url>
+      <section>Spokane Police Department</section>
+      <description>Details the settlement's structure ahead of the council vote — $1.5 million from the city, $2.2 million from its insurer — and notes the same attorney also represents the families of two other men killed by Spokane police, Kerry Jones-Hilburg and Joshua Musselman.</description>
+      <tags>
+        <tag>Spokane Police Department</tag>
+        <tag>Major Violence</tag>
+      </tags>
+    </source>
+    <source id="441" source_type="news">
+      <title>Spokane Public Library faces reduction in services and hours without a funding increase</title>
+      <outlet>The Pacific Northwest Inlander</outlet>
+      <date>Nov. 19, 2025</date>
+      <url>https://www.inlander.com/news/spokane-public-libraries-faces-a-reduction-in-services-and-hours-without-an-increase-in-funding/article_1a772bb2-c7e8-4ce6-9ecf-e2beac9124f5.html</url>
+      <section>City of Spokane — Library &amp; Civic Budget Cuts</section>
+      <description>Library director Andrew Chanse says the digital lending service Hoopla was already cut and that the social services manager and current affairs specialist positions were left unfilled; he traces the system's budget troubles back to flat general-fund allocations beginning in 2013.</description>
+      <tags>
+        <tag>Library Budget</tag>
+      </tags>
+    </source>
+    <source id="442" source_type="news">
+      <title>WA Rep. Matt Shea engaged in 'domestic terrorism,' helped plan Malheur standoff, investigation finds</title>
+      <outlet>Cascade PBS (formerly Crosscut)</outlet>
+      <date>Dec. 19, 2019</date>
+      <url>https://www.cascadepbs.org/news/2019/12/wa-rep-matt-shea-engaged-domestic-terrorism-helped-plan-malheur-standoff-investigation/</url>
+      <section>Matt Shea</section>
+      <description>Regional public-media coverage noting the Rampart investigation independently confirmed several earlier press findings — the youth “holy war” training first reported by The Guardian and the “Biblical Basis for War” document first reported by The Spokesman-Review — and that Shea routinely urged supporters to intimidate activists, officials, and Muslims over a five-year span.</description>
+      <tags>
+        <tag>Matt Shea</tag>
+        <tag>Domestic Terrorism</tag>
+      </tags>
+    </source>
   </sources>
-  <word_cloud count="46" note="Frequency-weighted terms computed from all source titles and descriptions; used to render the term-frequency visualization on the webpage.">
-    <term count="154">Police</term>
-    <term count="137">Wildfires</term>
+  <word_cloud count="45" note="Frequency-weighted terms computed from all source titles and descriptions; used to render the term-frequency visualization on the webpage.">
+    <term count="159">Police</term>
+    <term count="133">Wildfires</term>
+    <term count="109">Matt Shea</term>
     <term count="106">Downtown Spokane</term>
-    <term count="103">Matt Shea</term>
-    <term count="76">Mayor</term>
+    <term count="73">Mayor</term>
     <term count="65">Shooting</term>
-    <term count="54">Domestic Terrorism</term>
+    <term count="60">Domestic Terrorism</term>
+    <term count="53">Town Hall</term>
     <term count="50">Protest</term>
     <term count="48">Business</term>
-    <term count="43">Federal</term>
-    <term count="43">Baumgartner</term>
-    <term count="41">Christian</term>
+    <term count="46">Investigation</term>
+    <term count="42">Federal</term>
+    <term count="42">Baumgartner</term>
+    <term count="41">Coeur d'Alene</term>
+    <term count="41">Armed</term>
     <term count="41">Protests</term>
-    <term count="40">Armed</term>
+    <term count="40">Charges</term>
     <term count="40">River</term>
     <term count="39">McMorris Rodgers</term>
     <term count="39">Northwest</term>
-    <term count="39">Arrested</term>
-    <term count="38">Investigation</term>
-    <term count="36">Charges</term>
+    <term count="38">Christian</term>
+    <term count="37">Sheriff</term>
     <term count="36">Trafficking</term>
-    <term count="35">Coeur d'Alene</term>
+    <term count="36">Woman</term>
+    <term count="34">Arrested</term>
+    <term count="34">Security</term>
     <term count="33">Officers</term>
     <term count="33">Hate</term>
-    <term count="32">Patriot</term>
+    <term count="32">Standoff</term>
     <term count="32">Community</term>
+    <term count="32">Library</term>
     <term count="32">Pride</term>
+    <term count="31">Patriot</term>
     <term count="31">Shot</term>
-    <term count="31">Homeless</term>
+    <term count="31">Greater</term>
     <term count="31">Suspect</term>
     <term count="31">Ukrainian</term>
     <term count="30">Feucht</term>
     <term count="30">Protesters</term>
-    <term count="30">Greater</term>
-    <term count="29">Town Hall</term>
-    <term count="29">Standoff</term>
+    <term count="29">Groups</term>
     <term count="29">Trump</term>
-    <term count="28">Movement</term>
-    <term count="28">Arson</term>
-    <term count="28">Groups</term>
+    <term count="28">Homeless</term>
     <term count="27">Woodward</term>
     <term count="27">Tax</term>
-    <term count="27">Library</term>
-    <term count="26">Resolution</term>
-    <term count="26">Sheriff</term>
     <term count="25">Human</term>
   </word_cloud>
 </spokane_source_index>
