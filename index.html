@@ -309,24 +309,6 @@ select{
   cursor:pointer;
 }
 select:focus{outline:none; border-color:var(--steel);}
-.toggle-wrap{display:flex; align-items:center; gap:0.5rem; cursor:pointer; user-select:none;}
-.toggle-wrap label{
-  font-size:0.82rem; color:var(--ink-soft); cursor:pointer;
-}
-.switch{
-  position:relative; width:34px; height:19px; flex:none;
-}
-.switch input{position:absolute; opacity:0; width:100%; height:100%; margin:0; cursor:pointer;}
-.switch .track{
-  position:absolute; inset:0; background:var(--line); border-radius:20px; transition:background 0.15s ease;
-}
-.switch .knob{
-  position:absolute; top:2px; left:2px; width:15px; height:15px; border-radius:50%;
-  background:#fff; box-shadow:0 1px 2px rgba(0,0,0,0.25); transition:transform 0.15s ease;
-}
-.switch input:checked + .track{background:var(--rust);}
-.switch input:checked + .track .knob{transform:translateX(15px);}
-.switch input:focus-visible + .track{outline:2px solid var(--steel); outline-offset:2px;}
 
 #resetBtn{
   font-family:'IBM Plex Mono',monospace;
@@ -363,7 +345,6 @@ select:focus{outline:none; border-color:var(--steel);}
   box-shadow:var(--shadow);
   position:relative;
 }
-.card.is-new{border-left-color:var(--rust);}
 .card-top{
   display:flex; justify-content:space-between; align-items:flex-start; gap:1rem; margin-bottom:0.35rem;
 }
@@ -391,7 +372,6 @@ select:focus{outline:none; border-color:var(--steel);}
   white-space:nowrap;
   font-weight:600;
 }
-.badge.new{background:var(--rust); color:#fff;}
 .badge.type-primary{background:#E4DFCB; color:var(--wheat-deep); border:1px solid #D6CDA8;}
 .badge.type-opinion{background:#E4DFCB; color:var(--steel-deep); border:1px solid #D6CDA8;}
 .badge.type-advocacy{background:#E4DFCB; color:var(--rust-deep); border:1px solid #D6CDA8;}
@@ -530,7 +510,6 @@ button:focus-visible, a:focus-visible, input:focus-visible{
     <p class="masthead-desc">A searchable index of local, state, and national news coverage and primary-source material on Spokane and Spokane County, Washington, and neighboring Coeur d'Alene and Kootenai County, Idaho, 2007–2026. Right-wing and Christian-nationalist political organizing is the central thread, alongside police accountability, civic budgets, and public-safety coverage.</p>
     <div class="stat-row">
       <div class="stat"><span class="n" id="statTotal">—</span><span class="l">Sources indexed</span></div>
-      <div class="stat"><span class="n accent2" id="statNew">—</span><span class="l">Newly added</span></div>
       <div class="stat"><span class="n" id="statTags">—</span><span class="l">Keyword tags</span></div>
       <div class="stat"><span class="n" id="statOutlets">—</span><span class="l">Distinct outlets</span></div>
       <div class="stat"><span class="n accent">2007&ndash;2026</span><span class="l">Coverage span</span></div>
@@ -580,13 +559,6 @@ button:focus-visible, a:focus-visible, input:focus-visible{
           <option value="outlet">Outlet A&ndash;Z</option>
         </select>
       </div>
-      <div class="field-group">
-        <label>&nbsp;</label>
-        <div class="toggle-wrap" id="newOnlyWrap">
-          <span class="switch"><input type="checkbox" id="newOnly"><span class="track"><span class="knob"></span></span></span>
-          <label for="newOnly">New additions only</label>
-        </div>
-      </div>
       <button id="resetBtn" type="button">Reset all filters</button>
     </div>
 
@@ -602,7 +574,7 @@ button:focus-visible, a:focus-visible, input:focus-visible{
 <footer class="appendix">
   <div class="appendix-inner">
     <h3>A note on sources &amp; methodology</h3>
-    <p>This index was originally compiled August 9&ndash;10, 2026, and reflects publicly available reporting as of that date. It has since been expanded across several later research sessions to <strong id="statNew2">—</strong> newly added entries (marked with a "New" badge), located via web research and organized into the same format &mdash; original one- or two-sentence summaries, never excerpted text, with primary, opinion, and advocacy sources labeled distinctly from independent journalism. As with any research aid, verify anything you plan to rely on against the linked source directly, particularly for entries involving ongoing litigation or unresolved investigations.</p>
+    <p>This index was originally compiled August 9&ndash;10, 2026, and reflects publicly available reporting as of that date. It has since been expanded across several later research sessions, with additional entries located via web research and organized into the same format &mdash; original one- or two-sentence summaries, never excerpted text, with primary, opinion, and advocacy sources labeled distinctly from independent journalism. As with any research aid, verify anything you plan to rely on against the linked source directly, particularly for entries involving ongoing litigation or unresolved investigations.</p>
     <p>All source records, dates, tags, and summaries live in a companion file, <code style="background:#2A3138;border:1px solid var(--line-dark);border-radius:3px;padding:0.1rem 0.4rem;color:#D9D2C0;">spokane_source_data.xml</code>, which this page loads at runtime. That file is designed to be readable and editable on its own &mdash; open it in any text editor to browse, search, or revise the underlying data directly, independent of this page's presentation.</p>
     <p>It is organized by topic rather than strictly by outlet, so coverage of a single event can be read across multiple local, state, and national sources in one place. A small number of entries are primary or advocacy sources rather than independent journalism &mdash; government press releases, a litigant's own case page, organizational About pages, and outlets sympathetic to the figures covered here &mdash; and are labeled accordingly rather than presented as neutral reporting.</p>
     <h3>Outlets referenced</h3>
@@ -639,7 +611,6 @@ const state = {
   query: '',
   activeTags: new Set(),
   activeType: 'all',
-  newOnly: false,
   sort: 'date-desc',
 };
 
@@ -684,13 +655,10 @@ function initFromData(){
   DATA.forEach(e => { e._dateVal = parseDateValue(e.date); });
 
   const totalCount = DATA.length;
-  const newCount = DATA.filter(e=>e.isNew).length;
   const outletCount = new Set(DATA.map(e=>e.outlet)).size;
   animateNumber(document.getElementById('statTotal'), totalCount);
-  animateNumber(document.getElementById('statNew'), newCount);
   animateNumber(document.getElementById('statTags'), TAGS.length);
   animateNumber(document.getElementById('statOutlets'), outletCount);
-  document.getElementById('statNew2').textContent = newCount.toLocaleString();
   document.getElementById('statTotal2').textContent = totalCount.toLocaleString();
 
   const tagCounts = {};
@@ -734,16 +702,11 @@ document.getElementById('sortSelect').addEventListener('change', (e) => {
   state.sort = e.target.value;
   render();
 });
-document.getElementById('newOnly').addEventListener('change', (e) => {
-  state.newOnly = e.target.checked;
-  render();
-});
 document.getElementById('resetBtn').addEventListener('click', () => {
-  state.query=''; state.activeTags.clear(); state.activeType='all'; state.newOnly=false; state.sort='date-desc';
+  state.query=''; state.activeTags.clear(); state.activeType='all'; state.sort='date-desc';
   searchInput.value='';
   document.getElementById('typeFilter').value='all';
   document.getElementById('sortSelect').value='date-desc';
-  document.getElementById('newOnly').checked=false;
   document.querySelectorAll('.tag-chip.active').forEach(c=>c.classList.remove('active'));
   render();
 });
@@ -766,7 +729,6 @@ function scrollToResults(){
 
 function filteredData(){
   let rows = DATA.filter(e => {
-    if(state.newOnly && !e.isNew) return false;
     if(state.activeType !== 'all' && e.type !== state.activeType) return false;
     if(state.activeTags.size > 0){
       let hasTag = false;
@@ -803,11 +765,10 @@ const TYPE_LABEL = {primary:'Primary source', opinion:'Opinion', advocacy:'Advoc
 
 function cardHtml(e){
   const badges = [];
-  if(e.isNew) badges.push('<span class="badge new">New</span>');
   if(e.type !== 'news') badges.push(`<span class="badge type-${e.type}">${TYPE_LABEL[e.type]}</span>`);
   const tagsHtml = e.tags.map(t => `<button class="card-tag" data-tag="${escapeHtml(t)}">${escapeHtml(t)}</button>`).join('');
   return `
-  <article class="card ${e.isNew?'is-new':''}" data-id="${e.id}">
+  <article class="card" data-id="${e.id}">
     <div class="card-top">
       <a class="card-title-link" href="${escapeHtml(e.url)}" target="_blank" rel="noopener noreferrer">
         <h3 class="card-title">${escapeHtml(e.title)}</h3>
@@ -831,7 +792,6 @@ function render(){
   const activeLabel = document.getElementById('activeFiltersLabel');
   const parts = [];
   if(state.activeTags.size) parts.push([...state.activeTags].join(', '));
-  if(state.newOnly) parts.push('new additions only');
   activeLabel.textContent = parts.length ? 'Active: ' + parts.join(' + ') : '';
 
   if(rows.length === 0){
@@ -973,7 +933,6 @@ async function loadData(){
       tags: Array.from(node.querySelectorAll('tags > tag')).map(t => t.textContent),
       type: node.getAttribute('source_type') || 'news',
       section: getText(node, 'section'),
-      isNew: node.getAttribute('is_new') === 'true',
     }));
 
     WORDCLOUD_TERMS = Array.from(xml.querySelectorAll('word_cloud > term')).map(t => ({
